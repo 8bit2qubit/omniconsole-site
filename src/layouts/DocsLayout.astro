@@ -1,0 +1,67 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import { getLocaleFromUrl, useTranslations, withLocale } from "../i18n/utils";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+const locale = Astro.currentLocale ?? getLocaleFromUrl(Astro.url);
+const t = useTranslations(locale);
+const base = import.meta.env.BASE_URL;
+const current = Astro.url.pathname;
+
+const docsNav = [
+  { href: withLocale("/docs/install", locale, base), label: t.docs.nav.install },
+  { href: withLocale("/docs/prerequisites", locale, base), label: t.docs.nav.prerequisites },
+  { href: withLocale("/docs/troubleshooting", locale, base), label: t.docs.nav.troubleshooting },
+  { href: withLocale("/docs/revert", locale, base), label: t.docs.nav.revert },
+  { href: withLocale("/docs/gamepad", locale, base), label: t.docs.nav.gamepad },
+  { href: withLocale("/docs/faq", locale, base), label: t.docs.nav.faq },
+];
+
+function isActive(href: string) {
+  // Trim trailing slash for comparison
+  const a = current.replace(/\/$/, "");
+  const b = href.replace(/\/$/, "");
+  return a === b || a.startsWith(`${b}/`);
+}
+---
+<BaseLayout title={title} description={description}>
+  <div class="container-site py-10 md:py-14">
+    <div class="grid gap-10 md:grid-cols-[14rem_1fr] lg:grid-cols-[16rem_1fr]">
+      <aside class="md:sticky md:top-20 md:self-start">
+        <div class="rounded-xl border border-border bg-bg-subtle/60 p-4">
+          <h3 class="mb-3 px-2 text-xs font-semibold uppercase tracking-wider text-fg-subtle">
+            {t.docs.title}
+          </h3>
+          <nav class="flex flex-col">
+            {docsNav.map((item) => (
+              <a
+                href={item.href}
+                class:list={[
+                  "rounded-md px-3 py-2 text-sm transition-colors",
+                  isActive(item.href)
+                    ? "bg-accent/10 text-accent"
+                    : "text-fg-muted hover:bg-bg-elevated hover:text-fg",
+                ]}
+              >
+                {item.label}
+              </a>
+            ))}
+          </nav>
+        </div>
+      </aside>
+
+      <article class="prose-site min-w-0">
+        <header class="mb-6 border-b border-border/60 pb-4">
+          <p class="text-sm text-fg-subtle">{t.docs.title}</p>
+          <h1 class="mt-1 !mb-0">{title}</h1>
+        </header>
+        <slot />
+      </article>
+    </div>
+  </div>
+</BaseLayout>

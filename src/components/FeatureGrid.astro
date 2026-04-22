@@ -1,0 +1,25 @@
+---
+import { getCollection } from "astro:content";
+import FeatureCard from "./FeatureCard.astro";
+import { getLocaleFromUrl, useTranslations } from "../i18n/utils";
+
+const locale = Astro.currentLocale ?? getLocaleFromUrl(Astro.url);
+const t = useTranslations(locale);
+
+const allFeatures = await getCollection("features", ({ data }) => data.locale === locale);
+allFeatures.sort((a, b) => a.data.order - b.data.order);
+---
+<section id="features" class="border-b border-border/50 py-16 md:py-24">
+  <div class="container-site">
+    <div class="mx-auto max-w-2xl text-center">
+      <h2 class="text-3xl font-bold text-fg sm:text-4xl">{t.features.title}</h2>
+      <p class="mt-4 text-fg-muted">{t.features.subtitle}</p>
+    </div>
+
+    <div class="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {allFeatures.map((f) => (
+        <FeatureCard title={f.data.title} icon={f.data.icon} description={f.body?.trim() ?? ""} />
+      ))}
+    </div>
+  </div>
+</section>

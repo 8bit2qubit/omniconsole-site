@@ -1,0 +1,137 @@
+
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+@import "@fontsource/noto-sans-tc/400.css";
+@import "@fontsource/noto-sans-tc/500.css";
+@import "@fontsource/noto-sans-tc/700.css";
+@import "@fontsource/noto-sans-sc/400.css";
+@import "@fontsource/noto-sans-sc/500.css";
+@import "@fontsource/noto-sans-sc/700.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-bg text-fg antialiased scroll-smooth;
+    color-scheme: dark;
+  }
+
+  body {
+    @apply min-h-screen font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+
+  a {
+    @apply transition-colors;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-accent;
+  }
+}
+
+@layer components {
+  .container-site {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-5 py-2.5 text-sm font-medium transition-all;
+  }
+
+  .btn-primary {
+    @apply btn bg-accent text-bg hover:bg-accent-hover;
+  }
+
+  .btn-secondary {
+    @apply btn border border-border bg-bg-subtle text-fg hover:border-accent hover:text-accent;
+  }
+
+  .card {
+    @apply rounded-xl border border-border bg-bg-subtle p-6 transition-colors hover:border-accent/40;
+  }
+
+  .prose-site {
+    @apply text-fg;
+  }
+
+  .prose-site h1 {
+    @apply mb-6 text-3xl sm:text-4xl;
+  }
+
+  .prose-site h2 {
+    @apply mb-4 mt-10 text-2xl sm:text-3xl;
+  }
+
+  .prose-site h3 {
+    @apply mb-3 mt-8 text-xl sm:text-2xl;
+  }
+
+  .prose-site p {
+    @apply my-4 leading-7 text-fg-muted;
+  }
+
+  .prose-site ul {
+    @apply my-4 space-y-2 pl-6;
+  }
+
+  .prose-site ul li {
+    @apply list-disc text-fg-muted marker:text-fg-subtle;
+  }
+
+  .prose-site ol {
+    @apply my-4 space-y-2 pl-6;
+  }
+
+  .prose-site ol li {
+    @apply list-decimal text-fg-muted marker:text-fg-subtle;
+  }
+
+  .prose-site a {
+    @apply text-accent underline decoration-accent/40 underline-offset-4 hover:decoration-accent;
+  }
+
+  .prose-site strong {
+    @apply font-semibold text-fg;
+  }
+
+  .prose-site code {
+    @apply rounded bg-bg-elevated px-1.5 py-0.5 text-sm font-mono text-accent-hover;
+  }
+
+  .prose-site pre {
+    @apply my-6 overflow-x-auto rounded-lg border border-border bg-bg-elevated p-4 text-sm;
+  }
+
+  .prose-site pre code {
+    @apply bg-transparent p-0 text-fg;
+  }
+
+  .prose-site blockquote {
+    @apply my-6 border-l-4 border-accent/50 bg-bg-subtle px-5 py-3 text-fg-muted;
+  }
+
+  .prose-site table {
+    @apply my-6 w-full border-collapse text-sm;
+  }
+
+  .prose-site th,
+  .prose-site td {
+    @apply border border-border px-3 py-2 text-left;
+  }
+
+  .prose-site th {
+    @apply bg-bg-elevated font-semibold text-fg;
+  }
+
+  .prose-site hr {
+    @apply my-10 border-border;
+  }
+}

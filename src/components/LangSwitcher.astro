@@ -1,0 +1,41 @@
+---
+import { Icon } from "astro-icon/components";
+import { LOCALES, LOCALE_NAMES } from "../consts";
+import { getLocaleFromUrl, resolveLocale, translatePath, useTranslations } from "../i18n/utils";
+
+const locale = resolveLocale(Astro.currentLocale ?? getLocaleFromUrl(Astro.url));
+const t = useTranslations(locale);
+const base = import.meta.env.BASE_URL;
+const current = Astro.url.pathname;
+---
+<div class="relative group">
+  <button
+    type="button"
+    class="inline-flex items-center gap-1.5 rounded-md border border-border bg-bg-subtle px-3 py-1.5 text-sm text-fg-muted hover:border-accent/50 hover:text-fg"
+    aria-haspopup="menu"
+    aria-expanded="false"
+    aria-label={t.lang.switcher}
+  >
+    <Icon name="lucide:globe" class="h-4 w-4" />
+    <span>{LOCALE_NAMES[locale]}</span>
+    <Icon name="lucide:chevron-down" class="h-3.5 w-3.5" />
+  </button>
+  <div
+    class="invisible absolute right-0 top-full mt-1 w-40 rounded-lg border border-border bg-bg-elevated py-1 opacity-0 shadow-xl transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100"
+    role="menu"
+  >
+    {LOCALES.map((l) => (
+      <a
+        role="menuitem"
+        href={translatePath(current, l, base)}
+        class:list={[
+          "block px-3 py-1.5 text-sm hover:bg-bg-subtle",
+          l === locale ? "text-accent" : "text-fg-muted hover:text-fg",
+        ]}
+        hreflang={l}
+      >
+        {LOCALE_NAMES[l]}
+      </a>
+    ))}
+  </div>
+</div>

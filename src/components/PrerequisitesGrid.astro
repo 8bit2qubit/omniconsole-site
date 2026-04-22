@@ -1,0 +1,67 @@
+---
+import { Icon } from "astro-icon/components";
+import { XFSET } from "../consts";
+import { getLocaleFromUrl, useTranslations } from "../i18n/utils";
+
+const locale = Astro.currentLocale ?? getLocaleFromUrl(Astro.url);
+const t = useTranslations(locale);
+
+const items = [
+  {
+    icon: "lucide:monitor",
+    title: t.prerequisites.desktop.title,
+    body: t.prerequisites.desktop.body,
+    cta: { label: t.prerequisites.desktop.cta, href: XFSET.url, external: true },
+    tone: "accent",
+  },
+  {
+    icon: "lucide:gamepad",
+    title: t.prerequisites.native.title,
+    body: t.prerequisites.native.body,
+    tone: "success",
+  },
+  {
+    icon: "lucide:gamepad-2",
+    title: t.prerequisites.controller.title,
+    body: t.prerequisites.controller.body,
+    tone: "warning",
+  },
+];
+
+const toneClass = {
+  accent: "text-accent bg-accent/10",
+  success: "text-success bg-success/10",
+  warning: "text-warning bg-warning/10",
+} as const;
+---
+<section class="border-b border-border/50 py-16 md:py-24">
+  <div class="container-site">
+    <div class="mx-auto max-w-2xl text-center">
+      <h2 class="text-3xl font-bold text-fg sm:text-4xl">{t.prerequisites.title}</h2>
+      <p class="mt-4 text-fg-muted">{t.prerequisites.subtitle}</p>
+    </div>
+
+    <div class="mt-12 grid gap-5 md:grid-cols-3">
+      {items.map((item) => (
+        <div class="card flex flex-col">
+          <div class={`inline-flex w-fit rounded-lg p-2.5 ${toneClass[item.tone as keyof typeof toneClass]}`}>
+            <Icon name={item.icon} class="h-5 w-5" />
+          </div>
+          <h3 class="mt-4 text-base font-semibold text-fg">{item.title}</h3>
+          <p class="mt-2 flex-1 text-sm leading-relaxed text-fg-muted">{item.body}</p>
+          {item.cta && (
+            <a
+              href={item.cta.href}
+              target={item.cta.external ? "_blank" : undefined}
+              rel={item.cta.external ? "noopener" : undefined}
+              class="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:text-accent-hover"
+            >
+              {item.cta.label}
+              <Icon name="lucide:external-link" class="h-3.5 w-3.5" />
+            </a>
+          )}
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

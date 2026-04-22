@@ -1,0 +1,167 @@
+{
+  "nav": {
+    "features": "Features",
+    "gamepad": "Gamepad-First Design",
+    "download": "Download",
+    "docs": "Docs",
+    "github": "GitHub"
+  },
+  "hero": {
+    "eyebrow": "Windows 11 Full Screen Experience Home",
+    "title": "Your Gaming Platform, On Boot.",
+    "subtitle": "Boot into your configured platform, switch anytime via \"Library\" in Game Bar — Steam, Xbox, Epic, Armoury Crate SE, or Playnite.",
+    "ctaDownload": "Download Latest",
+    "ctaGitHub": "View on GitHub",
+    "screenshotAlt1": "OmniConsole Settings card grid showing installed gaming platforms",
+    "screenshotAlt2": "OmniCharm Game Bar widget with Mouse Mode and Steam Overlay toggles",
+    "screenshotCaption1": "OmniConsole Settings",
+    "screenshotCaption2": "OmniCharm Widget"
+  },
+  "what": {
+    "title": "What is OmniConsole?",
+    "body": "OmniConsole runs as the Windows 11 Full Screen Experience (FSE) Home shell on your PC or handheld (ROG Xbox Ally, etc.). Whenever FSE activates, it launches your configured gaming platform automatically. Any platform can be your FSE Home — Steam, Xbox, Epic, Armoury Crate SE, Playnite, or anything you add.",
+    "flowTitle": "How It Works",
+    "entries": [
+      { "title": "Boot", "body": "Auto-launch into your configured platform (requires \"Enter full screen experience on startup\" enabled)." },
+      { "title": "Xbox Button", "body": "Opens Game Bar — pick \"Home\" to launch the platform, or \"Library\" to open OmniConsole settings." },
+      { "title": "Start Menu", "body": "Launch OmniConsole from the desktop; FSE is triggered automatically before the platform starts." }
+    ],
+    "decisionInFse": "Already in FSE",
+    "decisionOutFse": "Outside FSE",
+    "resultInFse": "Launch configured platform",
+    "resultOutFse": "Trigger FSE dialog → Re-launch in FSE → Launch configured platform"
+  },
+  "gamepadHighlights": {
+    "sectionTitle": "Gamepad-First Design",
+    "sectionSubtitle": "Stay on the controller — reach Steam menus and navigate desktop apps.",
+    "shortcuts": {
+      "title": "Gamepad Steam Shortcuts",
+      "description": "Press ⧉ or long-press ☰ to open Steam menus and the In-Game Overlay directly from your controller.",
+      "imageAlt": "Xbox controller diagram showing View (⧉) and Menu (☰) button shortcuts for Steam",
+      "rows": [
+        { "button": "⧉ (short press)", "action": "Open Steam menu¹" },
+        { "button": "⧉ (long press)", "action": "Open Quick Access menu¹" },
+        { "button": "☰ (long press)", "action": "Open Steam In-Game Overlay²˒³" }
+      ],
+      "footnote": "¹ In Steam Big Picture　² In-game　³ Toggleable via the OmniCharm Game Bar widget"
+    },
+    "mouseMode": {
+      "title": "Gamepad Mouse Mode",
+      "description": "Turn your controller into a mouse and keyboard. Two layouts — OmniNav or Classic. OmniNav shown below.",
+      "imageAlt": "Xbox controller with the left stick moving a cursor on a laptop and the A button highlighted as click",
+      "rows": [
+        { "button": "Left Stick", "action": "Cursor" },
+        { "button": "Right Stick", "action": "Scroll" },
+        { "button": "A", "action": "Left Click" },
+        { "button": "B", "action": "Right Click" },
+        { "button": "D-pad", "action": "Arrow Keys" }
+      ],
+      "footnote": "Three states: Off · Auto (Edge, Chrome, Firefox, Opera, Brave, Epic Games Store, File Explorer, Steam) · Force On. Auto-disabled on ROG Ally family."
+    },
+    "headers": {
+      "button": "Button",
+      "action": "Action"
+    },
+    "cta": "See full gamepad reference"
+  },
+  "features": {
+    "title": "Features",
+    "subtitle": "Everything you need to make your gaming PC feel like a console.",
+    "category": {
+      "core": "Core",
+      "gamepad": "Gamepad",
+      "platform": "Platforms",
+      "integration": "Integration"
+    }
+  },
+  "prerequisites": {
+    "title": "Prerequisites",
+    "subtitle": "Before installing OmniConsole, enable Windows 11 Full Screen Experience.",
+    "desktop": {
+      "title": "Desktops / Laptops / Tablets / Non-native Handhelds",
+      "body": "Use Xbox Full Screen Experience Tool to enable FSE first.",
+      "cta": "Open XFSET repository"
+    },
+    "native": {
+      "title": "Native FSE Handheld Devices",
+      "body": "Devices like the ROG Xbox Ally series support FSE out of the box. Install OmniConsole directly."
+    },
+    "controller": {
+      "title": "Xbox Controller Required",
+      "body": "Game Bar, FSE, and gamepad features all require an Xbox-compatible (XInput) controller with an Xbox button."
+    }
+  },
+  "quickStart": {
+    "title": "Quick Start",
+    "subtitle": "Four steps to turn your PC into a gaming console.",
+    "step1": {
+      "title": "Install OmniConsole",
+      "body": "Download the latest release and run Install.bat, or manually install the .cer certificate and both .msix packages."
+    },
+    "step2": {
+      "title": "Configure Your Default Platform",
+      "body": "Open OmniConsole Settings, pick Steam Big Picture / Xbox / Epic / Armoury Crate SE / Playnite, or add a custom one."
+    },
+    "step3": {
+      "title": "Set as FSE Home App",
+      "body": "Windows Settings → Gaming → Full Screen Experience → Choose home app → OmniConsole. Enable \"Enter full screen experience on startup\"."
+    },
+    "step4": {
+      "title": "Done",
+      "body": "Reboot, press the Xbox button and pick \"Home\", or launch from the Start Menu — your platform opens automatically."
+    },
+    "cta": "See full installation guide"
+  },
+  "download": {
+    "title": "Download OmniConsole",
+    "subtitle": "Latest stable release from GitHub.",
+    "version": "Version",
+    "released": "Released",
+    "size": "Size",
+    "downloadZip": "Download ZIP",
+    "allReleases": "See all releases",
+    "verifyChecksum": "Verify checksums on GitHub",
+    "includes": "Included in this ZIP",
+    "includesList": [
+      "OmniConsole_*_x64.msix — main app",
+      "OmniConsole.PhantomLink_*_x64-widget.msix — OmniCharm Game Bar widget",
+      "OmniConsole_*_x64.cer — code signing certificate",
+      "Dependencies\\ — framework packages (VCLibs, Windows App Runtime) for fresh/offline systems",
+      "Install.bat — one-click installer (recommended)",
+      "OmniConsoleInstaller.ps1 — PowerShell script invoked by Install.bat",
+      "README.txt — bilingual installation notes"
+    ],
+    "fetchError": "Unable to fetch the latest release at build time. Please visit the GitHub releases page directly."
+  },
+  "stack": {
+    "title": "Tech Stack",
+    "primary": "C# & .NET 8 · C++",
+    "ui": "WinUI 3",
+    "packaging": "MSIX",
+    "languages": "Languages",
+    "langList": "English · 繁體中文 · 简体中文"
+  },
+  "footer": {
+    "tagline": "Open source under GPL-3.0.",
+    "nav": "Site",
+    "project": "Project",
+    "legal": "Legal",
+    "license": "License (GPL-3.0)",
+    "madeBy": "Made by"
+  },
+  "docs": {
+    "title": "Documentation",
+    "onThisPage": "On this page",
+    "nav": {
+      "install": "Install",
+      "prerequisites": "Prerequisites",
+      "troubleshooting": "Troubleshooting",
+      "revert": "How to Revert",
+      "gamepad": "Gamepad Reference",
+      "faq": "FAQ"
+    }
+  },
+  "lang": {
+    "switcher": "Language"
+  }
+}

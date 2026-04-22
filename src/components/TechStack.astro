@@ -1,0 +1,44 @@
+---
+import { Icon } from "astro-icon/components";
+import { REPO } from "../consts";
+import { getLocaleFromUrl, useTranslations } from "../i18n/utils";
+
+const locale = Astro.currentLocale ?? getLocaleFromUrl(Astro.url);
+const t = useTranslations(locale);
+
+const items = [
+  { icon: "lucide:code-2", label: t.stack.primary },
+  { icon: "lucide:layout-grid", label: t.stack.ui },
+  { icon: "lucide:package", label: t.stack.packaging },
+  { icon: "lucide:languages", label: t.stack.langList },
+];
+---
+<section class="py-16 md:py-20">
+  <div class="container-site">
+    <div class="mx-auto max-w-2xl text-center">
+      <h2 class="text-2xl font-bold text-fg sm:text-3xl">{t.stack.title}</h2>
+    </div>
+
+    <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      {items.map((item) => (
+        <div class="flex items-center gap-3 rounded-xl border border-border bg-bg-subtle p-4">
+          <Icon name={item.icon} class="h-5 w-5 text-accent" />
+          <span class="text-sm text-fg-muted">{item.label}</span>
+        </div>
+      ))}
+    </div>
+
+    <div class="mt-10 text-center">
+      <a
+        href={`https://star-history.com/#${REPO.owner}/${REPO.name}&Date`}
+        target="_blank"
+        rel="noopener"
+        class="inline-flex items-center gap-1.5 text-sm text-fg-muted hover:text-accent"
+      >
+        <Icon name="lucide:star" class="h-4 w-4" />
+        Star History
+        <Icon name="lucide:external-link" class="h-3.5 w-3.5" />
+      </a>
+    </div>
+  </div>
+</section>

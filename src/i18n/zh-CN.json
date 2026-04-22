@@ -1,0 +1,167 @@
+{
+  "nav": {
+    "features": "功能特色",
+    "gamepad": "手柄优先设计",
+    "download": "下载",
+    "docs": "文档",
+    "github": "GitHub"
+  },
+  "hero": {
+    "eyebrow": "Windows 11 全屏体验主页",
+    "title": "开机直达，你的游戏平台。",
+    "subtitle": "开机直达你配置的平台，随时通过 Game Bar 的“库”切换 — Steam、Xbox、Epic、Armoury Crate SE 或 Playnite。",
+    "ctaDownload": "下载最新版",
+    "ctaGitHub": "前往 GitHub",
+    "screenshotAlt1": "OmniConsole 设置界面，以卡片网格显示已安装的游戏平台",
+    "screenshotAlt2": "OmniCharm Game Bar 小组件，包含手柄鼠标模式与 Steam 游戏叠加界面开关",
+    "screenshotCaption1": "OmniConsole 设置",
+    "screenshotCaption2": "OmniCharm 小组件"
+  },
+  "what": {
+    "title": "OmniConsole 是什么？",
+    "body": "OmniConsole 以 Windows 11 全屏体验（FSE）主页外壳方式运行，支持 PC 与掌机（ROG Xbox Ally 等）。只要触发 FSE，就自动启动你配置的游戏平台。任何平台都能当你的 FSE 主页 — Steam、Xbox、Epic、Armoury Crate SE、Playnite 或你自己添加的都行。",
+    "flowTitle": "工作方式",
+    "entries": [
+      { "title": "开机", "body": "开机自动进入配置的平台（需启用“启动时进入全屏体验”）。" },
+      { "title": "Xbox 键", "body": "打开 Game Bar，选“主页”启动平台，或选“库”打开 OmniConsole 设置。" },
+      { "title": "开始菜单", "body": "从桌面启动 OmniConsole，自动触发 FSE 后再启动平台。" }
+    ],
+    "decisionInFse": "已在 FSE",
+    "decisionOutFse": "未在 FSE",
+    "resultInFse": "启动配置的平台",
+    "resultOutFse": "触发 FSE 对话框 → 在 FSE 中重启 → 启动配置的平台"
+  },
+  "gamepadHighlights": {
+    "sectionTitle": "手柄优先设计",
+    "sectionSubtitle": "全程使用手柄 — 调出 Steam 菜单、操作桌面应用。",
+    "shortcuts": {
+      "title": "手柄 Steam 快捷键",
+      "description": "短按或长按 ⧉ / ☰ 即可从手柄直接打开 Steam 菜单与游戏内覆盖。",
+      "imageAlt": "Xbox 手柄示意图，标注 ⧉ 与 ☰ 两颗按键对应的 Steam 快捷键",
+      "rows": [
+        { "button": "⧉（短按）", "action": "打开 Steam 菜单¹" },
+        { "button": "⧉（长按）", "action": "打开快速访问菜单¹" },
+        { "button": "☰（长按）", "action": "打开 Steam 游戏内覆盖²˒³" }
+      ],
+      "footnote": "¹ 于 Steam Big Picture 中　² 游戏中　³ 可于 OmniCharm Game Bar 小组件切换"
+    },
+    "mouseMode": {
+      "title": "手柄鼠标模式",
+      "description": "把手柄变成鼠标与键盘。两种对应方式 — OmniNav 或 Classic。下表为 OmniNav。",
+      "imageAlt": "Xbox 手柄示意图，左摇杆控制笔记本光标、A 键作为鼠标左键",
+      "rows": [
+        { "button": "左摇杆", "action": "光标" },
+        { "button": "右摇杆", "action": "滚轮" },
+        { "button": "A", "action": "鼠标左键" },
+        { "button": "B", "action": "鼠标右键" },
+        { "button": "方向键", "action": "方向键" }
+      ],
+      "footnote": "三种状态：关闭 · 自动（Edge、Chrome、Firefox、Opera、Brave、Epic Games Store、文件资源管理器、Steam）· 强制开启。ROG Ally 家族自动禁用。"
+    },
+    "headers": {
+      "button": "按键",
+      "action": "动作"
+    },
+    "cta": "查看完整手柄对照"
+  },
+  "features": {
+    "title": "功能特色",
+    "subtitle": "让游戏 PC 拥有主机般的开关机体验，一应俱全。",
+    "category": {
+      "core": "核心",
+      "gamepad": "手柄",
+      "platform": "平台",
+      "integration": "集成"
+    }
+  },
+  "prerequisites": {
+    "title": "前置条件",
+    "subtitle": "安装 OmniConsole 前，先启用 Windows 11 全屏体验。",
+    "desktop": {
+      "title": "台式机 / 笔记本 / 平板 / 非原生 FSE 掌机",
+      "body": "先使用 Xbox Full Screen Experience Tool 启用 FSE。",
+      "cta": "前往 XFSET 仓库"
+    },
+    "native": {
+      "title": "原生 FSE 掌机",
+      "body": "ROG Xbox Ally 系列等设备已内置 FSE，可直接安装 OmniConsole。"
+    },
+    "controller": {
+      "title": "需要 Xbox 手柄",
+      "body": "Game Bar、FSE 与所有手柄功能均需具备 Xbox 键的 XInput 兼容手柄。"
+    }
+  },
+  "quickStart": {
+    "title": "快速入门",
+    "subtitle": "四步把 PC 变成游戏主机。",
+    "step1": {
+      "title": "安装 OmniConsole",
+      "body": "下载最新版并运行 Install.bat，或手动安装 .cer 证书与两个 .msix 包。"
+    },
+    "step2": {
+      "title": "设置默认平台",
+      "body": "打开 OmniConsole 设置，选择 Steam Big Picture / Xbox / Epic / Armoury Crate SE / Playnite，或新增自定义平台。"
+    },
+    "step3": {
+      "title": "设为 FSE 主页应用",
+      "body": "设置 → 游戏 → 全屏体验 → 选择主页应用 → OmniConsole。启用“启动时进入全屏体验”。"
+    },
+    "step4": {
+      "title": "完成",
+      "body": "重启、按 Xbox 键选主页或从开始菜单启动，你的平台就会自动打开。"
+    },
+    "cta": "阅读完整安装指南"
+  },
+  "download": {
+    "title": "下载 OmniConsole",
+    "subtitle": "来自 GitHub 的最新稳定版本。",
+    "version": "版本",
+    "released": "发布日期",
+    "size": "文件大小",
+    "downloadZip": "下载 ZIP",
+    "allReleases": "查看所有版本",
+    "verifyChecksum": "在 GitHub 验证校验码",
+    "includes": "ZIP 内容",
+    "includesList": [
+      "OmniConsole_*_x64.msix — 主程序",
+      "OmniConsole.PhantomLink_*_x64-widget.msix — OmniCharm Game Bar 小组件",
+      "OmniConsole_*_x64.cer — 代码签名证书",
+      "Dependencies\\ — 依赖框架包（VCLibs、Windows App Runtime），全新／离线系统需要",
+      "Install.bat — 一键安装程序（推荐）",
+      "OmniConsoleInstaller.ps1 — 由 Install.bat 调用的 PowerShell 脚本",
+      "README.txt — 双语安装说明"
+    ],
+    "fetchError": "构建时无法获取最新版本信息，请直接访问 GitHub Releases 页面。"
+  },
+  "stack": {
+    "title": "技术栈",
+    "primary": "C# & .NET 8 · C++",
+    "ui": "WinUI 3",
+    "packaging": "MSIX",
+    "languages": "界面语言",
+    "langList": "English · 繁體中文 · 简体中文"
+  },
+  "footer": {
+    "tagline": "采用 GPL-3.0 许可的开源软件。",
+    "nav": "网站",
+    "project": "项目",
+    "legal": "法律",
+    "license": "许可证（GPL-3.0）",
+    "madeBy": "作者"
+  },
+  "docs": {
+    "title": "文档",
+    "onThisPage": "本页概要",
+    "nav": {
+      "install": "安装",
+      "prerequisites": "前置条件",
+      "troubleshooting": "疑难解答",
+      "revert": "如何还原",
+      "gamepad": "手柄按键对照",
+      "faq": "常见问题"
+    }
+  },
+  "lang": {
+    "switcher": "语言"
+  }
+}

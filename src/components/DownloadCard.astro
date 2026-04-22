@@ -1,0 +1,94 @@
+---
+import { Icon } from "astro-icon/components";
+import { REPO } from "../consts";
+import { getLocaleFromUrl, useTranslations } from "../i18n/utils";
+
+interface Props {
+  version?: string;
+  publishedAt?: string;
+  sizeBytes?: number;
+  downloadUrl?: string;
+  error?: boolean;
+}
+
+const { version, publishedAt, sizeBytes, downloadUrl, error } = Astro.props;
+const locale = Astro.currentLocale ?? getLocaleFromUrl(Astro.url);
+const t = useTranslations(locale);
+
+const formatSize = (bytes?: number) => {
+  if (!bytes) return "—";
+  const mb = bytes / (1024 * 1024);
+  return `${mb.toFixed(1)} MB`;
+};
+
+const formatDate = (iso?: string) => {
+  if (!iso) return "—";
+  try {
+    return new Intl.DateTimeFormat(locale, { dateStyle: "medium" }).format(new Date(iso));
+  } catch {
+    return iso.slice(0, 10);
+  }
+};
+---
+<div class="mx-auto max-w-2xl">
+  {error ? (
+    <div class="card border-warning/40 bg-warning/5">
+      <div class="flex items-start gap-3">
+        <Icon name="lucide:alert-triangle" class="h-5 w-5 shrink-0 text-warning" />
+        <div>
+          <p class="text-sm text-fg">{t.download.fetchError}</p>
+          <a href={REPO.releasesUrl} target="_blank" rel="noopener" class="mt-3 inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:text-accent-hover">
+            {t.download.allReleases}
+            <Icon name="lucide:external-link" class="h-3.5 w-3.5" />
+          </a>
+        </div>
+      </div>
+    </div>
+  ) : (
+    <div class="card">
+      <div class="flex items-center gap-3">
+        <div class="inline-flex rounded-lg bg-accent/10 p-2.5 text-accent">
+          <Icon name="lucide:package" class="h-5 w-5" />
+        </div>
+        <div>
+          <p class="text-xs uppercase tracking-wider text-fg-subtle">{t.download.version}</p>
+          <p class="text-lg font-semibold text-fg">{version}</p>
+        </div>
+      </div>
+
+      <dl class="mt-6 grid grid-cols-2 gap-4 text-sm">
+        <div>
+          <dt class="text-fg-subtle">{t.download.released}</dt>
+          <dd class="mt-1 text-fg">{formatDate(publishedAt)}</dd>
+        </div>
+        <div>
+          <dt class="text-fg-subtle">{t.download.size}</dt>
+          <dd class="mt-1 text-fg">{formatSize(sizeBytes)}</dd>
+        </div>
+      </dl>
+
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a href={downloadUrl} class="btn-primary">
+          <Icon name="lucide:download" class="h-4 w-4" />
+          {t.download.downloadZip}
+        </a>
+        <a href={REPO.releasesUrl} target="_blank" rel="noopener" class="btn-secondary">
+          <Icon name="lucide:github" class="h-4 w-4" />
+          {t.download.allReleases}
+        </a>
+      </div>
+
+      <div class="mt-6 border-t border-border/50 pt-4">
+        <p class="text-xs font-semibold uppercase tracking-wider text-fg-subtle">{t.download.includes}</p>
+        <ul class="mt-3 space-y-1.5 text-sm text-fg-muted">
+          {t.download.includesList.map((line: string) => (
+            <li class="flex items-start gap-2">
+              <Icon name="lucide:check" class="mt-0.5 h-4 w-4 shrink-0 text-success" />
+              <span class="font-mono text-xs">{line}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  )}
+</div>

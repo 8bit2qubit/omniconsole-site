@@ -1,0 +1,44 @@
+---
+import { Icon } from "astro-icon/components";
+import { REPO, SITE } from "../consts";
+import { getLocaleFromUrl, useTranslations, withLocale } from "../i18n/utils";
+import LangSwitcher from "./LangSwitcher.astro";
+
+const locale = Astro.currentLocale ?? getLocaleFromUrl(Astro.url);
+const t = useTranslations(locale);
+const base = import.meta.env.BASE_URL;
+
+const home = withLocale("/", locale, base);
+const docs = withLocale("/docs/install", locale, base);
+const download = withLocale("/download", locale, base);
+const featuresAnchor = `${withLocale("/", locale, base)}#features`;
+const gamepadAnchor = `${withLocale("/", locale, base)}#gamepad`;
+const logoUrl = `${base}/logo.png`.replace(/\/+/g, "/");
+---
+<header class="sticky top-0 z-40 border-b border-border/70 bg-bg/90 backdrop-blur">
+  <div class="container-site flex h-16 items-center justify-between gap-4">
+    <a href={home} class="flex items-center gap-2 font-semibold tracking-tight text-fg hover:text-accent">
+      <img src={logoUrl} alt="" width="28" height="28" class="h-7 w-7" />
+      <span>{SITE.name}</span>
+    </a>
+
+    <nav class="hidden items-center gap-6 text-sm text-fg-muted md:flex">
+      <a href={featuresAnchor} class="hover:text-fg">{t.nav.features}</a>
+      <a href={gamepadAnchor} class="hover:text-fg">{t.nav.gamepad}</a>
+      <a href={download} class="hover:text-fg">{t.nav.download}</a>
+      <a href={docs} class="hover:text-fg">{t.nav.docs}</a>
+      <a href={REPO.url} rel="noopener" target="_blank" class="inline-flex items-center gap-1.5 hover:text-fg">
+        <Icon name="lucide:github" class="h-4 w-4" />
+        {t.nav.github}
+      </a>
+    </nav>
+
+    <div class="flex items-center gap-3">
+      <LangSwitcher />
+      <a href={download} class="btn-primary hidden sm:inline-flex">
+        <Icon name="lucide:download" class="h-4 w-4" />
+        {t.nav.download}
+      </a>
+    </div>
+  </div>
+</header>

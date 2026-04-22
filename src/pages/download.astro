@@ -1,0 +1,32 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import DownloadCard from "../components/DownloadCard.astro";
+import { fetchLatestRelease } from "../lib/release";
+import { getLocaleFromUrl, useTranslations } from "../i18n/utils";
+
+const locale = Astro.currentLocale ?? getLocaleFromUrl(Astro.url);
+const t = useTranslations(locale);
+const release = await fetchLatestRelease();
+---
+<BaseLayout title={t.download.title} description={t.download.subtitle}>
+  <section class="py-16 md:py-24">
+    <div class="container-site">
+      <div class="mx-auto max-w-2xl text-center">
+        <h1 class="text-3xl font-bold text-fg sm:text-4xl">{t.download.title}</h1>
+        <p class="mt-4 text-fg-muted">{t.download.subtitle}</p>
+      </div>
+      <div class="mt-12">
+        {release ? (
+          <DownloadCard
+            version={release.version}
+            publishedAt={release.publishedAt}
+            sizeBytes={release.sizeBytes}
+            downloadUrl={release.downloadUrl}
+          />
+        ) : (
+          <DownloadCard error />
+        )}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
