@@ -6,4 +6,4 @@ order: 12
 locale: en
 ---
 
-A Game Bar widget for toggling long-press ☰ Steam Overlay, switching Mouse Mode, changing controller layouts, and adjusting cursor speed during gameplay.
+A Game Bar widget for in-game quick access to Task View, the Xbox Library, and the Steam Overlay, as well as toggling long-press ☰ to open Steam In-Game Overlay, Gamepad Mouse Mode, controller layouts, and cursor speed.

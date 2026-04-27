@@ -4,7 +4,7 @@ title: 文档
 description: OmniConsole 安装、疑难解答与手柄按键对照。
 ---
 
-欢迎使用 OmniConsole 文档。请从最适合您情景的指南开始：
+欢迎使用 OmniConsole 文档。请从最适合你情景的指南开始：
 
 - **[安装](/omniconsole-site/zh-CN/docs/install)** — 逐步安装与设置。
 - **[前置条件](/omniconsole-site/zh-CN/docs/prerequisites)** — 启用 Windows 11 FSE 与所需硬件。

@@ -36,12 +36,12 @@
     "sectionSubtitle": "全程使用手柄 — 调出 Steam 菜单、操作桌面应用。",
     "shortcuts": {
       "title": "手柄 Steam 快捷键",
-      "description": "短按或长按 ⧉ / ☰ 即可从手柄直接打开 Steam 菜单与游戏内覆盖。",
+      "description": "短按或长按 ⧉ / ☰ 即可从手柄直接打开 Steam 菜单与游戏叠加界面。",
       "imageAlt": "Xbox 手柄示意图，标注 ⧉ 与 ☰ 两颗按键对应的 Steam 快捷键",
       "rows": [
         { "button": "⧉（短按）", "action": "打开 Steam 菜单¹" },
         { "button": "⧉（长按）", "action": "打开快速访问菜单¹" },
-        { "button": "☰（长按）", "action": "打开 Steam 游戏内覆盖²˒³" }
+        { "button": "☰（长按）", "action": "打开 Steam 游戏叠加界面²˒³" }
       ],
       "footnote": "¹ 于 Steam Big Picture 中　² 游戏中　³ 可于 OmniCharm Game Bar 小组件切换"
     },

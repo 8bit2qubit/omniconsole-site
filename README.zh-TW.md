@@ -96,4 +96,4 @@ npm run build
 
 本專案採用 [GNU Affero 通用公共授權條款第 3 版 （AGPL-3.0）](https://github.com/8bit2qubit/omniconsole-site/blob/main/LICENSE) 授權。
 
-您可以自由使用、修改和散佈本軟體，但任何衍生作品 — **包含部署為網路服務的修改版本** — 必須以**相同的 AGPL-3.0 授權條款散佈，並向所有透過網路與服務互動的使用者提供完整原始碼**。詳情請參閱 [AGPL-3.0 官方條款](https://www.gnu.org/licenses/agpl-3.0.html)。
+你可以自由使用、修改和散佈本軟體，但任何衍生作品 — **包含部署為網路服務的修改版本** — 必須以**相同的 AGPL-3.0 授權條款散佈，並向所有透過網路與服務互動的使用者提供完整原始碼**。詳情請參閱 [AGPL-3.0 官方條款](https://www.gnu.org/licenses/agpl-3.0.html)。

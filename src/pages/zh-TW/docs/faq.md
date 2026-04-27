@@ -10,7 +10,7 @@ OmniConsole 為開放原始碼軟體，採用 [**GPL-3.0**](https://github.com/8
 
 ## OmniConsole 會取代 Xbox App 嗎？
 
-不會。OmniConsole 透過 Windows 官方 API 登記為 **FSE 首頁應用程式** — 與 Xbox App 使用的機制相同。Xbox App 仍可正常作為 Windows 應用程式使用，您也可以在 OmniConsole 內將其設為啟動目標。
+不會。OmniConsole 透過 Windows 官方 API 登記為 **FSE 首頁應用程式** — 與 Xbox App 使用的機制相同。Xbox App 仍可正常作為 Windows 應用程式使用，你也可以在 OmniConsole 內將其設為啟動目標。
 
 ## 我必須使用掌機嗎？
 
