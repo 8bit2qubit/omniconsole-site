@@ -21,7 +21,7 @@ export function useTranslations(locale: Locale | string | undefined) {
 
 export function getLocaleFromUrl(url: URL): Locale {
   const segments = url.pathname.split("/").filter(Boolean);
-  // base: "/omniconsole-site" prepends an extra segment; strip it before reading locale
+  // base: "/omniconsole-site" 會多出一段路徑；讀取 locale 前先去掉
   const baseStripped = segments[0] === "omniconsole-site" ? segments.slice(1) : segments;
   const first = baseStripped[0];
   if (first === "zh-TW" || first === "zh-CN") return first;
@@ -29,8 +29,8 @@ export function getLocaleFromUrl(url: URL): Locale {
 }
 
 /**
- * Build a path that preserves the Astro `base` prefix and injects the locale segment.
- * Example: withLocale("/docs/install", "zh-TW") → "/omniconsole-site/zh-TW/docs/install"
+ * 組出保留 Astro `base` 前綴並插入 locale 區段的路徑。
+ * 範例：withLocale("/docs/install", "zh-TW") → "/omniconsole-site/zh-TW/docs/install"
  */
 export function withLocale(path: string, locale: Locale | string, base: string): string {
   const safe = resolveLocale(locale);
@@ -41,8 +41,8 @@ export function withLocale(path: string, locale: Locale | string, base: string):
 }
 
 /**
- * Given the current pathname (already locale-prefixed for non-en),
- * return the equivalent path in a target locale.
+ * 給定目前的 pathname（非 en 已含 locale 前綴），
+ * 回傳對應到目標 locale 的等效路徑。
  */
 export function translatePath(currentPath: string, targetLocale: Locale | string, base: string): string {
   const safe = resolveLocale(targetLocale);
@@ -50,7 +50,7 @@ export function translatePath(currentPath: string, targetLocale: Locale | string
   let p = currentPath;
   if (baseTrimmed && p.startsWith(baseTrimmed)) p = p.slice(baseTrimmed.length);
   if (!p.startsWith("/")) p = `/${p}`;
-  // Strip any existing locale prefix
+  // 去除既有的 locale 前綴
   const m = p.match(/^\/(zh-TW|zh-CN)(\/.*|$)/);
   const pathWithoutLocale = m ? m[2] || "/" : p;
   return withLocale(pathWithoutLocale, safe, base);

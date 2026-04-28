@@ -1,4 +1,8 @@
 {
+  "site": {
+    "tagline": "开机直达，你的游戏平台。",
+    "description": "OmniConsole 让你的 PC 变成游戏主机 — 开机直达设定的平台，随时通过 Game Bar 切换。"
+  },
   "nav": {
     "features": "功能特色",
     "gamepad": "手柄优先设计",

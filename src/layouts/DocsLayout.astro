@@ -3,11 +3,14 @@ import BaseLayout from "./BaseLayout.astro";
 import { getLocaleFromUrl, useTranslations, withLocale } from "../i18n/utils";
 
 interface Props {
-  title: string;
+  title?: string;
   description?: string;
+  frontmatter?: { title?: string; description?: string };
 }
 
-const { title, description } = Astro.props;
+const { frontmatter } = Astro.props;
+const title = Astro.props.title ?? frontmatter?.title ?? "";
+const description = Astro.props.description ?? frontmatter?.description;
 const locale = Astro.currentLocale ?? getLocaleFromUrl(Astro.url);
 const t = useTranslations(locale);
 const base = import.meta.env.BASE_URL;
@@ -23,7 +26,7 @@ const docsNav = [
 ];
 
 function isActive(href: string) {
-  // Trim trailing slash for comparison
+  // 去除尾端斜線後再比對
   const a = current.replace(/\/$/, "");
   const b = href.replace(/\/$/, "");
   return a === b || a.startsWith(`${b}/`);

@@ -8,21 +8,23 @@ const t = useTranslations(locale);
 const base = import.meta.env.BASE_URL;
 const current = Astro.url.pathname;
 ---
-<div class="relative group">
+<div class="relative" data-lang-switcher>
   <button
     type="button"
     class="inline-flex items-center gap-1.5 rounded-md border border-border bg-bg-subtle px-3 py-1.5 text-sm text-fg-muted hover:border-accent/50 hover:text-fg"
     aria-haspopup="menu"
     aria-expanded="false"
     aria-label={t.lang.switcher}
+    data-lang-trigger
   >
     <Icon name="lucide:globe" class="h-4 w-4" />
     <span>{LOCALE_NAMES[locale]}</span>
     <Icon name="lucide:chevron-down" class="h-3.5 w-3.5" />
   </button>
   <div
-    class="invisible absolute right-0 top-full mt-1 w-40 rounded-lg border border-border bg-bg-elevated py-1 opacity-0 shadow-xl transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100"
+    class="hidden absolute right-0 top-full mt-1 w-40 rounded-lg border border-border bg-bg-elevated py-1 shadow-xl"
     role="menu"
+    data-lang-menu
   >
     {LOCALES.map((l) => (
       <a
@@ -39,3 +41,41 @@ const current = Astro.url.pathname;
     ))}
   </div>
 </div>
+
+<script>
+  function init() {
+    document.querySelectorAll<HTMLElement>("[data-lang-switcher]").forEach((root) => {
+      if (root.dataset.bound === "1") return;
+      root.dataset.bound = "1";
+      const trigger = root.querySelector<HTMLButtonElement>("[data-lang-trigger]");
+      const menu = root.querySelector<HTMLElement>("[data-lang-menu]");
+      if (!trigger || !menu) return;
+
+      const close = () => {
+        menu.classList.add("hidden");
+        trigger.setAttribute("aria-expanded", "false");
+      };
+      const open = () => {
+        menu.classList.remove("hidden");
+        trigger.setAttribute("aria-expanded", "true");
+      };
+
+      trigger.addEventListener("click", (e) => {
+        e.stopPropagation();
+        if (menu.classList.contains("hidden")) open();
+        else close();
+      });
+
+      document.addEventListener("click", (e) => {
+        if (!root.contains(e.target as Node)) close();
+      });
+
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") close();
+      });
+    });
+  }
+
+  init();
+  document.addEventListener("astro:page-load", init);
+</script>

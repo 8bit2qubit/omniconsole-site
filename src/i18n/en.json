@@ -1,4 +1,8 @@
 {
+  "site": {
+    "tagline": "Your Gaming Platform, On Boot.",
+    "description": "OmniConsole turns your PC into a gaming console — boot into your platform and switch anytime via Game Bar."
+  },
   "nav": {
     "features": "Features",
     "gamepad": "Gamepad-First Design",

@@ -24,7 +24,7 @@ export const XFSET = {
   url: "https://github.com/8bit2qubit/XboxFullScreenExperienceTool",
 } as const;
 
-// relative to BASE_URL; maps to public/images/
+// 相對於 BASE_URL；對應到 public/images/
 export const IMG_BASE = "/images";
 
 export const LOCALES = ["en", "zh-TW", "zh-CN"] as const;
@@ -39,7 +39,7 @@ export const LOCALE_NAMES: Record<Locale, string> = {
 export const LOCALE_IMG_SUFFIX: Record<Locale, string> = {
   en: "",
   "zh-TW": ".zh-TW",
-  "zh-CN": ".zh-TW", // zh-CN screenshots fall back to zh-TW (no separate build)
+  "zh-CN": ".zh-TW", // zh-CN 擷圖 fallback 到 zh-TW（無獨立版本）
 };
 
 export const GAMEPAD_SHORTCUT_IMG: Record<Locale, string> = {
@@ -48,5 +48,5 @@ export const GAMEPAD_SHORTCUT_IMG: Record<Locale, string> = {
   "zh-CN": "/images/gamepad-steam-shortcuts.zh-TW.png",
 };
 
-// Gamepad Mouse Mode diagram (language-neutral)
+// 手把滑鼠模式示意圖（不區分語言）
 export const GAMEPAD_MOUSE_MODE_IMG = "/images/gamepad-mouse-mode.png";
