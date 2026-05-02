@@ -58,4 +58,8 @@ OmniConsole 完整支援 **Xbox 相容（XInput）控制器**操作。
 
 ## OmniCharm 小工具
 
-OmniCharm Game Bar 小工具可在遊戲中切換手把滑鼠模式、變更控制器版面、調整游標速度、切換長按 ☰ 開啟 Steam 遊戲內嵌介面。
+OmniCharm Game Bar 小工具提供遊戲中的快速存取：
+
+- **工作檢視**、**Xbox 媒體櫃**與 **Steam 內嵌介面**的一鍵捷徑。
+- 切換**長按 ☰** 開啟 Steam 遊戲內嵌介面。
+- 切換**手把滑鼠模式**、變更控制器版面（**OmniNav / Classic**）、調整游標速度。

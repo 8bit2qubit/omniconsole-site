@@ -17,7 +17,7 @@
     "ctaDownload": "下載最新版",
     "ctaGitHub": "前往 GitHub",
     "screenshotAlt1": "OmniConsole 設定介面，以卡片格狀版型顯示已安裝的遊戲平台",
-    "screenshotAlt2": "OmniCharm Game Bar 小工具，含手把滑鼠模式與 Steam 遊戲內嵌介面開關",
+    "screenshotAlt2": "OmniCharm Game Bar 小工具，提供工作檢視、Xbox 媒體櫃、Steam 內嵌介面一鍵捷徑，並可切換手把滑鼠模式與 Steam 遊戲內嵌介面",
     "screenshotCaption1": "OmniConsole 設定",
     "screenshotCaption2": "OmniCharm 小工具"
   },
@@ -40,7 +40,7 @@
     "sectionSubtitle": "全程使用手把 — 叫出 Steam 選單、操作桌面應用程式。",
     "shortcuts": {
       "title": "手把 Steam 快捷鍵",
-      "description": "短按或長按 ⧉ / ☰ 即可從手把直接開啟 Steam 選單與遊戲內嵌介面。",
+      "description": "手把上的 Steam 捷徑 — ⧉ 開啟 Steam 選單，長按 ☰ 開啟 Steam 遊戲內嵌介面。",
       "imageAlt": "Xbox 手把示意圖，標註 ⧉ 與 ☰ 兩顆按鈕對應的 Steam 快捷鍵",
       "rows": [
         { "button": "⧉（短按）", "action": "開啟 Steam 選單¹" },
@@ -51,13 +51,15 @@
     },
     "mouseMode": {
       "title": "手把滑鼠模式",
-      "description": "把手把變成滑鼠與鍵盤。兩種對應方式 — OmniNav 或 Classic。下表為 OmniNav。",
+      "description": "把手把變成滑鼠與鍵盤。兩種對應方式 — OmniNav 或 Classic。下表為 OmniNav，僅列常用按鍵，完整對照點下方連結。",
       "imageAlt": "Xbox 手把示意圖，左搖桿控制筆電游標、A 鍵作為滑鼠左鍵",
       "rows": [
         { "button": "左搖桿", "action": "游標" },
         { "button": "右搖桿", "action": "滾輪" },
         { "button": "A", "action": "滑鼠左鍵" },
         { "button": "B", "action": "滑鼠右鍵" },
+        { "button": "X", "action": "Page Down" },
+        { "button": "Y", "action": "Page Up" },
         { "button": "方向鍵", "action": "方向鍵" }
       ],
       "footnote": "三種狀態：關閉 · 自動（Edge、Chrome、Firefox、Opera、Brave、Epic Games Store、檔案總管、Steam）· 強制開啟。ROG Ally 家族自動停用。"

@@ -58,4 +58,8 @@ Toggleable via the OmniCharm Game Bar widget. Gamepad Mouse Mode is auto-disable
 
 ## OmniCharm Widget
 
-The OmniCharm Game Bar widget lets you toggle Mouse Mode, change controller layout, adjust cursor speed, and toggle long-press ☰ for Steam In-Game Overlay.
+The OmniCharm Game Bar widget gives you in-game quick access to:
+
+- **Task View**, the **Xbox Library**, and the **Steam Overlay** as one-tap shortcuts.
+- Toggling **long-press ☰** to open the Steam In-Game Overlay.
+- Toggling **Gamepad Mouse Mode**, switching controller layout (**OmniNav / Classic**), and adjusting cursor speed.

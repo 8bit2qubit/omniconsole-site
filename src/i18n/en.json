@@ -17,7 +17,7 @@
     "ctaDownload": "Download Latest",
     "ctaGitHub": "View on GitHub",
     "screenshotAlt1": "OmniConsole Settings card grid showing installed gaming platforms",
-    "screenshotAlt2": "OmniCharm Game Bar widget with Mouse Mode and Steam Overlay toggles",
+    "screenshotAlt2": "OmniCharm Game Bar widget with one-tap shortcuts to Task View, Xbox Library, and Steam Overlay, plus toggles for Mouse Mode and the Steam In-Game Overlay",
     "screenshotCaption1": "OmniConsole Settings",
     "screenshotCaption2": "OmniCharm Widget"
   },
@@ -40,7 +40,7 @@
     "sectionSubtitle": "Stay on the controller — reach Steam menus and navigate desktop apps.",
     "shortcuts": {
       "title": "Gamepad Steam Shortcuts",
-      "description": "Press ⧉ or long-press ☰ to open Steam menus and the In-Game Overlay directly from your controller.",
+      "description": "Controller shortcuts for Steam — ⧉ opens Steam menus, long-press ☰ opens the Steam In-Game Overlay.",
       "imageAlt": "Xbox controller diagram showing View (⧉) and Menu (☰) button shortcuts for Steam",
       "rows": [
         { "button": "⧉ (short press)", "action": "Open Steam menu¹" },
@@ -51,13 +51,15 @@
     },
     "mouseMode": {
       "title": "Gamepad Mouse Mode",
-      "description": "Turn your controller into a mouse and keyboard. Two layouts — OmniNav or Classic. OmniNav shown below.",
+      "description": "Turn your controller into a mouse and keyboard. Two layouts — OmniNav or Classic. OmniNav shown below — common keys only; tap the link below for the full reference.",
       "imageAlt": "Xbox controller with the left stick moving a cursor on a laptop and the A button highlighted as click",
       "rows": [
         { "button": "Left Stick", "action": "Cursor" },
         { "button": "Right Stick", "action": "Scroll" },
         { "button": "A", "action": "Left Click" },
         { "button": "B", "action": "Right Click" },
+        { "button": "X", "action": "Page Down" },
+        { "button": "Y", "action": "Page Up" },
         { "button": "D-pad", "action": "Arrow Keys" }
       ],
       "footnote": "Three states: Off · Auto (Edge, Chrome, Firefox, Opera, Brave, Epic Games Store, File Explorer, Steam) · Force On. Auto-disabled on ROG Ally family."

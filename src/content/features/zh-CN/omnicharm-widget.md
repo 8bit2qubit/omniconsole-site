@@ -2,8 +2,8 @@
 title: OmniCharm 小组件
 icon: lucide:sparkles
 category: integration
-order: 12
+order: 13
 locale: zh-CN
 ---
 
-提供游戏中快速访问的 Game Bar 小组件，包含任务视图、Xbox 库与 Steam 叠加界面快捷方式，并可即时切换长按 ☰ 开启 Steam 游戏叠加界面、手柄鼠标模式、控制器布局与光标速度。
+游戏中快速访问的 Game Bar 小组件 — 一键打开任务视图、Xbox 库或 Steam 叠加界面。并可切换手柄鼠标模式、控制器布局、光标速度，以及长按 ☰ 开启 Steam 游戏叠加界面。

@@ -58,4 +58,8 @@ OmniConsole 完整支持 **Xbox 兼容（XInput）控制器**操作。
 
 ## OmniCharm 小组件
 
-OmniCharm Game Bar 小组件可在游戏中切换手柄鼠标模式、变更控制器布局、调整光标速度、切换长按 ☰ 打开 Steam 游戏叠加界面。
+OmniCharm Game Bar 小组件提供游戏中的快速访问：
+
+- **任务视图**、**Xbox 库**与 **Steam 叠加界面**的一键快捷方式。
+- 切换**长按 ☰** 打开 Steam 游戏叠加界面。
+- 切换**手柄鼠标模式**、更改控制器布局（**OmniNav / Classic**）、调整光标速度。

@@ -17,7 +17,7 @@
     "ctaDownload": "下载最新版",
     "ctaGitHub": "前往 GitHub",
     "screenshotAlt1": "OmniConsole 设置界面，以卡片网格显示已安装的游戏平台",
-    "screenshotAlt2": "OmniCharm Game Bar 小组件，包含手柄鼠标模式与 Steam 游戏叠加界面开关",
+    "screenshotAlt2": "OmniCharm Game Bar 小组件，提供任务视图、Xbox 库、Steam 叠加界面一键快捷方式，并可切换手柄鼠标模式与 Steam 游戏叠加界面",
     "screenshotCaption1": "OmniConsole 设置",
     "screenshotCaption2": "OmniCharm 小组件"
   },
@@ -40,7 +40,7 @@
     "sectionSubtitle": "全程使用手柄 — 调出 Steam 菜单、操作桌面应用。",
     "shortcuts": {
       "title": "手柄 Steam 快捷键",
-      "description": "短按或长按 ⧉ / ☰ 即可从手柄直接打开 Steam 菜单与游戏叠加界面。",
+      "description": "手柄上的 Steam 快捷方式 — ⧉ 打开 Steam 菜单，长按 ☰ 打开 Steam 游戏叠加界面。",
       "imageAlt": "Xbox 手柄示意图，标注 ⧉ 与 ☰ 两颗按键对应的 Steam 快捷键",
       "rows": [
         { "button": "⧉（短按）", "action": "打开 Steam 菜单¹" },
@@ -51,13 +51,15 @@
     },
     "mouseMode": {
       "title": "手柄鼠标模式",
-      "description": "把手柄变成鼠标与键盘。两种对应方式 — OmniNav 或 Classic。下表为 OmniNav。",
+      "description": "把手柄变成鼠标与键盘。两种对应方式 — OmniNav 或 Classic。下表为 OmniNav，仅列常用按键，完整对照点下方链接。",
       "imageAlt": "Xbox 手柄示意图，左摇杆控制笔记本光标、A 键作为鼠标左键",
       "rows": [
         { "button": "左摇杆", "action": "光标" },
         { "button": "右摇杆", "action": "滚轮" },
         { "button": "A", "action": "鼠标左键" },
         { "button": "B", "action": "鼠标右键" },
+        { "button": "X", "action": "Page Down" },
+        { "button": "Y", "action": "Page Up" },
         { "button": "方向键", "action": "方向键" }
       ],
       "footnote": "三种状态：关闭 · 自动（Edge、Chrome、Firefox、Opera、Brave、Epic Games Store、文件资源管理器、Steam）· 强制开启。ROG Ally 家族自动禁用。"
