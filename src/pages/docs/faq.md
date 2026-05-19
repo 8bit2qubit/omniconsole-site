@@ -6,7 +6,7 @@ description: Common questions about OmniConsole.
 
 ## How is OmniConsole licensed?
 
-OmniConsole is open source under [**GPL-3.0**](https://github.com/8bit2qubit/OmniConsole/blob/main/LICENSE).
+OmniConsole is licensed under [**PolyForm Noncommercial 1.0.0**](https://github.com/8bit2qubit/OmniConsole/blob/main/LICENSE).
 
 ## Does OmniConsole replace the Xbox App?
 
@@ -32,6 +32,6 @@ Yes — OmniConsole checks for GitHub releases and can download and install upda
 
 Always change the FSE Home App to **Xbox** or **None** *before* uninstalling. See [How to Revert](/omniconsole-site/docs/revert).
 
-## Where can I report bugs or request features?
+## Where can I report bugs?
 
 Open an issue at [github.com/8bit2qubit/OmniConsole/issues](https://github.com/8bit2qubit/OmniConsole/issues).

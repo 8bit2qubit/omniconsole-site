@@ -148,11 +148,11 @@
     "langList": "English · 繁體中文 · 简体中文"
   },
   "footer": {
-    "tagline": "以 GPL-3.0 授權的開放原始碼軟體。",
+    "tagline": "採 PolyForm Noncommercial 1.0.0 授權。",
     "nav": "網站",
     "project": "專案",
     "legal": "法律",
-    "license": "授權條款（GPL-3.0）",
+    "license": "授權條款（PolyForm NC 1.0.0）",
     "madeBy": "作者"
   },
   "docs": {

@@ -148,11 +148,11 @@
     "langList": "English · 繁體中文 · 简体中文"
   },
   "footer": {
-    "tagline": "Open source under GPL-3.0.",
+    "tagline": "Licensed under PolyForm Noncommercial 1.0.0.",
     "nav": "Site",
     "project": "Project",
     "legal": "Legal",
-    "license": "License (GPL-3.0)",
+    "license": "License (PolyForm NC 1.0.0)",
     "madeBy": "Made by"
   },
   "docs": {

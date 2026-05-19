@@ -148,11 +148,11 @@
     "langList": "English · 繁體中文 · 简体中文"
   },
   "footer": {
-    "tagline": "采用 GPL-3.0 许可的开源软件。",
+    "tagline": "采用 PolyForm Noncommercial 1.0.0 许可证。",
     "nav": "网站",
     "project": "项目",
     "legal": "法律",
-    "license": "许可证（GPL-3.0）",
+    "license": "许可证（PolyForm NC 1.0.0）",
     "madeBy": "作者"
   },
   "docs": {
