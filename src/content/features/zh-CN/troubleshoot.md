@@ -6,4 +6,4 @@ order: 9
 locale: zh-CN
 ---
 
-FSE 紧急修复 — 结束 Game Bar 并绕过 FSE 确认对话框，直接进入 FSE。
+FSE 修复专用页面 — 重新启动 Game Bar 修复“重新启动以提升性能”对话框未出现等问题，再进入 FSE。

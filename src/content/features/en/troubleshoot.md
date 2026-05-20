@@ -6,4 +6,4 @@ order: 9
 locale: en
 ---
 
-Emergency FSE recovery — terminates Game Bar and enters FSE directly, bypassing the confirmation dialog.
+A dedicated FSE recovery page — restarts Game Bar to fix issues such as the "Restart for better performance" dialog not appearing, then enters FSE.

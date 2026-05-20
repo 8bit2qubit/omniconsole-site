@@ -6,4 +6,4 @@ order: 15
 locale: zh-TW
 ---
 
-透過 Windows 11 全螢幕體驗 API 登記為首頁應用程式 — 遵循 FSE 原生設計。
+透過 Windows 11 Xbox 模式 (FSE) 官方 API 註冊為主畫面應用程式。

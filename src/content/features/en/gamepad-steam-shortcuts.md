@@ -6,4 +6,4 @@ order: 13
 locale: en
 ---
 
-Gamepad ⧉ button for Steam Big Picture — short press opens Steam Menu, long press opens Quick Access Menu. Long press ☰ in-game opens Steam Overlay.
+The ⧉ button controls Steam Big Picture menus — short press opens the main menu, long press opens Quick Access. In-game, long press ☰ to open the in-game overlay.

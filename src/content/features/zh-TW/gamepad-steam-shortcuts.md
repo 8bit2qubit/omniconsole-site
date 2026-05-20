@@ -6,4 +6,4 @@ order: 13
 locale: zh-TW
 ---
 
-Steam Big Picture 的 ⧉ 按鍵：短按開啟 Steam 選單，長按喚出快速存取選單。長按 ☰ 在遊戲中開啟 Steam 遊戲內嵌介面。
+在 Steam Big Picture 中以 ⧉ 按鍵操控選單 — 短按開啟主選單，長按喚出快速存取選單。遊戲中長按 ☰ 開啟遊戲內嵌介面。

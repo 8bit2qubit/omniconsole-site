@@ -6,4 +6,4 @@ order: 15
 locale: zh-CN
 ---
 
-通过 Windows 11 全屏体验 API 注册为主页应用 — 遵循 FSE 原生设计。
+通过 Windows 11 Xbox 模式 (FSE) 官方 API 注册为主应用。

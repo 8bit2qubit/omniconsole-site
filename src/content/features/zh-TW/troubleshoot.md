@@ -6,4 +6,4 @@ order: 9
 locale: zh-TW
 ---
 
-FSE 緊急修復 — 結束 Game Bar 並繞過 FSE 確認對話方塊，直接進入 FSE。
+FSE 修復專用頁面 — 重新啟動 Game Bar 修復「重新啟動以提升效能」對話方塊未出現等問題，再進入 FSE。

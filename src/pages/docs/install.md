@@ -39,14 +39,14 @@ OmniConsole shows its Settings UI on **first launch** and **after updates**. You
 
 ## 4. [Critical] Set as FSE Home App
 
-1. Open **Settings → Gaming → Full Screen Experience**.
+1. Open **Settings → Gaming → Xbox Mode (FSE)**.
 2. Set **Choose home app** to **OmniConsole**.
-3. Enable **Enter full screen experience on startup**.
+3. Enable **Enter Xbox mode (FSE) on startup**.
 
 ## 5. Done
 
 Your gaming platform now launches via any of these entry points:
 
-- **Boot** — auto-launches into your configured platform (requires "Enter full screen experience on startup" enabled).
+- **Boot** — auto-launches into your configured platform (requires "Enter Xbox mode (FSE) on startup" enabled).
 - **Xbox button** — open Game Bar, pick **Home** to launch your platform, or **Library** to open OmniConsole settings.
 - **Start Menu** — launch OmniConsole from the desktop; FSE is triggered automatically before the platform starts.

@@ -6,4 +6,4 @@ order: 15
 locale: en
 ---
 
-Registers as a Windows 11 Full Screen Experience Home App via the FSE API — follows the native FSE design.
+Registered as a Windows 11 Xbox Mode (FSE) Home App through the official API.

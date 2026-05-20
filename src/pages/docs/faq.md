@@ -10,15 +10,15 @@ OmniConsole is licensed under [**PolyForm Noncommercial 1.0.0**](https://github.
 
 ## Does OmniConsole replace the Xbox App?
 
-No. OmniConsole registers as the **FSE Home App** using the official Windows API — the same mechanism Microsoft uses for the Xbox App. The Xbox App continues to work normally as a Windows app, and you can still set it as your launch target inside OmniConsole.
+No. OmniConsole registers as the **Xbox Mode (FSE) Home App** using the official Windows API — the same mechanism Microsoft uses for the Xbox App. The Xbox App continues to work normally as a Windows app, and you can still set it as your launch target inside OmniConsole.
 
 ## Do I need to be on a handheld?
 
-No. OmniConsole runs on any Windows 11 PC. Desktops, laptops, and tablets use [**XFSET**](https://github.com/8bit2qubit/XboxFullScreenExperienceTool) to enable FSE first; native handhelds (ROG Xbox Ally, etc.) support FSE out of the box.
+No. OmniConsole runs on any Windows 11 PC. Desktops, laptops, and tablets use [**XFSET**](https://github.com/8bit2qubit/XboxFullScreenExperienceTool) to enable Xbox Mode (FSE) first; native handhelds (ROG Xbox Ally X, etc.) support Xbox Mode (FSE) out of the box.
 
 ## Do I need an Xbox controller?
 
-Windows 11 Game Bar, FSE navigation, and the Xbox button flow all require an **XInput-compatible controller with an Xbox button**.
+Windows 11 Game Bar, Xbox Mode (FSE) navigation, and the Xbox button flow all require an **XInput-compatible controller with an Xbox button**.
 
 ## Can I add my own platform?
 
@@ -30,7 +30,7 @@ Yes — OmniConsole checks for GitHub releases and can download and install upda
 
 ## How do I uninstall safely?
 
-Always change the FSE Home App to **Xbox** or **None** *before* uninstalling. See [How to Revert](/omniconsole-site/docs/revert).
+Always change the Xbox Mode (FSE) Home App to **Xbox** or **None** *before* uninstalling. See [How to Revert](/omniconsole-site/docs/revert).
 
 ## Where can I report bugs?
 

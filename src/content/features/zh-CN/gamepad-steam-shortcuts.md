@@ -6,4 +6,4 @@ order: 13
 locale: zh-CN
 ---
 
-Steam Big Picture 的 ⧉ 按键：短按打开 Steam 菜单，长按唤出快速访问菜单。长按 ☰ 在游戏中打开 Steam 游戏叠加界面。
+在 Steam Big Picture 中以 ⧉ 按键操控菜单 — 短按打开主菜单，长按唤出快速访问菜单。游戏中长按 ☰ 打开游戏叠加界面。

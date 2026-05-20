@@ -4,7 +4,7 @@ title: Prerequisites
 description: What you need before installing OmniConsole.
 ---
 
-Before installing OmniConsole, enable the Windows 11 **Full Screen Experience (FSE)** feature.
+Before installing OmniConsole, enable the Windows 11 **Xbox Mode (FSE)** feature.
 
 ## Desktops / Laptops / Tablets / Non-native Handhelds
 

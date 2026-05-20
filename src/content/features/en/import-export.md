@@ -6,4 +6,4 @@ order: 5
 locale: en
 ---
 
-Share custom platform configurations as JSON. Right-click or long-press a card to export; use the Import button to restore.
+Share custom platform configurations as JSON. Right-click or long-press a card to export; use the Import button to import shared configurations.

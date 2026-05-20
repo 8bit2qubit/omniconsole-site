@@ -4,7 +4,7 @@ title: 前置条件
 description: 安装 OmniConsole 之前需要准备的项目。
 ---
 
-在安装 OmniConsole 之前，请先启用 Windows 11 的**全屏体验（FSE）** 功能。
+在安装 OmniConsole 之前，请先启用 Windows 11 的 **Xbox 模式 (FSE)** 功能。
 
 ## 台式机 / 笔记本 / 平板 / 未内置 FSE 的掌机
 

@@ -1,20 +1,20 @@
 ---
 layout: ../../layouts/DocsLayout.astro
 title: Troubleshooting
-description: Recover from FSE issues on Windows 11.
+description: Recover from Xbox Mode (FSE) issues on Windows 11.
 ---
 
-## FSE entry dialog does not appear
+## Xbox Mode (FSE) entry dialog does not appear
 
-On some Windows builds the FSE entry dialog ("Restart for better performance") fails to appear. OmniConsole provides an emergency bypass:
+On some Windows builds the "Restart for better performance" dialog fails to appear when entering Xbox Mode (FSE). OmniConsole provides a recovery action:
 
 1. Open **OmniConsole Settings** from the Start Menu.
 2. Switch to the **Troubleshoot** tab in the left menu.
-3. Next to **Terminate Game Bar & Enter FSE**, click **Run**. This force-closes Game Bar and enters FSE directly, bypassing the confirmation dialog. Some Windows builds may still show a confirmation dialog.
+3. Next to **Restart Game Bar & Enter Xbox Mode (FSE)**, click **Run**. This restarts Game Bar and enters Xbox Mode (FSE); once Game Bar is restarted, the dialog appears as expected.
 
 ## OmniConsole does not launch my platform
 
-1. Confirm OmniConsole is set as the **FSE Home App** in **Settings → Gaming → Full Screen Experience**.
+1. Confirm OmniConsole is set as the **Xbox Mode (FSE) Home App** in **Settings → Gaming → Xbox Mode (FSE)**.
 2. Open **OmniConsole Settings** from the Start Menu and verify your default platform is selected.
 3. Make sure the selected platform is installed. Steam Big Picture requires Steam; Xbox App requires the Xbox app, etc.
 
