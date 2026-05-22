@@ -6,6 +6,8 @@ description: OmniConsole 完整手把按鍵對照。
 
 OmniConsole 完整支援 **Xbox 相容（XInput）控制器**操作。
 
+在手把上按 **Xbox 鍵**可開啟 **Game Bar** 介面，長按則開啟**工作檢視**。
+
 ## 設定介面
 
 | 輸入 | 動作 |
@@ -41,7 +43,7 @@ OmniConsole 完整支援 **Xbox 相容（XInput）控制器**操作。
 ### 三種狀態
 
 - **關閉** — 停用。
-- **自動** — 於 Edge、Chrome、Firefox、Opera、Brave、Epic Games Store、檔案總管、Steam 啟用。
+- **自動** — 於 Edge、Chrome、Firefox、Opera、Brave、Epic Games Store、檔案總管、Steam、Discord 啟用。
 - **強制開啟** — 於所有應用程式啟用。
 
 可於 OmniCharm Game Bar 小工具切換。ROG Ally 家族自動停用手把滑鼠模式 — 裝置具備內建手把映射。
@@ -56,6 +58,28 @@ OmniConsole 完整支援 **Xbox 相容（XInput）控制器**操作。
 
 ¹ 於 Steam Big Picture 中　² 遊戲中　³ 可於 OmniCharm Game Bar 小工具切換
 
+## 貓又 — 各程式手把映射
+
+有些遊戲只認鍵盤與滑鼠，沒有原生手把操作。貓又為這類程式編一道咒，將每個 XInput 輸入位（A/B/X/Y、LB/RB、LT/RT、LS/RS、十字鍵、左搖桿、右搖桿）重新映射為鍵盤、滑鼠或游標動作，讓它們也能純手把遊玩。
+
+於 OmniCharm 小工具點選 **「自訂此程式的手把映射…」** 進入編輯器。
+
+### 可映射的目標
+
+| 類別 | 目標 |
+|---|---|
+| 字母 | A–Z |
+| 數字 | 0–9 |
+| 功能鍵 | F1–F24 |
+| 編輯／導覽鍵 | Insert、Delete、Home、End、Page Up、Page Down、方向鍵 |
+| 控制鍵 | Enter、Esc、Tab、Backspace、Space、PrtSc、Pause、Caps Lock、Apps |
+| 符號鍵 | ` - = [ ] \ ; ' , . / |
+| 數字鍵盤 | Numpad 0–9，以及 . + - * / |
+| 媒體鍵 | 音量、播放控制、瀏覽器鍵、啟動鍵 |
+| 修飾鍵組合 | Ctrl / Shift / Alt / Win + 按鍵 |
+| 滑鼠 | 左／右／中鍵、滾輪、游標移動、捲動 |
+| 方向 | 方向鍵、WASD |
+
 ## OmniCharm 小工具
 
 OmniCharm Game Bar 小工具提供遊戲中的快速存取：
@@ -63,4 +87,4 @@ OmniCharm Game Bar 小工具提供遊戲中的快速存取：
 - **工作檢視**、**Xbox 媒體櫃**與 **Steam 內嵌介面**的一鍵捷徑。
 - 切換**長按 ☰** 開啟 Steam 遊戲內嵌介面。
 - 切換**手把滑鼠模式**、變更控制器版面（**OmniNav / Classic**）、調整游標速度。
-- 為目前前景的應用程式開啟 **Nekomata** 各程式手把映射編輯器。
+- 透過 **「自訂此程式的手把映射…」** 按鈕，為前景程式開啟**貓又**各程式手把映射編輯器。

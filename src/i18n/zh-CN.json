@@ -13,7 +13,7 @@
   "hero": {
     "eyebrow": "Windows 11 Xbox 模式 (FSE) 主页",
     "title": "开机直达，你的游戏平台。",
-    "subtitle": "开机直达你配置的平台，随时通过 Game Bar 的“库”切换 — Steam、Xbox、Epic、Armoury Crate SE 或 Playnite。",
+    "subtitle": "开机直达你配置的平台，随时通过 Game Bar 的“库”切换 — Steam、Xbox、Epic、Armoury Crate SE、Playnite，或你自行添加。",
     "ctaDownload": "下载最新版",
     "ctaGitHub": "前往 GitHub",
     "screenshotAlt1": "OmniConsole 设置界面，以卡片网格显示已安装的游戏平台",
@@ -23,7 +23,10 @@
   },
   "what": {
     "title": "OmniConsole 是什么？",
-    "body": "OmniConsole 在 PC 与掌机（ROG Xbox Ally X 等）上作为你的 Windows 11 Xbox 模式 (FSE) 主页外壳，并提供 OmniCharm Game Bar 小组件、鼠标模式、Steam 快捷键与猫又的各应用手柄映射，让一切操作都不离手柄。只要触发 Xbox 模式 (FSE)，OmniConsole 就会自动启动你配置的游戏平台。任何平台都能当你的 Xbox 模式 (FSE) 主页 — Steam、Xbox、Epic、Armoury Crate SE、Playnite，或你自行添加的平台。",
+    "body": [
+      "OmniConsole 在 PC 与掌机（ROG Xbox Ally X 等）上作为你的 Windows 11 Xbox 模式 (FSE) 主页外壳，并提供 OmniCharm Game Bar 小组件、鼠标模式、Steam 快捷键与猫又的各应用手柄映射，让一切操作都不离手柄。",
+      "只要触发 Xbox 模式 (FSE)，OmniConsole 就会自动启动你配置的游戏平台。任何平台都能当你的 Xbox 模式 (FSE) 主页 — Steam、Xbox、Epic、Armoury Crate SE、Playnite，或你自行添加的平台。"
+    ],
     "flowTitle": "工作方式",
     "entries": [
       { "title": "开机", "body": "开机自动进入配置的平台（需启用“启动时进入 Xbox 模式 (FSE)”）。" },

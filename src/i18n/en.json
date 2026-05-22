@@ -13,7 +13,7 @@
   "hero": {
     "eyebrow": "Windows 11 Xbox Mode (FSE) Home",
     "title": "Your Gaming Platform, On Boot.",
-    "subtitle": "Boot into your configured platform, switch anytime via \"Library\" in Game Bar — Steam, Xbox, Epic, Armoury Crate SE, or Playnite.",
+    "subtitle": "Boot into your configured platform, switch anytime via \"Library\" in Game Bar — Steam, Xbox, Epic, Armoury Crate SE, Playnite, or anything you add.",
     "ctaDownload": "Download Latest",
     "ctaGitHub": "View on GitHub",
     "screenshotAlt1": "OmniConsole Settings card grid showing installed gaming platforms",
@@ -23,7 +23,10 @@
   },
   "what": {
     "title": "What is OmniConsole?",
-    "body": "OmniConsole runs as the Windows 11 Xbox Mode (FSE) Home shell on PCs and handhelds (ROG Xbox Ally X, etc.), with an OmniCharm Game Bar widget, Mouse Mode, Steam shortcuts, and Nekomata per-app gamepad mapping so everything stays on the gamepad. Whenever Xbox Mode (FSE) activates, OmniConsole launches your configured gaming platform. Any platform can be your Xbox Mode (FSE) Home — Steam, Xbox, Epic, Armoury Crate SE, Playnite, or anything you add.",
+    "body": [
+      "OmniConsole runs as the Windows 11 Xbox Mode (FSE) Home shell on PCs and handhelds (ROG Xbox Ally X, etc.), with an OmniCharm Game Bar widget, Mouse Mode, Steam shortcuts, and Nekomata per-app gamepad mapping so everything stays on the gamepad.",
+      "Whenever Xbox Mode (FSE) activates, OmniConsole launches your configured gaming platform. Any platform can be your Xbox Mode (FSE) Home — Steam, Xbox, Epic, Armoury Crate SE, Playnite, or anything you add."
+    ],
     "flowTitle": "How It Works",
     "entries": [
       { "title": "Boot", "body": "Auto-launch into your configured platform (requires \"Enter Xbox mode (FSE) on startup\" enabled)." },
