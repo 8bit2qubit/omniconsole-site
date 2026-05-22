@@ -12,7 +12,7 @@
   },
   "hero": {
     "eyebrow": "Windows 11 Xbox Mode (FSE) Home",
-    "title": "Your Gaming Platform, On Boot.",
+    "title": "Your Gaming Platform, On Boot.",
     "subtitle": "Boot into your configured platform, switch anytime via \"Library\" in Game Bar — Steam, Xbox, Epic, Armoury Crate SE, Playnite, or anything you add.",
     "ctaDownload": "Download Latest",
     "ctaGitHub": "View on GitHub",
@@ -140,7 +140,14 @@
       "OmniConsoleInstaller.ps1 — PowerShell script invoked by Install.bat",
       "README.txt — installation notes in English and Traditional Chinese"
     ],
-    "fetchError": "Unable to fetch the latest release at build time. Please visit the GitHub releases page directly."
+    "fetchError": "Unable to fetch the latest release at build time. Please visit the GitHub releases page directly.",
+    "nextSteps": {
+      "title": "After downloading",
+      "install": "Step-by-step setup on Windows 11.",
+      "prerequisites": "Check that your device meets the requirements first.",
+      "gamepad": "Full gamepad button mapping.",
+      "faq": "Answers to common questions."
+    }
   },
   "stack": {
     "title": "Tech Stack",

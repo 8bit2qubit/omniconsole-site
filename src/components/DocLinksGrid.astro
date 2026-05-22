@@ -1,0 +1,62 @@
+---
+import { Icon } from "astro-icon/components";
+import { getLocaleFromUrl, useTranslations } from "../i18n/utils";
+import { withLocale } from "../i18n/utils";
+
+const locale = Astro.currentLocale ?? getLocaleFromUrl(Astro.url);
+const t = useTranslations(locale);
+const base = import.meta.env.BASE_URL;
+const ns = t.download.nextSteps;
+
+const links = [
+  {
+    icon: "lucide:list-checks",
+    title: t.docs.nav.prerequisites,
+    desc: ns.prerequisites,
+    href: withLocale("/docs/prerequisites", locale, base),
+  },
+  {
+    icon: "lucide:download",
+    title: t.docs.nav.install,
+    desc: ns.install,
+    href: withLocale("/docs/install", locale, base),
+  },
+  {
+    icon: "lucide:gamepad-2",
+    title: t.docs.nav.gamepad,
+    desc: ns.gamepad,
+    href: withLocale("/docs/gamepad", locale, base),
+  },
+  {
+    icon: "lucide:circle-help",
+    title: t.docs.nav.faq,
+    desc: ns.faq,
+    href: withLocale("/docs/faq", locale, base),
+  },
+];
+---
+<div class="mx-auto mt-16 max-w-4xl">
+  <h2 class="text-center text-xl font-semibold text-fg">{ns.title}</h2>
+  <div class="mt-6 grid gap-4 sm:grid-cols-2">
+    {links.map((link) => (
+      <a
+        href={link.href}
+        class="card group flex items-start gap-4 transition-colors hover:border-accent/50"
+      >
+        <div class="inline-flex shrink-0 rounded-lg bg-accent/10 p-2.5 text-accent">
+          <Icon name={link.icon} class="h-5 w-5" />
+        </div>
+        <div class="min-w-0">
+          <h3 class="flex items-center gap-1 text-base font-semibold text-fg">
+            {link.title}
+            <Icon
+              name="lucide:arrow-right"
+              class="h-4 w-4 text-fg-subtle transition-transform group-hover:translate-x-0.5 group-hover:text-accent"
+            />
+          </h3>
+          <p class="mt-1 text-sm leading-relaxed text-fg-muted">{link.desc}</p>
+        </div>
+      </a>
+    ))}
+  </div>
+</div>

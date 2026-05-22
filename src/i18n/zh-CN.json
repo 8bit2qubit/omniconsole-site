@@ -140,7 +140,14 @@
       "OmniConsoleInstaller.ps1 — 由 Install.bat 调用的 PowerShell 脚本",
       "README.txt — 英文与繁体中文安装说明"
     ],
-    "fetchError": "构建时无法获取最新版本信息，请直接访问 GitHub Releases 页面。"
+    "fetchError": "构建时无法获取最新版本信息，请直接访问 GitHub Releases 页面。",
+    "nextSteps": {
+      "title": "下载之后",
+      "install": "Windows 11 上的逐步安装说明。",
+      "prerequisites": "安装前先确认设备符合要求。",
+      "gamepad": "完整的手柄按键对照。",
+      "faq": "常见问题的解答。"
+    }
   },
   "stack": {
     "title": "技术栈",
