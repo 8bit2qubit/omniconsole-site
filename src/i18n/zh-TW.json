@@ -28,12 +28,12 @@
     "entries": [
       { "title": "開機", "body": "開機自動進入設定的平台（需啟用「啟動時進入 Xbox 模式 (FSE)」）。" },
       { "title": "Xbox 鍵", "body": "開啟 Game Bar，選「首頁」啟動平台，或選「媒體櫃」開啟 OmniConsole 設定。" },
-      { "title": "開始功能表", "body": "從桌面啟動 OmniConsole，自動觸發 FSE 後再啟動平台。" }
+      { "title": "開始功能表", "body": "從桌面啟動 OmniConsole，自動觸發 Xbox 模式 (FSE) 後再啟動平台。" }
     ],
-    "decisionInFse": "已在 FSE",
-    "decisionOutFse": "未在 FSE",
+    "decisionInFse": "已在 Xbox 模式 (FSE)",
+    "decisionOutFse": "未在 Xbox 模式 (FSE)",
     "resultInFse": "啟動設定的平台",
-    "resultOutFse": "觸發 FSE 對話方塊 → 於 FSE 中重啟 → 啟動設定的平台"
+    "resultOutFse": "觸發 Xbox 模式 (FSE) 對話方塊 → 於 Xbox 模式 (FSE) 中重啟 → 啟動設定的平台"
   },
   "gamepadHighlights": {
     "sectionTitle": "手把優先設計",
@@ -84,17 +84,17 @@
     "title": "前置條件",
     "subtitle": "安裝 OmniConsole 前，先啟用 Windows 11 Xbox 模式 (FSE)。",
     "desktop": {
-      "title": "桌機 / 筆電 / 平板 / 非原生 FSE 掌機",
-      "body": "先使用 Xbox Full Screen Experience Tool 啟用 FSE。",
+      "title": "桌機 / 筆電 / 平板 / 非原生 Xbox 模式 (FSE) 掌機",
+      "body": "先使用 Xbox Full Screen Experience Tool 啟用 Xbox 模式 (FSE)。",
       "cta": "前往 XFSET 儲存庫"
     },
     "native": {
-      "title": "原生 FSE 掌機",
-      "body": "ROG Xbox Ally 系列等裝置已內建 FSE，可直接安裝 OmniConsole。"
+      "title": "原生 Xbox 模式 (FSE) 掌機",
+      "body": "ROG Xbox Ally 系列等裝置已內建 Xbox 模式 (FSE)，可直接安裝 OmniConsole。"
     },
     "controller": {
       "title": "需要 Xbox 手把",
-      "body": "Game Bar、FSE 與所有手把功能皆需具備 Xbox 鍵的 XInput 相容手把。"
+      "body": "Game Bar、Xbox 模式 (FSE) 與所有手把功能皆需具備 Xbox 鍵的 XInput 相容手把。"
     }
   },
   "quickStart": {
@@ -135,7 +135,7 @@
       "Dependencies\\ — 相依框架套件（VCLibs、Windows App Runtime），全新／離線系統需要",
       "Install.bat — 一鍵安裝程式（推薦）",
       "OmniConsoleInstaller.ps1 — 由 Install.bat 呼叫的 PowerShell 指令碼",
-      "README.txt — 雙語安裝說明"
+      "README.txt — 英文與繁體中文安裝說明"
     ],
     "fetchError": "建置時無法取得最新版本資訊，請直接前往 GitHub Releases 頁面。"
   },

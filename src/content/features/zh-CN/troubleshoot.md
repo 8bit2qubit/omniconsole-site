@@ -6,4 +6,4 @@ order: 9
 locale: zh-CN
 ---
 
-FSE 修复专用页面 — 重新启动 Game Bar 修复“重新启动以提升性能”对话框未出现等问题，再进入 FSE。
+Xbox 模式 (FSE) 修复专用页面 — 重新启动 Game Bar 修复“重新启动以提升性能”对话框未出现等问题，再进入 Xbox 模式 (FSE)。

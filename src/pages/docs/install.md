@@ -37,7 +37,7 @@ OmniConsole shows its Settings UI on **first launch** and **after updates**. You
    - Playnite Fullscreen
 3. Press **B** or click **Exit** to finish. Selection saves automatically.
 
-## 4. [Critical] Set as FSE Home App
+## 4. [Critical] Set as Xbox Mode (FSE) Home App
 
 1. Open **Settings → Gaming → Xbox Mode (FSE)**.
 2. Set **Choose home app** to **OmniConsole**.
@@ -49,4 +49,4 @@ Your gaming platform now launches via any of these entry points:
 
 - **Boot** — auto-launches into your configured platform (requires "Enter Xbox mode (FSE) on startup" enabled).
 - **Xbox button** — open Game Bar, pick **Home** to launch your platform, or **Library** to open OmniConsole settings.
-- **Start Menu** — launch OmniConsole from the desktop; FSE is triggered automatically before the platform starts.
+- **Start Menu** — launch OmniConsole from the desktop; Xbox Mode (FSE) is triggered automatically before the platform starts.

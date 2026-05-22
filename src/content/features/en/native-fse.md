@@ -1,5 +1,5 @@
 ---
-title: Native FSE Integration
+title: Native Xbox Mode (FSE) Integration
 icon: lucide:monitor-check
 category: core
 order: 15

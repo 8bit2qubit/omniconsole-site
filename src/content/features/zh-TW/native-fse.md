@@ -1,5 +1,5 @@
 ---
-title: 原生 FSE 整合
+title: 原生 Xbox 模式 (FSE) 整合
 icon: lucide:monitor-check
 category: core
 order: 15

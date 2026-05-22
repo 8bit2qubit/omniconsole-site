@@ -16,7 +16,7 @@ OmniConsole is fully operable with an **Xbox-compatible (XInput) controller**.
 | **LB / RB** | Switch category tabs |
 | **Y** | Add custom platform (on Custom Platforms tab) |
 | **X** | Edit focused custom platform (on Custom Platforms tab) |
-| **☰ (Menu)** | Set focused platform as default and launch it (in FSE mode) |
+| **☰ (Menu)** | Set focused platform as default and launch it (in Xbox Mode (FSE)) |
 
 ## Gamepad Mouse Mode
 
@@ -63,3 +63,4 @@ The OmniCharm Game Bar widget gives you in-game quick access to:
 - **Task View**, the **Xbox Library**, and the **Steam Overlay** as one-tap shortcuts.
 - Toggling **long-press ☰** to open the Steam In-Game Overlay.
 - Toggling **Gamepad Mouse Mode**, switching controller layout (**OmniNav / Classic**), and adjusting cursor speed.
+- Opening the **Nekomata** per-app gamepad mapping editor for the current foreground app.

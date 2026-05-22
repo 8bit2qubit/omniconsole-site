@@ -28,12 +28,12 @@
     "entries": [
       { "title": "Boot", "body": "Auto-launch into your configured platform (requires \"Enter Xbox mode (FSE) on startup\" enabled)." },
       { "title": "Xbox Button", "body": "Opens Game Bar — pick \"Home\" to launch the platform, or \"Library\" to open OmniConsole settings." },
-      { "title": "Start Menu", "body": "Launch OmniConsole from the desktop; FSE is triggered automatically before the platform starts." }
+      { "title": "Start Menu", "body": "Launch OmniConsole from the desktop; Xbox Mode (FSE) is triggered automatically before the platform starts." }
     ],
-    "decisionInFse": "Already in FSE",
-    "decisionOutFse": "Outside FSE",
+    "decisionInFse": "Already in Xbox Mode (FSE)",
+    "decisionOutFse": "Outside Xbox Mode (FSE)",
     "resultInFse": "Launch configured platform",
-    "resultOutFse": "Trigger FSE dialog → Re-launch in FSE → Launch configured platform"
+    "resultOutFse": "Trigger Xbox Mode (FSE) dialog → Re-launch in Xbox Mode (FSE) → Launch configured platform"
   },
   "gamepadHighlights": {
     "sectionTitle": "Gamepad-First Design",
@@ -85,16 +85,16 @@
     "subtitle": "Before installing OmniConsole, enable Windows 11 Xbox Mode (FSE).",
     "desktop": {
       "title": "Desktops / Laptops / Tablets / Non-native Handhelds",
-      "body": "Use Xbox Full Screen Experience Tool to enable FSE first.",
+      "body": "Use Xbox Full Screen Experience Tool to enable Xbox Mode (FSE) first.",
       "cta": "Open XFSET repository"
     },
     "native": {
-      "title": "Native FSE Handheld Devices",
-      "body": "Devices like the ROG Xbox Ally series support FSE out of the box. Install OmniConsole directly."
+      "title": "Native Xbox Mode (FSE) Handheld Devices",
+      "body": "Devices like the ROG Xbox Ally series support Xbox Mode (FSE) out of the box. Install OmniConsole directly."
     },
     "controller": {
       "title": "Xbox Controller Required",
-      "body": "Game Bar, FSE, and gamepad features all require an Xbox-compatible (XInput) controller with an Xbox button."
+      "body": "Game Bar, Xbox Mode (FSE), and gamepad features all require an Xbox-compatible (XInput) controller with an Xbox button."
     }
   },
   "quickStart": {
@@ -109,7 +109,7 @@
       "body": "Open OmniConsole Settings, pick Steam Big Picture / Xbox / Epic / Armoury Crate SE / Playnite, or add a custom one."
     },
     "step3": {
-      "title": "Set as FSE Home App",
+      "title": "Set as Xbox Mode (FSE) Home App",
       "body": "Windows Settings → Gaming → Xbox Mode (FSE) → Choose home app → OmniConsole. Enable \"Enter Xbox mode (FSE) on startup\"."
     },
     "step4": {
@@ -135,7 +135,7 @@
       "Dependencies\\ — framework packages (VCLibs, Windows App Runtime) for fresh/offline systems",
       "Install.bat — one-click installer (recommended)",
       "OmniConsoleInstaller.ps1 — PowerShell script invoked by Install.bat",
-      "README.txt — bilingual installation notes"
+      "README.txt — installation notes in English and Traditional Chinese"
     ],
     "fetchError": "Unable to fetch the latest release at build time. Please visit the GitHub releases page directly."
   },

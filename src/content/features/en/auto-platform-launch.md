@@ -6,4 +6,4 @@ order: 1
 locale: en
 ---
 
-Your configured gaming platform starts automatically whenever FSE activates — straight to play, zero extra steps.
+Your configured gaming platform starts automatically whenever Xbox Mode (FSE) activates — straight to play, zero extra steps.

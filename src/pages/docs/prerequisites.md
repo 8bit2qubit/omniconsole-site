@@ -8,12 +8,12 @@ Before installing OmniConsole, enable the Windows 11 **Xbox Mode (FSE)** feature
 
 ## Desktops / Laptops / Tablets / Non-native Handhelds
 
-Use the [**Xbox Full Screen Experience Tool (XFSET)**](https://github.com/8bit2qubit/XboxFullScreenExperienceTool) to enable FSE first.
+Use the [**Xbox Full Screen Experience Tool (XFSET)**](https://github.com/8bit2qubit/XboxFullScreenExperienceTool) to enable Xbox Mode (FSE) first.
 
-## Native FSE Handheld Devices
+## Native Xbox Mode (FSE) Handheld Devices
 
-Devices like the **ROG Xbox Ally** series support FSE out of the box. Install OmniConsole directly — no XFSET needed.
+Devices like the **ROG Xbox Ally** series support Xbox Mode (FSE) out of the box. Install OmniConsole directly — no XFSET needed.
 
 ## Xbox Controller Required
 
-Game Bar, FSE, and all gamepad features require an **Xbox-compatible (XInput) controller with an Xbox button**.
+Game Bar, Xbox Mode (FSE), and all gamepad features require an **Xbox-compatible (XInput) controller with an Xbox button**.
