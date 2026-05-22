@@ -14,7 +14,7 @@ On some Windows builds the "Restart for better performance" dialog fails to appe
 
 ## OmniConsole does not launch my platform
 
-1. Confirm OmniConsole is set as the **Xbox Mode (FSE) Home App** in **Settings → Gaming → Xbox Mode (FSE)**.
+1. Confirm OmniConsole is set as the **Xbox Mode (FSE) Home App** in **Settings → Gaming → Xbox mode (FSE)**.
 2. Open **OmniConsole Settings** from the Start Menu and verify your default platform is selected.
 3. Make sure the selected platform is installed. Steam Big Picture requires Steam; Xbox App requires the Xbox app, etc.
 

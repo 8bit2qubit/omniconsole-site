@@ -39,7 +39,7 @@ OmniConsole shows its Settings UI on **first launch** and **after updates**. You
 
 ## 4. [Critical] Set as Xbox Mode (FSE) Home App
 
-1. Open **Settings → Gaming → Xbox Mode (FSE)**.
+1. Open **Settings → Gaming → Xbox mode (FSE)**.
 2. Set **Choose home app** to **OmniConsole**.
 3. Enable **Enter Xbox mode (FSE) on startup**.
 

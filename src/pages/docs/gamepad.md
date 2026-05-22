@@ -38,7 +38,7 @@ Turn your controller into a mouse and keyboard. Two layouts are available: **Omn
 | RT | Enter | Right Click |
 | LS | Shift+Tab | — |
 | RS | Tab | — |
-| D-pad | Arrow Keys (hold to repeat) | Arrow Keys (hold to repeat) |
+| D-pad | Arrow Keys | Arrow Keys |
 
 ### Three states
 
@@ -71,14 +71,13 @@ Open the editor from the OmniCharm widget's **"Customize gamepad mapping for thi
 | Letters | A–Z |
 | Digits | 0–9 |
 | Function keys | F1–F24 |
-| Edit / navigation | Insert, Delete, Home, End, Page Up, Page Down, arrow keys |
+| Edit / navigation / directional | Insert, Delete, Home, End, Page Up, Page Down, arrow keys, WASD |
 | Control keys | Enter, Esc, Tab, Backspace, Space, PrtSc, Pause, Caps Lock, Apps |
 | Symbols | ` - = [ ] \ ; ' , . / |
 | Numpad | Numpad 0–9, and . + - * / |
 | Media keys | Volume, playback controls, browser keys, launch keys |
 | Modifier combo | Ctrl / Shift / Alt / Win + key |
 | Mouse | Left / right / middle button, scroll wheel, cursor movement, scrolling |
-| Directional | Arrow keys, WASD |
 
 ## OmniCharm Widget
 

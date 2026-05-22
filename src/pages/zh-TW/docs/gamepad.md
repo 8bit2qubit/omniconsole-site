@@ -38,7 +38,7 @@ OmniConsole 完整支援 **Xbox 相容（XInput）控制器**操作。
 | RT | Enter | 滑鼠右鍵 |
 | LS | Shift+Tab | — |
 | RS | Tab | — |
-| 方向鍵 | 方向鍵（長按連發） | 方向鍵（長按連發） |
+| 十字鍵 | 方向鍵 | 方向鍵 |
 
 ### 三種狀態
 
@@ -71,14 +71,13 @@ OmniConsole 完整支援 **Xbox 相容（XInput）控制器**操作。
 | 字母 | A–Z |
 | 數字 | 0–9 |
 | 功能鍵 | F1–F24 |
-| 編輯／導覽鍵 | Insert、Delete、Home、End、Page Up、Page Down、方向鍵 |
+| 編輯／導覽／方向鍵 | Insert、Delete、Home、End、Page Up、Page Down、方向鍵、WASD |
 | 控制鍵 | Enter、Esc、Tab、Backspace、Space、PrtSc、Pause、Caps Lock、Apps |
 | 符號鍵 | ` - = [ ] \ ; ' , . / |
 | 數字鍵盤 | Numpad 0–9，以及 . + - * / |
 | 媒體鍵 | 音量、播放控制、瀏覽器鍵、啟動鍵 |
 | 修飾鍵組合 | Ctrl / Shift / Alt / Win + 按鍵 |
 | 滑鼠 | 左／右／中鍵、滾輪、游標移動、捲動 |
-| 方向 | 方向鍵、WASD |
 
 ## OmniCharm 小工具
 

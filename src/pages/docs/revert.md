@@ -8,7 +8,7 @@ description: Safely remove OmniConsole from Windows 11.
 
 ## Steps
 
-1. Open **Settings → Gaming → Xbox Mode (FSE)**.
+1. Open **Settings → Gaming → Xbox mode (FSE)**.
 2. Set **Choose home app** to **Xbox** or **None**.
 3. Right-click **OmniConsole** in the Start Menu and select **Uninstall**, or go to **Settings → Apps → Installed apps**.
 4. Go to **Settings → Apps → Installed apps** and uninstall **OmniConsole OmniCharm** (the widget does not appear in the Start Menu).
