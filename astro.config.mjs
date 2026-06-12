@@ -9,7 +9,7 @@ export default defineConfig({
   integrations: [icon()],
   i18n: {
     defaultLocale: "en",
-    locales: ["en", "zh-TW", "zh-CN"],
+    locales: ["en", "zh-TW", "zh-CN", "es-ES"],
     routing: { prefixDefaultLocale: false },
   },
 });

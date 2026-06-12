@@ -1,0 +1,184 @@
+{
+  "site": {
+    "tagline": "Tu plataforma de juegos, lista al iniciar.",
+    "description": "OmniConsole convierte tu PC en una consola de juegos: arranca directamente en tu plataforma y cambia en cualquier momento a través de la Game Bar."
+  },
+  "nav": {
+    "features": "Características",
+    "gamepad": "Diseño enfocado en mando",
+    "download": "Descargar",
+    "docs": "Docs",
+    "github": "GitHub"
+  },
+  "hero": {
+    "eyebrow": "Inicio del Modo Xbox (FSE) de Windows 11",
+    "title": "Tu plataforma de juegos, lista al iniciar.",
+    "subtitle": "Arranca en la plataforma que hayas configurado y cambia en cualquier momento mediante la \"Biblioteca\" de la Game Bar: Steam, Xbox, Epic, Armoury Crate SE, Playnite o cualquier otra que añadas.",
+    "ctaDownload": "Descargar última versión",
+    "ctaGitHub": "Ver en GitHub",
+    "screenshotAlt1": "Cuadrícula de tarjetas de los Ajustes de OmniConsole que muestra las plataformas de juego instaladas",
+    "screenshotAlt2": "Widget de Game Bar OmniCharm con accesos directos de un solo toque a la Vista de tareas, la Biblioteca de Xbox y la interfaz superpuesta de Steam, además de selectores para el Modo ratón y la interfaz superpuesta en el juego de Steam",
+    "screenshotCaption1": "Ajustes de OmniConsole",
+    "screenshotCaption2": "Widget OmniCharm"
+  },
+  "what": {
+    "title": "¿Qué es OmniConsole?",
+    "body": [
+      "OmniConsole se ejecuta como la interfaz de inicio del Modo Xbox (FSE) de Windows 11 en PC y dispositivos portátiles (ROG Xbox Ally X, etc.), con un widget de Game Bar OmniCharm, Modo ratón, accesos directos de Steam y mapeo de mando personalizado por aplicación con Nekomata para que todo se controle desde el mando.",
+      "Cada vez que se activa el Modo Xbox (FSE), OmniConsole inicia la plataforma de juegos que hayas configurado. Cualquier plataforma puede ser tu inicio del Modo Xbox (FSE): Steam, Xbox, Epic, Armoury Crate SE, Playnite o cualquier otra que añadas."
+    ],
+    "flowTitle": "Cómo funciona",
+    "entries": [
+      { "title": "Arrancar", "body": "Inicio automático en la plataforma configurada (requiere tener activada la opción \"Iniciar el modo Xbox (FSE) al arrancar\")." },
+      { "title": "Botón Xbox", "body": "Abre la Game Bar: elige \"Inicio\" para lanzar la plataforma o \"Biblioteca\" para abrir los ajustes de OmniConsole." },
+      { "title": "Menú de Inicio", "body": "Inicia OmniConsole desde el escritorio; el Modo Xbox (FSE) se activa automáticamente antes de que comience la plataforma." }
+    ],
+    "decisionInFse": "Ya en el Modo Xbox (FSE)",
+    "decisionOutFse": "Fuera del Modo Xbox (FSE)",
+    "resultInFse": "Iniciar plataforma configurada",
+    "resultOutFse": "Desplegar cuadro de diálogo del Modo Xbox (FSE) → Reiniciar en Modo Xbox (FSE) → Iniciar plataforma configurada"
+  },
+  "gamepadHighlights": {
+    "sectionTitle": "Diseño enfocado en mando",
+    "sectionSubtitle": "No sueltes el mando: accede a los menús de Steam y navega por aplicaciones de escritorio.",
+    "shortcuts": {
+      "title": "Accesos directos de Steam para mando",
+      "description": "Accesos directos del controlador para Steam: ⧉ abre los menús de Steam, mantener pulsado ☰ abre la interfaz superpuesta en el juego de Steam.",
+      "imageAlt": "Diagrama de un mando de Xbox que muestra los accesos directos de los botones Vista (⧉) y Menú (☰) para Steam",
+      "rows": [
+        { "button": "⧉ (pulsación corta)", "action": "Abrir el menú de Steam¹" },
+        { "button": "⧉ (pulsación larga)", "action": "Abrir el menú de acceso rápido¹" },
+        { "button": "☰ (pulsación larga)", "action": "Abrir la interfaz superpuesta en el juego de Steam²˒³" }
+      ],
+      "footnote": "¹ En Steam Big Picture ² En el juego ³ Configurable a través del widget de Game Bar OmniCharm"
+    },
+    "mouseMode": {
+      "title": "Modo de ratón por mando",
+      "description": "Convierte tu mando en un ratón y teclado. Dos distribuciones: OmniNav o Clásica. A continuación se muestra OmniNav (solo teclas comunes); pulsa el enlace de abajo para ver la referencia completa.",
+      "imageAlt": "Mando de Xbox con el stick izquierdo moviendo un cursor en un portátil y el botón A resaltado como clic",
+      "rows": [
+        { "button": "Stick izquierdo", "action": "Cursor" },
+        { "button": "Stick derecho", "action": "Desplazamiento (Scroll)" },
+        { "button": "A", "action": "Clic izquierdo" },
+        { "button": "B", "action": "Clic derecho" },
+        { "button": "X", "action": "Avanzar página" },
+        { "button": "Y", "action": "Retroceder página" },
+        { "button": "Cruceta (D-pad)", "action": "Teclas de dirección" }
+      ],
+      "footnote": "Tres estados: Desactivado · Automático (Edge, Chrome, Firefox, Opera, Brave, Epic Games Store, Explorador de archivos, Steam) · Forzar encendido. Desactivado automáticamente en la familia ROG Ally."
+    },
+    "headers": {
+      "button": "Botón",
+      "action": "Acción"
+    },
+    "cta": "Ver la referencia completa del mando"
+  },
+  "features": {
+    "title": "Características",
+    "subtitle": "Todo lo que necesitas para que tu PC de juegos se sienta como una consola.",
+    "category": {
+      "core": "Núcleo",
+      "gamepad": "Mando",
+      "platform": "Plataformas",
+      "integration": "Integración"
+    }
+  },
+  "prerequisites": {
+    "title": "Requisitos previos",
+    "subtitle": "Antes de instalar OmniConsole, activa el Modo Xbox (FSE) de Windows 11.",
+    "desktop": {
+      "title": "Sobremesas / Portátiles / Tablets / Dispositivos portátiles no nativos",
+      "body": "Utiliza primero Xbox Full Screen Experience Tool para activar el Modo Xbox (FSE).",
+      "cta": "Abrir el repositorio de XFSET"
+    },
+    "native": {
+      "title": "Dispositivos portátiles nativos con Modo Xbox (FSE)",
+      "body": "Los dispositivos como la serie ROG Xbox Ally son compatibles con el Modo Xbox (FSE) de forma nativa. Instala OmniConsole directamente."
+    },
+    "controller": {
+      "title": "Se requiere un mando de Xbox",
+      "body": "La Game Bar, el Modo Xbox (FSE) y las funciones de mando requieren un controlador compatible con Xbox (XInput) que disponga de botón Xbox."
+    }
+  },
+  "quickStart": {
+    "title": "Inicio rápido",
+    "subtitle": "Cuatro pasos para convertir tu PC en una consola de juegos.",
+    "step1": {
+      "title": "Instalar OmniConsole",
+      "body": "Descarga la última versión y ejecuta Install.bat, o instala manualmente el certificado .cer y ambos paquetes .msix."
+    },
+    "step2": {
+      "title": "Configurar tu plataforma predeterminada",
+      "body": "Abre los Ajustes de OmniConsole, elige Steam Big Picture / Xbox / Epic / Armoury Crate SE / Playnite, o añade una personalizada."
+    },
+    "step3": {
+      "title": "Establecer como aplicación de inicio del Modo Xbox (FSE)",
+      "body": "Configuración de Windows → Juegos → Modo Xbox (FSE) → Elegir aplicación de inicio → OmniConsole. Activa \"Iniciar el modo Xbox (FSE) al arrancar\"."
+    },
+    "step4": {
+      "title": "Listo",
+      "body": "Reinicia, pulsa el botón Xbox y elige \"Inicio\", o lánzalo desde el Menú de Inicio: tu plataforma se abrirá automáticamente."
+    },
+    "cta": "Ver la guía completa de instalación"
+  },
+  "download": {
+    "title": "Descargar OmniConsole",
+    "subtitle": "Última versión estable desde GitHub.",
+    "version": "Versión",
+    "released": "Publicado",
+    "size": "Tamaño",
+    "downloadZip": "Descargar ZIP",
+    "allReleases": "Ver todas las versiones",
+    "verifyChecksum": "Verificar sumas de comprobación en GitHub",
+    "includes": "Incluido en este archivo ZIP",
+    "includesList": [
+      "OmniConsole_*_x64.msix — aplicación principal",
+      "OmniConsole.PhantomLink_*_x64-widget.msix — widget de Game Bar OmniCharm",
+      "OmniConsole_*_x64.cer — certificado de firma de código",
+      "Dependencies\\ — paquetes de entorno (VCLibs, Windows App Runtime) para sistemas limpios o sin conexión",
+      "Install.bat — instalador de un solo clic (recomendado)",
+      "OmniConsoleInstaller.ps1 — script de PowerShell invocado por Install.bat",
+      "README.txt — notas de instalación en inglés y chino tradicional"
+    ],
+    "fetchError": "No se pudo obtener la última versión durante la compilación. Por favor, visita directamente la página de versiones en GitHub.",
+    "nextSteps": {
+      "title": "Después de descargar",
+      "install": "Configuración paso a paso en Windows 11.",
+      "prerequisites": "Comprueba primero que tu dispositivo cumpla con los requisitos.",
+      "gamepad": "Asignación completa de los botones del mando.",
+      "faq": "Respuestas a preguntas frecuentes."
+    }
+  },
+  "stack": {
+    "title": "Tecnologías utilizadas",
+    "primary": "C# & .NET 8 · C++",
+    "ui": "WinUI 3",
+    "packaging": "MSIX",
+    "languages": "Idiomas",
+    "langList": "Inglés · Chino tradicional · Chino simplificado · Español"
+  },
+  "footer": {
+    "tagline": "Licenciado bajo PolyForm Noncommercial 1.0.0.",
+    "nav": "Sitio",
+    "project": "Proyecto",
+    "legal": "Legal",
+    "license": "Licencia (PolyForm NC 1.0.0)",
+    "madeBy": "Hecho por"
+  },
+  "docs": {
+    "title": "Documentación",
+    "onThisPage": "En esta página",
+    "nav": {
+      "install": "Instalación",
+      "prerequisites": "Requisitos previos",
+      "troubleshooting": "Solución de problemas",
+      "revert": "Cómo revertir los cambios",
+      "gamepad": "Referencia del mando",
+      "customPlatforms": "Plataformas personalizadas",
+      "faq": "Preguntas frecuentes"
+    }
+  },
+  "lang": {
+    "switcher": "Idioma"
+  }
+}

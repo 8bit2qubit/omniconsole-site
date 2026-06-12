@@ -27,25 +27,28 @@ export const XFSET = {
 // 相對於 BASE_URL；對應到 public/images/
 export const IMG_BASE = "/images";
 
-export const LOCALES = ["en", "zh-TW", "zh-CN"] as const;
+export const LOCALES = ["en", "zh-TW", "zh-CN", "es-ES"] as const;
 export type Locale = (typeof LOCALES)[number];
 
 export const LOCALE_NAMES: Record<Locale, string> = {
   en: "English",
   "zh-TW": "繁體中文",
   "zh-CN": "简体中文",
+  "es-ES": "Español"
 };
 
 export const LOCALE_IMG_SUFFIX: Record<Locale, string> = {
   en: "",
   "zh-TW": ".zh-TW",
   "zh-CN": ".zh-TW", // zh-CN 擷圖 fallback 到 zh-TW（無獨立版本）
+  "es-ES":""
 };
 
 export const GAMEPAD_SHORTCUT_IMG: Record<Locale, string> = {
   en: "/images/gamepad-steam-shortcuts.png",
   "zh-TW": "/images/gamepad-steam-shortcuts.zh-TW.png",
   "zh-CN": "/images/gamepad-steam-shortcuts.zh-TW.png",
+  "es-ES": "/images/gamepad-steam-shortcuts.png"
 };
 
 // 手把滑鼠模式示意圖（不區分語言）

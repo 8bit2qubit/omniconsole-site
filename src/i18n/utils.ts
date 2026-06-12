@@ -1,6 +1,7 @@
 import en from "./en.json";
 import zhTW from "./zh-TW.json";
 import zhCN from "./zh-CN.json";
+import esES from './es-ES.json';
 import type { Locale } from "../consts";
 
 type Translations = typeof en;
@@ -9,10 +10,11 @@ const translations: Record<Locale, Translations> = {
   en,
   "zh-TW": zhTW as Translations,
   "zh-CN": zhCN as Translations,
+  "es-ES": esES as Translations
 };
 
 export function resolveLocale(input: Locale | string | undefined): Locale {
-  return input === "zh-TW" || input === "zh-CN" ? input : "en";
+  return input === "zh-TW" || input === "zh-CN" || input === "es-ES" ? input : "en";
 }
 
 export function useTranslations(locale: Locale | string | undefined) {
@@ -24,7 +26,7 @@ export function getLocaleFromUrl(url: URL): Locale {
   // base: "/omniconsole-site" 會多出一段路徑；讀取 locale 前先去掉
   const baseStripped = segments[0] === "omniconsole-site" ? segments.slice(1) : segments;
   const first = baseStripped[0];
-  if (first === "zh-TW" || first === "zh-CN") return first;
+  if (first === "zh-TW" || first === "zh-CN" || first === "es-ES" ) return first;
   return "en";
 }
 
@@ -51,7 +53,7 @@ export function translatePath(currentPath: string, targetLocale: Locale | string
   if (baseTrimmed && p.startsWith(baseTrimmed)) p = p.slice(baseTrimmed.length);
   if (!p.startsWith("/")) p = `/${p}`;
   // 去除既有的 locale 前綴
-  const m = p.match(/^\/(zh-TW|zh-CN)(\/.*|$)/);
+  const m = p.match(/^\/(zh-TW|zh-CN|es-ES)(\/.*|$)/);
   const pathWithoutLocale = m ? m[2] || "/" : p;
   return withLocale(pathWithoutLocale, safe, base);
 }

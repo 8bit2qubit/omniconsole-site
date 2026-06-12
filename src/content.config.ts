@@ -9,7 +9,7 @@ const features = defineCollection({
     icon: z.string(),
     category: z.enum(["core", "gamepad", "platform", "integration"]),
     order: z.number().default(0),
-    locale: z.enum(["en", "zh-TW", "zh-CN"]),
+    locale: z.enum(["en", "zh-TW", "zh-CN", "es-ES"]),
   }),
 });
 
