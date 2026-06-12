@@ -1,6 +1,6 @@
 # OmniConsole Site
 
-> 🌐 [English](README.md) | **繁體中文** | [前往網站 ↗](https://8bit2qubit.github.io/omniconsole-site/zh-TW/)
+> 🌐 [English](README.md) | **繁體中文** | [西班牙语 (Spanish)](README.es-ES.md) | [前往網站 ↗](https://8bit2qubit.github.io/omniconsole-site/zh-TW/)
 
 <p align="center">
 <img src="public/logo.png" alt="OmniConsole Site" style="height: 80px; object-fit: contain; display: block; margin: 0 auto;">
