@@ -39,6 +39,49 @@ const logoUrl = `${base}/logo.png`.replace(/\/+/g, "/");
         <Icon name="lucide:download" class="h-4 w-4" />
         {t.nav.download}
       </a>
+      <button
+        id="mobile-nav-toggle"
+        type="button"
+        class="inline-flex h-9 w-9 items-center justify-center rounded-md text-fg-muted hover:text-fg md:hidden"
+        aria-label={t.nav.menu}
+        aria-expanded="false"
+        aria-controls="mobile-nav"
+      >
+        <Icon name="lucide:menu" class="h-5 w-5" data-nav-icon="open" />
+        <Icon name="lucide:x" class="hidden h-5 w-5" data-nav-icon="close" />
+      </button>
     </div>
   </div>
+
+  <nav id="mobile-nav" class="hidden border-t border-border/70 md:hidden">
+    <div class="container-site flex flex-col gap-1 py-3 text-sm text-fg-muted">
+      <a href={featuresAnchor} class="rounded-md px-2 py-2 hover:text-fg">{t.nav.features}</a>
+      <a href={gamepadAnchor} class="rounded-md px-2 py-2 hover:text-fg">{t.nav.gamepad}</a>
+      <a href={download} class="rounded-md px-2 py-2 hover:text-fg">{t.nav.download}</a>
+      <a href={docs} class="rounded-md px-2 py-2 hover:text-fg">{t.nav.docs}</a>
+      <a href={REPO.url} rel="noopener" target="_blank" class="inline-flex items-center gap-1.5 rounded-md px-2 py-2 hover:text-fg">
+        <Icon name="lucide:github" class="h-4 w-4" />
+        {t.nav.github}
+      </a>
+    </div>
+  </nav>
 </header>
+
+<script>
+  const toggle = document.getElementById("mobile-nav-toggle");
+  const panel = document.getElementById("mobile-nav");
+  if (toggle && panel) {
+    const openIcon = toggle.querySelector('[data-nav-icon="open"]');
+    const closeIcon = toggle.querySelector('[data-nav-icon="close"]');
+    const setOpen = (open: boolean) => {
+      panel.classList.toggle("hidden", !open);
+      openIcon?.classList.toggle("hidden", open);
+      closeIcon?.classList.toggle("hidden", !open);
+      toggle.setAttribute("aria-expanded", String(open));
+    };
+    toggle.addEventListener("click", () => setOpen(panel.classList.contains("hidden")));
+    panel.addEventListener("click", (e) => {
+      if ((e.target as HTMLElement).closest("a")) setOpen(false);
+    });
+  }
+</script>
