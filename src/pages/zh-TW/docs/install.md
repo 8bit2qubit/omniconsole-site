@@ -29,12 +29,12 @@ description: 在 Windows 11 上安裝 OmniConsole。
 OmniConsole 會在**首次啟動**或**應用程式更新後**彈出設定介面。你也可以隨時手動開啟：
 
 1. 從**所有應用程式**開啟「**OmniConsole 設定**」。
-2. 從卡片網格中選擇偏好的遊戲平台 — 支援滑鼠、觸控或 Xbox 手把（**方向鍵/左搖桿**四向移動，**A 鍵**確認）：
+2. 從卡片網格中選擇偏好的遊戲平台 — 支援滑鼠、觸控或 Xbox 手把（**十字鍵/左搖桿**四向移動，**A 鍵**確認）：
    - Steam Big Picture
-   - Xbox App
+   - Xbox 應用程式
    - Epic Games Store
    - Armoury Crate SE
-   - Playnite Fullscreen
+   - Playnite 全螢幕
 3. 按 **B 鍵**或點選**退出**即可，選擇會自動儲存。
 
 ## 4. [重要] 設為 Xbox 模式 (FSE) 主畫面應用程式

@@ -14,7 +14,7 @@ description: 在 Windows 11 上安装 OmniConsole。
 
 ### 方式 A — Install.bat（推荐）
 
-执行 `Install.bat`，将自动开启开发人员模式、安装证书、补齐依赖框架包，并安装两个 MSIX 套件。
+运行 `Install.bat`，将自动开启开发人员模式、安装证书、补齐依赖框架包，并安装两个 MSIX 套件。
 
 ### 方式 B — 手动安装
 
@@ -29,12 +29,12 @@ description: 在 Windows 11 上安装 OmniConsole。
 OmniConsole 会在**首次启动**或**应用程序更新后**弹出设置界面。你也可以随时手动开启：
 
 1. 从**所有应用**开启“**OmniConsole 设置**”。
-2. 从卡片网格中选择偏好的游戏平台 — 支持鼠标、触摸或 Xbox 手柄（**方向键/左摇杆**四向移动，**A 键**确认）：
+2. 从卡片网格中选择偏好的游戏平台 — 支持鼠标、触摸或 Xbox 手柄（**十字键/左摇杆**四向移动，**A 键**确认）：
    - Steam Big Picture
-   - Xbox App
+   - Xbox 应用
    - Epic Games Store
    - Armoury Crate SE
-   - Playnite Fullscreen
+   - Playnite 全屏
 3. 按 **B 键**或单击**退出**即可，选择会自动保存。
 
 ## 4. [重要] 设为 Xbox 模式 (FSE) 主应用

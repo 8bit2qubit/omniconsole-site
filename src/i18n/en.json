@@ -152,11 +152,11 @@
   },
   "stack": {
     "title": "Tech Stack",
-    "primary": "C# & .NET 8 · C++",
+    "primary": "C# & .NET 10 · C++",
     "ui": "WinUI 3",
     "packaging": "MSIX",
     "languages": "Languages",
-    "langList": "English · 繁體中文 · 简体中文"
+    "langList": "Multilingual"
   },
   "footer": {
     "tagline": "Licensed under PolyForm Noncommercial 1.0.0.",

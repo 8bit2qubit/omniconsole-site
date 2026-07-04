@@ -8,17 +8,19 @@ OmniConsole is fully operable with an **Xbox-compatible (XInput) controller**.
 
 On your controller, press the **Xbox button** to open the **Game Bar** overlay, or press and hold it to open **Task View**.
 
-## Settings UI
+## Platform Settings UI
 
-| Input | Action |
-|---|---|
-| **D-Pad / Left Stick** | Navigate focus in four directions |
-| **A** | Select |
-| **B** | Exit |
-| **LB / RB** | Switch category tabs |
-| **Y** | Add custom platform (on Custom Platforms tab) |
-| **X** | Edit focused custom platform (on Custom Platforms tab) |
-| **☰ (Menu)** | Set focused platform as default and launch it (in Xbox Mode (FSE)) |
+| Input | System Platforms | Custom Platforms |
+|---|---|---|
+| **D-Pad / Left Stick** | Navigate focus in four directions | Navigate focus in four directions |
+| **A** | Select | Select |
+| **B** | Exit | Exit |
+| **LB / RB** | Switch category tabs | Switch category tabs |
+| **Y** | — | Add a custom platform |
+| **X** | — | Edit the focused platform |
+| **☰ (Menu)** | Set as default and launch¹ | Set as default and launch¹ |
+
+¹ In Xbox Mode (FSE)
 
 ## Gamepad Mouse Mode
 
@@ -63,6 +65,17 @@ Toggleable via the OmniCharm Game Bar widget. Gamepad Mouse Mode is auto-disable
 Some games only speak keyboard and mouse, with no native gamepad support. Nekomata weaves a charm for these apps, remapping every XInput input (A/B/X/Y, LB/RB, LT/RT, LS/RS, D-pad, left stick, right stick) into keyboard, mouse, or cursor actions so you can play them fully on a gamepad.
 
 Open the editor from the OmniCharm widget's **"Customize gamepad mapping for this app…"** button.
+
+### Editor Controls
+
+| Input | Profile List | Profile Editor |
+|---|---|---|
+| **D-Pad / Left Stick** | Navigate | Navigate |
+| **A** | Edit the focused profile | Select |
+| **B** | Exit | Save and close |
+| **X** | Delete the focused profile | Delete this profile |
+| **Y** | Jump to / leave the search box | — |
+| **LB / RB** | Page up / page down | — |
 
 ### Mappable Targets
 

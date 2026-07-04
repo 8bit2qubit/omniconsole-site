@@ -10,17 +10,17 @@ description: 在 Windows 11 上排除 Xbox 模式 (FSE) 问题。
 
 1. 从开始菜单开启 **OmniConsole 设置**。
 2. 通过左侧菜单切换至 **疑难解答** 页面。
-3. 在 **“重启 Game Bar 并进入 Xbox 模式 (FSE)”** 旁单击 **“执行”** 按钮。这会重启 Game Bar 并进入 Xbox 模式 (FSE)；Game Bar 重启后，对话框就会正常出现。
+3. 在 **“重启 Game Bar 并进入 Xbox 模式 (FSE)”** 旁单击 **“运行”** 按钮。这会重启 Game Bar 并进入 Xbox 模式 (FSE)；Game Bar 重启后，对话框就会正常出现。
 
 ## OmniConsole 无法启动我的平台
 
 1. 确认 OmniConsole 已于 **设置 → 游戏 → Xbox 模式 (FSE)** 设为 **Xbox 模式 (FSE) 主应用**。
 2. 从开始菜单开启 **OmniConsole 设置**，确认已选取默认平台。
-3. 确认所选平台已安装。Steam Big Picture 需要 Steam，Xbox App 需要 Xbox 应用等。
+3. 确认所选平台已安装，例如 Steam Big Picture 需要安装 Steam。
 
 ## 安装时出现签章错误
 
-请务必将随附的 `.cer` 证书安装至 **本地计算机 → 受信任人**。建议直接执行 `Install.bat`。
+请务必将随附的 `.cer` 证书安装至 **本地计算机 → 受信任人**。建议直接运行 `Install.bat`。
 
 ## 安装时出现 SCCD 错误
 

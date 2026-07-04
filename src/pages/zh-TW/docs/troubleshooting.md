@@ -16,7 +16,7 @@ description: 在 Windows 11 上排除 Xbox 模式 (FSE) 問題。
 
 1. 確認 OmniConsole 已於 **設定 → 遊戲 → Xbox 模式 (FSE)** 設為 **Xbox 模式 (FSE) 主畫面應用程式**。
 2. 從開始功能表開啟 **OmniConsole 設定**，確認已選取預設平台。
-3. 確認所選平台已安裝。Steam Big Picture 需要 Steam，Xbox App 需要 Xbox 應用程式等。
+3. 確認所選平台已安裝，例如 Steam Big Picture 需要安裝 Steam。
 
 ## 安裝時出現簽章錯誤
 

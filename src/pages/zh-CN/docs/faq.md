@@ -8,13 +8,13 @@ description: OmniConsole 常见问答。
 
 OmniConsole 采用 [**PolyForm Noncommercial 1.0.0**](https://github.com/8bit2qubit/OmniConsole/blob/main/LICENSE) 许可。
 
-## OmniConsole 会取代 Xbox App 吗？
+## OmniConsole 会取代 Xbox 应用吗？
 
-不会。OmniConsole 通过 Windows 官方 API 注册为 **Xbox 模式 (FSE) 主应用** — 与 Xbox App 使用的机制相同。Xbox App 仍可正常作为 Windows 应用使用，你也可以在 OmniConsole 内将其设为启动目标。
+不会。OmniConsole 通过 Windows 官方 API 注册为 **Xbox 模式 (FSE) 主应用** — 与 Xbox 应用使用的机制相同。Xbox 应用仍可照常使用，你也可以在 OmniConsole 内将其设为启动目标。
 
 ## 我必须使用掌机吗？
 
-不必。OmniConsole 可在任何 Windows 11 PC 上执行。台式机、笔记本与平板需先使用 [**XFSET**](https://github.com/8bit2qubit/XboxFullScreenExperienceTool) 启用 Xbox 模式 (FSE)；原生掌机（ROG Xbox Ally X 等）已原生支持。
+不必。OmniConsole 可在任何 Windows 11 PC 上运行。台式机、笔记本与平板需先使用 [**XFSET**](https://github.com/8bit2qubit/XboxFullScreenExperienceTool) 启用 Xbox 模式 (FSE)；原生掌机（ROG Xbox Ally X 等）已原生支持。
 
 ## 需要 Xbox 手柄吗？
 

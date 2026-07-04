@@ -6,4 +6,4 @@ order: 3
 locale: zh-CN
 ---
 
-内置支持 Steam Big Picture、Xbox App、Epic Games Store、Armoury Crate SE 与 Playnite Fullscreen。
+内置支持 Steam Big Picture、Xbox 应用、Epic Games Store、Armoury Crate SE 与 Playnite 全屏。

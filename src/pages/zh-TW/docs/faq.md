@@ -8,9 +8,9 @@ description: OmniConsole 常見問答。
 
 OmniConsole 採用 [**PolyForm Noncommercial 1.0.0**](https://github.com/8bit2qubit/OmniConsole/blob/main/LICENSE) 授權。
 
-## OmniConsole 會取代 Xbox App 嗎？
+## OmniConsole 會取代 Xbox 應用程式嗎？
 
-不會。OmniConsole 透過 Windows 官方 API 註冊為 **Xbox 模式 (FSE) 主畫面應用程式** — 與 Xbox App 使用的機制相同。Xbox App 仍可正常作為 Windows 應用程式使用，你也可以在 OmniConsole 內將其設為啟動目標。
+不會。OmniConsole 透過 Windows 官方 API 註冊為 **Xbox 模式 (FSE) 主畫面應用程式** — 與 Xbox 應用程式使用的機制相同。Xbox 應用程式仍可照常使用，你也可以在 OmniConsole 內將其設為啟動目標。
 
 ## 我必須使用掌機嗎？
 
