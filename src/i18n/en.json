@@ -144,7 +144,7 @@
     "fetchError": "Unable to fetch the latest release at build time. Please visit the GitHub releases page directly.",
     "nextSteps": {
       "title": "After downloading",
-      "install": "Step-by-step setup on Windows 11.",
+      "install": "Step-by-step setup and updates on Windows 11.",
       "prerequisites": "Check that your device meets the requirements first.",
       "gamepad": "Full gamepad button mapping.",
       "faq": "Answers to common questions."
@@ -170,7 +170,7 @@
     "title": "Documentation",
     "onThisPage": "On this page",
     "nav": {
-      "install": "Install",
+      "install": "Install & Update",
       "prerequisites": "Prerequisites",
       "troubleshooting": "Troubleshooting",
       "revert": "How to Revert",

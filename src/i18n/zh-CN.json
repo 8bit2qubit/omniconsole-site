@@ -144,7 +144,7 @@
     "fetchError": "构建时无法获取最新版本信息，请直接访问 GitHub Releases 页面。",
     "nextSteps": {
       "title": "下载之后",
-      "install": "Windows 11 上的逐步安装说明。",
+      "install": "Windows 11 上的逐步安装与更新说明。",
       "prerequisites": "安装前先确认设备符合要求。",
       "gamepad": "完整的手柄按键对照。",
       "faq": "常见问题的解答。"
@@ -170,7 +170,7 @@
     "title": "文档",
     "onThisPage": "本页概要",
     "nav": {
-      "install": "安装",
+      "install": "安装与更新",
       "prerequisites": "前置条件",
       "troubleshooting": "疑难解答",
       "revert": "如何还原",

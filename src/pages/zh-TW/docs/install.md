@@ -1,7 +1,7 @@
 ---
 layout: ../../../layouts/DocsLayout.astro
-title: 安裝
-description: 在 Windows 11 上安裝 OmniConsole。
+title: 安裝與更新
+description: 在 Windows 11 上安裝與更新 OmniConsole。
 ---
 
 ## 1. 下載
@@ -50,3 +50,12 @@ OmniConsole 會在**首次啟動**或**應用程式更新後**彈出設定介面
 - **開機** — 開機自動進入設定的平台（需啟用「啟動時進入 Xbox 模式 (FSE)」）。
 - **Xbox 鍵** — 開啟 Game Bar，選「**首頁**」啟動平台，或選「**媒體櫃**」開啟 OmniConsole 設定。
 - **開始功能表** — 從桌面啟動 OmniConsole，自動觸發 Xbox 模式 (FSE) 後再啟動平台。
+
+## 6. 更新 OmniConsole
+
+已安裝過 OmniConsole？直接在應用程式內更新：
+
+1. 開啟 **OmniConsole 設定**，前往 **☰ → 進階**。
+2. 點選**檢查更新**，再點**下載並安裝**。OmniConsole 會自動下載新版本並完成安裝。
+
+> ⚠️ **升級請透過「應用程式內更新」或 `Install.bat`，不要手動安裝 MSIX 套件。**「應用程式內更新」與 `Install.bat` 都會妥善處理被執行中的遊戲佔用的檔案；手動安裝 MSIX 套件會導致更新不完整或兩套件版本不一致。

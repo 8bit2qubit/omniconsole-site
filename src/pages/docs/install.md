@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/DocsLayout.astro
-title: Install
-description: Install OmniConsole on Windows 11.
+title: Install & Update
+description: Install and update OmniConsole on Windows 11.
 ---
 
 ## 1. Download
@@ -50,3 +50,12 @@ Your gaming platform now launches via any of these entry points:
 - **Boot** — auto-launches into your configured platform (requires "Enter Xbox mode (FSE) on startup" enabled).
 - **Xbox button** — open Game Bar, pick **Home** to launch your platform, or **Library** to open OmniConsole settings.
 - **Start Menu** — launch OmniConsole from the desktop; Xbox Mode (FSE) is triggered automatically before the platform starts.
+
+## 6. Updating OmniConsole
+
+Already have OmniConsole installed? Update from within the app:
+
+1. Open **OmniConsole Settings**, then go to **☰ → Advanced**.
+2. Click **Check for Updates**, then **Download & Install**. OmniConsole downloads the new version and installs it for you.
+
+> ⚠️ **Please update via the in-app updater or `Install.bat`, rather than installing the MSIX packages manually.** Both the in-app updater and `Install.bat` properly handle files still in use by a running game; installing the MSIX packages manually will leave the update incomplete or the two packages on mismatched versions.
