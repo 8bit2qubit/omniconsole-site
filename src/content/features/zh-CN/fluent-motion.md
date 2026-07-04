@@ -1,6 +1,6 @@
 ---
 title: 全程流畅动效
-icon: lucide:sparkles
+icon: lucide:wind
 category: integration
 order: 9
 locale: zh-CN

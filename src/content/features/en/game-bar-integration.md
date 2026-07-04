@@ -6,4 +6,4 @@ order: 10
 locale: en
 ---
 
-Configures how Game Bar's Home and Library buttons behave — launch your gaming platform or open OmniConsole Settings directly.
+Game Bar's Home button launches your gaming platform; Library opens OmniConsole Settings.

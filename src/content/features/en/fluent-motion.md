@@ -1,6 +1,6 @@
 ---
 title: Fluent Motion Throughout
-icon: lucide:sparkles
+icon: lucide:wind
 category: integration
 order: 9
 locale: en

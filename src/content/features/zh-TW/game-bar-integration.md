@@ -6,4 +6,4 @@ order: 10
 locale: zh-TW
 ---
 
-自訂 Game Bar「首頁」與「媒體櫃」按鈕行為 — 啟動遊戲平台或直接開啟 OmniConsole 設定。
+Game Bar 的「首頁」按鈕啟動遊戲平台；「媒體櫃」開啟 OmniConsole 設定。

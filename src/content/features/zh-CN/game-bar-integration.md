@@ -6,4 +6,4 @@ order: 10
 locale: zh-CN
 ---
 
-自定义 Game Bar “主页”与“库”按钮行为 — 启动游戏平台或直接打开 OmniConsole 设置。
+Game Bar 的“主页”按钮启动游戏平台；“库”打开 OmniConsole 设置。
