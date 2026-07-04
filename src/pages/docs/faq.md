@@ -22,7 +22,7 @@ Windows 11 Game Bar, Xbox Mode (FSE) navigation, and the Xbox button flow all re
 
 ## Can I add my own platform?
 
-Yes — OmniConsole supports custom platforms via **Protocol URI**, **executable path**, or **Packaged App (MSIX / APPX)**. You can also add cover images and launch arguments (executable path only). Configurations can be exported and imported as JSON.
+Yes — OmniConsole supports custom platforms via **Protocol URI**, **executable path**, or **Packaged App (MSIX / APPX)**. You can also add cover images and launch arguments (executable path only). Configurations can be exported and imported as JSON. See [Custom Platforms](/omniconsole-site/docs/custom-platforms) for details.
 
 ## Does OmniConsole auto-update?
 
