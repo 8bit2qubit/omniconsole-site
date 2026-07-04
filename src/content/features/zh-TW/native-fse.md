@@ -2,7 +2,7 @@
 title: 原生 Xbox 模式 (FSE) 整合
 icon: lucide:monitor-check
 category: core
-order: 15
+order: 19
 locale: zh-TW
 ---
 

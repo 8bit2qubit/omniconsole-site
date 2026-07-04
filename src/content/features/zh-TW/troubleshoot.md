@@ -2,7 +2,7 @@
 title: 疑難排解頁面
 icon: lucide:wrench
 category: integration
-order: 9
+order: 11
 locale: zh-TW
 ---
 

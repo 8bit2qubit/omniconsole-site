@@ -22,7 +22,7 @@ Windows 11 Game Bar、Xbox 模式 (FSE) 導覽以及 Xbox 鍵流程皆需使用*
 
 ## 可以新增自訂平台嗎？
 
-可以 — OmniConsole 支援透過 **Protocol URI**、**執行檔路徑** 或 **封裝套件 （MSIX / APPX）** 新增自訂平台，也可加入封面圖片與啟動參數（僅執行檔路徑類型支援）。配置可匯出與匯入為 JSON。詳見 [自訂平台](/omniconsole-site/zh-TW/docs/custom-platforms)。
+可以 — OmniConsole 支援透過 **Protocol URI**、**執行檔路徑** 或 **封裝套件 （MSIX / APPX）** 新增自訂平台，也可加入封面圖片與啟動參數（僅執行檔路徑類型支援）。組態可匯出與匯入為 JSON。詳見 [自訂平台](/omniconsole-site/zh-TW/docs/custom-platforms)。
 
 ## OmniConsole 會自動更新嗎？
 

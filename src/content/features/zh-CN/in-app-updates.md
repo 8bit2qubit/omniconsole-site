@@ -2,7 +2,7 @@
 title: 内置应用更新
 icon: lucide:refresh-cw
 category: core
-order: 16
+order: 20
 locale: zh-CN
 ---
 

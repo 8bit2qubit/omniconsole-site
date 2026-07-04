@@ -2,7 +2,7 @@
 title: Gamepad Mouse Mode
 icon: lucide:mouse-pointer-2
 category: gamepad
-order: 11
+order: 14
 locale: en
 ---
 

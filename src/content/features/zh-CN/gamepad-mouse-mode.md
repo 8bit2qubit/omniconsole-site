@@ -2,7 +2,7 @@
 title: 手柄鼠标模式
 icon: lucide:mouse-pointer-2
 category: gamepad
-order: 11
+order: 14
 locale: zh-CN
 ---
 

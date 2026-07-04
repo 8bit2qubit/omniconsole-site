@@ -2,7 +2,7 @@
 title: 手柄支持
 icon: lucide:gamepad-2
 category: gamepad
-order: 10
+order: 13
 locale: zh-CN
 ---
 
