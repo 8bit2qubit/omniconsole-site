@@ -18,14 +18,14 @@
     "ctaDownload": "Download Latest",
     "ctaGitHub": "View on GitHub",
     "screenshotAlt1": "OmniConsole Settings card grid showing installed gaming platforms",
-    "screenshotAlt2": "OmniCharm Game Bar widget with one-tap shortcuts to Task View, Xbox Library, and Steam Overlay, plus toggles for Mouse Mode and the Steam In-Game Overlay",
+    "screenshotAlt2": "OmniCharm Game Bar widget with one-tap shortcuts to Task View, Xbox Library, and Steam Overlay, plus toggles for Nekomata Mode and the Steam In-Game Overlay",
     "screenshotCaption1": "OmniConsole Settings",
     "screenshotCaption2": "OmniCharm Widget"
   },
   "what": {
     "title": "What is OmniConsole?",
     "body": [
-      "OmniConsole runs as the Windows 11 Xbox Mode (FSE) Home shell on PCs and handhelds (ROG Xbox Ally X, etc.), with an OmniCharm Game Bar widget, Mouse Mode, Steam shortcuts, and Nekomata per-app gamepad mapping so everything stays on the gamepad.",
+      "OmniConsole runs as the Windows 11 Xbox Mode (FSE) Home shell on PCs and handhelds (ROG Xbox Ally X, etc.), with an OmniCharm Game Bar widget, Steam shortcuts, and Nekomata Mode to turn your gamepad into keyboard and mouse, tailored per app, so everything stays on the gamepad.",
       "Whenever Xbox Mode (FSE) activates, OmniConsole launches your configured gaming platform. Any platform can be your Xbox Mode (FSE) Home — Steam, Xbox, Epic, Armoury Crate SE, Playnite, or anything you add."
     ],
     "flowTitle": "How It Works",
@@ -54,8 +54,8 @@
       "footnote": "¹ In Steam Big Picture　² In-game　³ Toggleable via the OmniCharm Game Bar widget"
     },
     "mouseMode": {
-      "title": "Gamepad Mouse Mode",
-      "description": "Turn your controller into a mouse and keyboard. Two layouts — OmniNav or Classic. OmniNav shown below — common keys only; tap the link below for the full reference.",
+      "title": "Nekomata Mode",
+      "description": "Turn your controller into a mouse and keyboard, customizable per app. Nekomata weaves a charm for each app, remapping every XInput control to keyboard, mouse, or cursor actions, and can raise mapping priority with Nekomata Boost, add hold-to-repeat, and prevent double input. Two layouts — OmniNav or Classic. OmniNav shown below — common keys only; tap the link below for the full reference.",
       "imageAlt": "Xbox controller with the left stick moving a cursor on a laptop and the A button highlighted as click",
       "rows": [
         { "button": "Left Stick", "action": "Cursor" },
@@ -66,7 +66,7 @@
         { "button": "Y", "action": "Page Up" },
         { "button": "D-pad", "action": "Arrow Keys" }
       ],
-      "footnote": "Three states: Off · Auto (Edge, Chrome, Firefox, Opera, Brave, Epic Games Store, File Explorer, Steam) · Force On. Auto-disabled on ROG Ally family."
+      "footnote": "On / Off toggle. When on, your customized profiles take over; Edge, Chrome, Firefox, Opera, Brave, Epic Games Store, File Explorer, Steam, and Discord run on built-in mapping (also customizable). Auto-disabled on ROG Ally family."
     },
     "headers": {
       "button": "Button",

@@ -18,14 +18,14 @@
     "ctaDownload": "下載最新版",
     "ctaGitHub": "前往 GitHub",
     "screenshotAlt1": "OmniConsole 設定介面，以卡片格狀版型顯示已安裝的遊戲平台",
-    "screenshotAlt2": "OmniCharm Game Bar 小工具，提供工作檢視、Xbox 媒體櫃、Steam 內嵌介面一鍵捷徑，並可切換手把滑鼠模式與 Steam 遊戲內嵌介面",
+    "screenshotAlt2": "OmniCharm Game Bar 小工具，提供工作檢視、Xbox 媒體櫃、Steam 內嵌介面一鍵捷徑，並可切換貓又模式與 Steam 遊戲內嵌介面",
     "screenshotCaption1": "OmniConsole 設定",
     "screenshotCaption2": "OmniCharm 小工具"
   },
   "what": {
     "title": "OmniConsole 是什麼？",
     "body": [
-      "OmniConsole 在 PC 與掌機（ROG Xbox Ally X 等）上作為你的 Windows 11 Xbox 模式 (FSE) 首頁殼層，並提供 OmniCharm Game Bar 小工具、滑鼠模式、Steam 快捷鍵與貓又的各程式手把映射，讓一切操作都不離手把。",
+      "OmniConsole 在 PC 與掌機（ROG Xbox Ally X 等）上作為你的 Windows 11 Xbox 模式 (FSE) 首頁殼層，並提供 OmniCharm Game Bar 小工具、Steam 快捷鍵與貓又模式，讓手把化身鍵盤滑鼠、隨每個程式量身打造，一切操作都不離手把。",
       "只要觸發 Xbox 模式 (FSE)，OmniConsole 就會自動啟動你設定的遊戲平台。任何平台都能當你的 Xbox 模式 (FSE) 首頁 — Steam、Xbox、Epic、Armoury Crate SE、Playnite，或你自行新增的平台。"
     ],
     "flowTitle": "運作方式",
@@ -54,8 +54,8 @@
       "footnote": "¹ 於 Steam Big Picture 中　² 遊戲中　³ 可於 OmniCharm Game Bar 小工具切換"
     },
     "mouseMode": {
-      "title": "手把滑鼠模式",
-      "description": "把手把變成滑鼠與鍵盤。兩種對應方式 — OmniNav 或 Classic。下表為 OmniNav，僅列常用按鍵，完整對照點下方連結。",
+      "title": "貓又模式",
+      "description": "把手把變成滑鼠與鍵盤，還能隨每個程式量身自訂。貓又為各程式編一道咒，將每個 XInput 輸入位重新映射為鍵盤、滑鼠或游標動作，並能以貓又衝刺提高映射優先順序、加上長按連發、阻擋雙重輸入。兩種對應方式 — OmniNav 或經典。下表為 OmniNav，僅列常用按鍵，完整對照點下方連結。",
       "imageAlt": "Xbox 手把示意圖，左搖桿控制筆電游標、A 鍵作為滑鼠左鍵",
       "rows": [
         { "button": "左搖桿", "action": "游標" },
@@ -66,7 +66,7 @@
         { "button": "Y", "action": "Page Up" },
         { "button": "十字鍵", "action": "方向鍵" }
       ],
-      "footnote": "三種狀態：關閉 · 自動（Edge、Chrome、Firefox、Opera、Brave、Epic Games Store、檔案總管、Steam）· 強制開啟。ROG Ally 家族自動停用。"
+      "footnote": "開啟 / 關閉切換。開啟時你自訂的設定檔優先接手；Edge、Chrome、Firefox、Opera、Brave、Epic Games Store、檔案總管、Steam、Discord 則套用內建映射（同樣可自訂）。ROG Ally 家族自動停用。"
     },
     "headers": {
       "button": "按鍵",

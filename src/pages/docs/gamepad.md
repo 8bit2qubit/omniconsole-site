@@ -22,9 +22,9 @@ On your controller, press the **Xbox button** to open the **Game Bar** overlay, 
 
 ¹ In Xbox Mode (FSE)
 
-## Gamepad Mouse Mode
+## Nekomata Mode
 
-Turn your controller into a mouse and keyboard. Two layouts are available: **OmniNav** and **Classic**. Cursor speed is adjustable in Settings.
+Turn your controller into a mouse and keyboard, customizable per app. Two layouts are available: **OmniNav** and **Classic**. Cursor speed is adjustable in Settings.
 
 | Button | OmniNav | Classic |
 |---|---|---|
@@ -42,27 +42,15 @@ Turn your controller into a mouse and keyboard. Two layouts are available: **Omn
 | RS | Tab | — |
 | D-pad | Arrow Keys | Arrow Keys |
 
-### Three states
+### On / Off
 
-- **Off** — disabled.
-- **Auto** — activates for Edge, Chrome, Firefox, Opera, Brave, Epic Games Store, File Explorer, Steam, and Discord.
-- **Force On** — activates for all apps.
+An **On / Off** toggle. When on, your customized profiles take over, and the apps below run on built-in mapping (also customizable): Edge, Chrome, Firefox, Opera, Brave, Epic Games Store, File Explorer, Steam, and Discord.
 
-Toggleable via the OmniCharm Game Bar widget. Gamepad Mouse Mode is auto-disabled on ROG Ally family devices, which have built-in gamepad mapping.
+Toggleable via the OmniCharm Game Bar widget. Nekomata Mode is auto-disabled on ROG Ally family devices, which have built-in gamepad mapping.
 
-## Gamepad Steam Shortcuts
+### Per-App Mapping
 
-| Input | Action |
-|---|---|
-| **⧉ (short press)** | Open Steam menu¹ |
-| **⧉ (long press)** | Open Quick Access menu¹ |
-| **☰ (long press)** | Open Steam In-Game Overlay²˒³ |
-
-¹ In Steam Big Picture　² In-game　³ Toggleable via the OmniCharm Game Bar widget
-
-## Nekomata — Per-App Gamepad Mapping
-
-Some games only speak keyboard and mouse, with no native gamepad support. Nekomata weaves a charm for these apps, remapping every XInput input (A/B/X/Y, LB/RB, LT/RT, LS/RS, D-pad, left stick, right stick) into keyboard, mouse, or cursor actions so you can play them fully on a gamepad.
+Some games only speak keyboard and mouse, with no native gamepad support. Nekomata weaves a charm for these apps, remapping every XInput control (A/B/X/Y, LB/RB, LT/RT, LS/RS, D-pad, left stick, right stick) into keyboard, mouse, or cursor actions so you can play them fully on a gamepad. Each charm can also raise the mapping service priority with Nekomata Boost, give any key hold-to-repeat, and prevent double input by blocking the app's own native gamepad signals.
 
 Open the editor from the OmniCharm widget's **"Customize gamepad mapping for this app…"** button.
 
@@ -92,11 +80,21 @@ Open the editor from the OmniCharm widget's **"Customize gamepad mapping for thi
 | Modifier combo | Ctrl / Shift / Alt / Win + key |
 | Mouse | Left / right / middle button, scroll wheel, cursor movement, scrolling |
 
+## Gamepad Steam Shortcuts
+
+| Input | Action |
+|---|---|
+| **⧉ (short press)** | Open Steam menu¹ |
+| **⧉ (long press)** | Open Quick Access menu¹ |
+| **☰ (long press)** | Open Steam In-Game Overlay²˒³ |
+
+¹ In Steam Big Picture　² In-game　³ Toggleable via the OmniCharm Game Bar widget
+
 ## OmniCharm Widget
 
 The OmniCharm Game Bar widget gives you in-game quick access to:
 
 - **Task View**, the **Xbox Library**, and the **Steam Overlay** as one-tap shortcuts.
 - Toggling **long-press ☰** to open the Steam In-Game Overlay.
-- Toggling **Gamepad Mouse Mode**, switching controller layout (**OmniNav / Classic**), and adjusting cursor speed.
+- Toggling **Nekomata Mode**, switching controller layout (**OmniNav / Classic**), and adjusting cursor speed.
 - Opening the **Nekomata** per-app gamepad mapping editor for the foreground app with the **"Customize gamepad mapping for this app…"** button.
