@@ -2,7 +2,7 @@
 title: Gamepad Steam Shortcuts
 icon: lucide:keyboard
 category: gamepad
-order: 17
+order: 14
 locale: en
 ---
 

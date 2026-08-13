@@ -2,7 +2,7 @@
 title: Multilingual UI
 icon: lucide:languages
 category: core
-order: 21
+order: 26
 locale: en
 ---
 

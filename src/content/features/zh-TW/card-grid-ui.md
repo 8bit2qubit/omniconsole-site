@@ -2,7 +2,7 @@
 title: 卡片格狀設定介面
 icon: lucide:grid-3x3
 category: integration
-order: 7
+order: 18
 locale: zh-TW
 ---
 

@@ -2,7 +2,7 @@
 title: 手柄 Steam 快捷键
 icon: lucide:keyboard
 category: gamepad
-order: 17
+order: 14
 locale: zh-CN
 ---
 

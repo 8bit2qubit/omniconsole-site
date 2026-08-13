@@ -16,7 +16,11 @@ description: 在 Windows 11 上排除 Xbox 模式 (FSE) 问题。
 
 1. 确认 OmniConsole 已于 **设置 → 游戏 → Xbox 模式 (FSE)** 设为 **Xbox 模式 (FSE) 主应用**。
 2. 从开始菜单开启 **OmniConsole 设置**，确认已选取默认平台。
-3. 确认所选平台已安装，例如 Steam Big Picture 需要安装 Steam。
+3. 确认所选平台已安装。Steam Big Picture 需要安装 Steam、Xbox App 需要安装 Xbox 应用，其余平台以此类推。
+
+## 未连接鼠标时进入 Xbox 模式 (FSE)
+
+Windows 本身在找不到鼠标时就不会画出光标。为了让光标在没有鼠标的主机上也看得见，OmniConsole 会借用 Windows 的一个系统状态；这段期间插入的物理鼠标不会被系统认得，退出后桌面也不会有光标。要用鼠标的话，请先退出 Xbox 模式 (FSE) 再连接。
 
 ## 安装时出现签章错误
 

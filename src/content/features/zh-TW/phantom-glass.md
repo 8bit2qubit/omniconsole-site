@@ -2,7 +2,7 @@
 title: 幻影玻璃背景
 icon: lucide:wallpaper
 category: integration
-order: 8
+order: 19
 locale: zh-TW
 ---
 

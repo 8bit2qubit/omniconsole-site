@@ -10,5 +10,6 @@ description: OmniConsole 安裝、疑難排解與手把按鍵對照。
 - **[前置條件](/omniconsole-site/zh-TW/docs/prerequisites)** — 啟用 Windows 11 Xbox 模式 (FSE) 與所需硬體。
 - **[疑難排解](/omniconsole-site/zh-TW/docs/troubleshooting)** — Xbox 模式 (FSE) 進入對話方塊未出現時的修復途徑。
 - **[如何還原](/omniconsole-site/zh-TW/docs/revert)** — 安全解除安裝 OmniConsole 且不破壞工作檢視。
-- **[手把按鍵對照](/omniconsole-site/zh-TW/docs/gamepad)** — 設定介面完整按鍵對照表。
+- **[手把按鍵對照](/omniconsole-site/zh-TW/docs/gamepad)** — 完整按鍵對照表、貓又模式與 Steam 快捷鍵。
+- **[自訂平台](/omniconsole-site/zh-TW/docs/custom-platforms)** — 新增自己的平台，並瀏覽社群分享的平台。
 - **[常見問題](/omniconsole-site/zh-TW/docs/faq)** — 常見問答。

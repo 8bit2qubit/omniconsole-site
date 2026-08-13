@@ -10,5 +10,6 @@ Welcome to the OmniConsole documentation. Start with the guide that fits your si
 - **[Prerequisites](/omniconsole-site/docs/prerequisites)** — enable Windows 11 Xbox Mode (FSE) and required hardware.
 - **[Troubleshooting](/omniconsole-site/docs/troubleshooting)** — recover when the Xbox Mode (FSE) entry dialog does not appear.
 - **[How to Revert](/omniconsole-site/docs/revert)** — safely remove OmniConsole without breaking Task View.
-- **[Gamepad Reference](/omniconsole-site/docs/gamepad)** — full button mapping for Settings UI.
+- **[Gamepad Reference](/omniconsole-site/docs/gamepad)** — full button mapping, Nekomata Mode, and the Steam shortcuts.
+- **[Custom Platforms](/omniconsole-site/docs/custom-platforms)** — add your own platforms and browse the ones shared by the community.
 - **[FAQ](/omniconsole-site/docs/faq)** — common questions.

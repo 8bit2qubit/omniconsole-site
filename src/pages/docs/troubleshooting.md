@@ -18,6 +18,10 @@ On some Windows builds the "Restart for better performance" dialog fails to appe
 2. Open **OmniConsole Settings** from the Start Menu and verify your default platform is selected.
 3. Make sure the selected platform is installed. Steam Big Picture requires Steam; Xbox App requires the Xbox app, etc.
 
+## Entering Xbox Mode (FSE) with no mouse connected
+
+Windows itself draws no cursor when it finds no mouse attached. To keep one visible on a console without a mouse, OmniConsole borrows a Windows system state; a mouse plugged in while that is in effect goes unnoticed, and the desktop will have no cursor after you exit. To use a mouse, exit Xbox Mode (FSE) first, then connect it.
+
 ## Installation fails with signature errors
 
 You must install the provided `.cer` certificate into **Local Machine → Trusted People**. Run `Install.bat` for a guided setup.

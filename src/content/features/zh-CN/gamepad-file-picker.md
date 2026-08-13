@@ -2,7 +2,7 @@
 title: 支持手柄的文件选择器
 icon: lucide:folder-open
 category: gamepad
-order: 6
+order: 7
 locale: zh-CN
 ---
 

@@ -2,8 +2,8 @@
 title: 手柄支持
 icon: lucide:gamepad-2
 category: gamepad
-order: 13
+order: 8
 locale: zh-CN
 ---
 
-十字键 / 左摇杆导航，A 选取、B 退出、LB/RB 切换选项卡、Y 新增、X 编辑、☰ 设为默认并立即启动。
+主程序与 OmniCharm 小组件全程都能用手柄操作：十字键或左摇杆导航、A 确认、B 返回，其余按键在各个界面各有分工，主程序界面下方会列出当下可用的按键。

@@ -2,7 +2,7 @@
 title: 专属设置入口
 icon: lucide:settings
 category: core
-order: 18
+order: 23
 locale: zh-CN
 ---
 

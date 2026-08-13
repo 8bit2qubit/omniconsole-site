@@ -2,7 +2,7 @@
 title: Troubleshoot Page
 icon: lucide:wrench
 category: integration
-order: 11
+order: 21
 locale: en
 ---
 

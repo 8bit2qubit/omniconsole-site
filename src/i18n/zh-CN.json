@@ -55,7 +55,7 @@
     },
     "mouseMode": {
       "title": "猫又模式",
-      "description": "把手柄变成鼠标与键盘，还能随每个应用量身定制。猫又为各应用编一道咒，将每个 XInput 输入位重新映射为键盘、鼠标或光标动作，并能以猫又冲刺提高映射优先级、加上长按连发、拦截双重输入。两种对应方式 — OmniNav 或经典。下表为 OmniNav，仅列常用按键，完整对照点下方链接。",
+      "description": "把手柄变成鼠标与键盘，还能随每个应用量身定制。猫又为各应用编一道咒，将 XInput 输入位重新映射为键盘、鼠标或光标动作，并能以猫又冲刺提高映射优先级、加上长按连发、拦截双重输入。三种布局可作起点：OmniNav、经典，或你自己定义的自定义布局（专业版）。下表为 OmniNav，仅列常用按键，完整对照点下方链接。",
       "imageAlt": "Xbox 手柄示意图，左摇杆控制笔记本光标、A 键作为鼠标左键",
       "rows": [
         { "button": "左摇杆", "action": "光标" },
@@ -66,7 +66,7 @@
         { "button": "Y", "action": "Page Up" },
         { "button": "十字键", "action": "方向键" }
       ],
-      "footnote": "开启 / 关闭切换。开启时你自定义的配置文件优先接管；Edge、Chrome、Firefox、Opera、Brave、Epic Games Store、文件资源管理器、Steam、Discord 则使用内置映射（同样可自定义）。ROG Ally 家族自动禁用。"
+      "footnote": "开启 / 关闭切换。开启时你自定义的配置文件优先接管；Edge、Chrome、Firefox、Opera、Brave、Epic Games Store、EA Desktop、Playnite 桌面版、文件资源管理器、Windows 文件选择器、打开方式对话框、Windows Installer、Steam 和 Discord 则使用内置映射（同样可自定义）。任务管理器与屏幕键盘还需要管理员应用支持（专业版）。ROG Ally 家族具备内置手柄映射，猫又模式在那里会让路；专业版可为这类主机开启。"
     },
     "headers": {
       "button": "按键",
@@ -86,15 +86,15 @@
   },
   "prerequisites": {
     "title": "前置条件",
-    "subtitle": "安装 OmniConsole 前，先启用 Windows 11 Xbox 模式 (FSE)。",
+    "subtitle": "OmniConsole 需要 Windows 11 24H2 (Build 26100.7019) 以上，并启用完整掌机版的 Xbox 模式 (FSE)。",
     "desktop": {
-      "title": "台式机 / 笔记本 / 平板 / 非原生 Xbox 模式 (FSE) 掌机",
-      "body": "先使用 Xbox Full Screen Experience Tool 启用 Xbox 模式 (FSE)。",
+      "title": "台式机 / 笔记本 / 平板 / 未取得完整掌机版的掌机",
+      "body": "Microsoft 正逐步将受限 PC 版的 Xbox 模式 (FSE) 推送至普通 PC。请先使用 Xbox Full Screen Experience Tool 切换至完整掌机版。",
       "cta": "前往 XFSET 仓库"
     },
     "native": {
       "title": "原生 Xbox 模式 (FSE) 掌机",
-      "body": "ROG Xbox Ally 系列等设备已内置 Xbox 模式 (FSE)，可直接安装 OmniConsole。"
+      "body": "ROG Xbox Ally 系列等设备出厂即为完整掌机版，可直接安装 OmniConsole。"
     },
     "controller": {
       "title": "需要 Xbox 手柄",

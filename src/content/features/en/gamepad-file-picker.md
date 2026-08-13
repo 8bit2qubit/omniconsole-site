@@ -2,7 +2,7 @@
 title: Gamepad-Compatible File Picker
 icon: lucide:folder-open
 category: gamepad
-order: 6
+order: 7
 locale: en
 ---
 

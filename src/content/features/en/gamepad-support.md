@@ -2,8 +2,8 @@
 title: Gamepad Support
 icon: lucide:gamepad-2
 category: gamepad
-order: 13
+order: 8
 locale: en
 ---
 
-Navigate with D-Pad / Left Stick, A to select, B to exit, LB/RB to switch tabs, Y to add, X to edit, ☰ to set as default and launch immediately.
+The main app and the OmniCharm widget are both driven entirely with a gamepad: navigate with the D-Pad or Left Stick, A to confirm and B to go back, with the remaining buttons taking on whatever each screen offers. The main app shows the available buttons along the bottom of the screen.

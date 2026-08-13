@@ -19,7 +19,7 @@ A custom platform uses one of three launch types:
 | Type | Description |
 |---|---|
 | Executable | Point to an `.exe` file. Supports custom launch arguments. A gamepad-friendly file picker is built in, so you can browse without a mouse. |
-| Protocol URI | Launch via a protocol link, such as `steam://`. |
+| Protocol URI | Launch via a protocol link, such as `steam://open/bigpicture`. |
 | Packaged App | For MSIX / APPX apps (UWP or Microsoft Store apps). Search installed packages by their Package Family Name. |
 
 ## Card Cover
@@ -29,3 +29,11 @@ You can give a custom platform its own card cover image. The recommended resolut
 ## Import and Export
 
 To share a platform, right-click (or press and hold) its card and choose **Export** — the configuration is copied to the clipboard as JSON. To add a shared platform, use the **Import** button on the Custom tab and paste the JSON.
+
+Per-user install paths are exported as environment variables (such as `%LocalAppData%\…`) carrying no Windows account name, and import expands them again. A platform you share with a friend works on their console right away.
+
+## Community Platforms
+
+Next to Import on the Custom tab, the **Community** button opens a browser of platform definitions shared by the community on GitHub. Search by name or submitter, sort by date or name, and preview each platform's cover and launch details before adding it with one click.
+
+Your own platform can be listed as well: export it and open a pull request at [**OmniConsolePlatforms**](https://github.com/8bit2qubit/OmniConsolePlatforms).

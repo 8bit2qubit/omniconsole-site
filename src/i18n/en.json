@@ -55,7 +55,7 @@
     },
     "mouseMode": {
       "title": "Nekomata Mode",
-      "description": "Turn your controller into a mouse and keyboard, customizable per app. Nekomata weaves a charm for each app, remapping every XInput control to keyboard, mouse, or cursor actions, and can raise mapping priority with Nekomata Boost, add hold-to-repeat, and prevent double input. Two layouts — OmniNav or Classic. OmniNav shown below — common keys only; tap the link below for the full reference.",
+      "description": "Turn your controller into a mouse and keyboard, customizable per app. Nekomata weaves a charm for each app, remapping XInput controls to keyboard, mouse, or cursor actions, and can raise mapping priority with Nekomata Boost, add hold-to-repeat, and prevent double input. Three layouts to start from: OmniNav, Classic, or a Custom layout you define yourself (Pro). OmniNav shown below — common keys only; tap the link below for the full reference.",
       "imageAlt": "Xbox controller with the left stick moving a cursor on a laptop and the A button highlighted as click",
       "rows": [
         { "button": "Left Stick", "action": "Cursor" },
@@ -66,7 +66,7 @@
         { "button": "Y", "action": "Page Up" },
         { "button": "D-pad", "action": "Arrow Keys" }
       ],
-      "footnote": "On / Off toggle. When on, your customized profiles take over; Edge, Chrome, Firefox, Opera, Brave, Epic Games Store, File Explorer, Steam, and Discord run on built-in mapping (also customizable). Auto-disabled on ROG Ally family."
+      "footnote": "On / Off toggle. When on, your customized profiles take over; Edge, Chrome, Firefox, Opera, Brave, Epic Games Store, EA Desktop, Playnite Desktop, File Explorer, the Windows file picker, the Open with dialog, Windows Installer, Steam, and Discord run on built-in mapping (also customizable). Task Manager and the On-screen keyboard also require Administrator App Support (Pro). On the ROG Ally family, which has built-in gamepad mapping, Nekomata Mode stays out of the way; Pro can turn it on for those consoles."
     },
     "headers": {
       "button": "Button",
@@ -86,15 +86,15 @@
   },
   "prerequisites": {
     "title": "Prerequisites",
-    "subtitle": "Before installing OmniConsole, enable Windows 11 Xbox Mode (FSE).",
+    "subtitle": "OmniConsole needs Windows 11 24H2 (Build 26100.7019) or later, with the Full Handheld edition of Xbox Mode (FSE) enabled.",
     "desktop": {
-      "title": "Desktops / Laptops / Tablets / Non-native Handhelds",
-      "body": "Use Xbox Full Screen Experience Tool to enable Xbox Mode (FSE) first.",
+      "title": "Desktops / Laptops / Tablets / Handhelds without the Full Handheld edition",
+      "body": "Microsoft is gradually rolling out a Limited PC edition of Xbox Mode (FSE) to regular PCs. Use Xbox Full Screen Experience Tool to switch to the Full Handheld edition first.",
       "cta": "Open XFSET repository"
     },
     "native": {
       "title": "Native Xbox Mode (FSE) Handheld Devices",
-      "body": "Devices like the ROG Xbox Ally series support Xbox Mode (FSE) out of the box. Install OmniConsole directly."
+      "body": "Devices like the ROG Xbox Ally series ship with the Full Handheld edition. Install OmniConsole directly."
     },
     "controller": {
       "title": "Xbox Controller Required",

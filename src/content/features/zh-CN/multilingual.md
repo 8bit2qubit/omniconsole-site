@@ -2,7 +2,7 @@
 title: 多语界面
 icon: lucide:languages
 category: core
-order: 21
+order: 26
 locale: zh-CN
 ---
 

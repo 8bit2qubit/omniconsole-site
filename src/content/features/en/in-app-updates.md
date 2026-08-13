@@ -2,7 +2,7 @@
 title: In-App Updates
 icon: lucide:refresh-cw
 category: core
-order: 20
+order: 25
 locale: en
 ---
 

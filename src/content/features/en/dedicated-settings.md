@@ -2,7 +2,7 @@
 title: Dedicated Settings Entry
 icon: lucide:settings
 category: core
-order: 18
+order: 23
 locale: en
 ---
 

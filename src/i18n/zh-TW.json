@@ -55,7 +55,7 @@
     },
     "mouseMode": {
       "title": "貓又模式",
-      "description": "把手把變成滑鼠與鍵盤，還能隨每個程式量身自訂。貓又為各程式編一道咒，將每個 XInput 輸入位重新映射為鍵盤、滑鼠或游標動作，並能以貓又衝刺提高映射優先順序、加上長按連發、阻擋雙重輸入。兩種對應方式 — OmniNav 或經典。下表為 OmniNav，僅列常用按鍵，完整對照點下方連結。",
+      "description": "把手把變成滑鼠與鍵盤，還能隨每個程式量身自訂。貓又為各程式編一道咒，將 XInput 輸入位重新映射為鍵盤、滑鼠或游標動作，並能以貓又衝刺提高映射優先順序、加上長按連發、阻擋雙重輸入。三種版面可作起點：OmniNav、經典，或你自己定義的自訂版面（專業版）。下表為 OmniNav，僅列常用按鍵，完整對照點下方連結。",
       "imageAlt": "Xbox 手把示意圖，左搖桿控制筆電游標、A 鍵作為滑鼠左鍵",
       "rows": [
         { "button": "左搖桿", "action": "游標" },
@@ -66,7 +66,7 @@
         { "button": "Y", "action": "Page Up" },
         { "button": "十字鍵", "action": "方向鍵" }
       ],
-      "footnote": "開啟 / 關閉切換。開啟時你自訂的設定檔優先接手；Edge、Chrome、Firefox、Opera、Brave、Epic Games Store、檔案總管、Steam、Discord 則套用內建映射（同樣可自訂）。ROG Ally 家族自動停用。"
+      "footnote": "開啟 / 關閉切換。開啟時你自訂的設定檔優先接手；Edge、Chrome、Firefox、Opera、Brave、Epic Games Store、EA Desktop、Playnite 桌面版、檔案總管、Windows 檔案選擇器、開啟方式對話方塊、Windows Installer、Steam 和 Discord 則套用內建映射（同樣可自訂）。工作管理員與螢幕小鍵盤另需系統管理員程式支援（專業版）。ROG Ally 家族具備內建手把映射，貓又模式在那裡會讓路；專業版可為這類主機開啟。"
     },
     "headers": {
       "button": "按鍵",
@@ -86,15 +86,15 @@
   },
   "prerequisites": {
     "title": "前置條件",
-    "subtitle": "安裝 OmniConsole 前，先啟用 Windows 11 Xbox 模式 (FSE)。",
+    "subtitle": "OmniConsole 需要 Windows 11 24H2 (Build 26100.7019) 以上，並啟用完整掌機版的 Xbox 模式 (FSE)。",
     "desktop": {
-      "title": "桌機 / 筆電 / 平板 / 非原生 Xbox 模式 (FSE) 掌機",
-      "body": "先使用 Xbox Full Screen Experience Tool 啟用 Xbox 模式 (FSE)。",
+      "title": "桌機 / 筆電 / 平板 / 未取得完整掌機版的掌機",
+      "body": "Microsoft 正逐步將受限 PC 版的 Xbox 模式 (FSE) 推送至一般 PC。請先使用 Xbox Full Screen Experience Tool 切換至完整掌機版。",
       "cta": "前往 XFSET 儲存庫"
     },
     "native": {
       "title": "原生 Xbox 模式 (FSE) 掌機",
-      "body": "ROG Xbox Ally 系列等裝置已內建 Xbox 模式 (FSE)，可直接安裝 OmniConsole。"
+      "body": "ROG Xbox Ally 系列等裝置原廠即為完整掌機版，可直接安裝 OmniConsole。"
     },
     "controller": {
       "title": "需要 Xbox 手把",

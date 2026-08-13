@@ -4,15 +4,19 @@ title: 前置条件
 description: 安装 OmniConsole 之前需要准备的项目。
 ---
 
-在安装 OmniConsole 之前，请先启用 Windows 11 的 **Xbox 模式 (FSE)** 功能。
+OmniConsole 需要 **Windows 11 24H2 (Build 26100.7019)** 以上，并已启用 Windows 11 的 **Xbox 模式 (FSE)** 功能。
 
-## 台式机 / 笔记本 / 平板 / 未内置 Xbox 模式 (FSE) 的掌机
+## 完整掌机版
 
-请先使用 [**Xbox Full Screen Experience Tool（XFSET）**](https://github.com/8bit2qubit/XboxFullScreenExperienceTool) 启用 Xbox 模式 (FSE) 功能。
+OmniConsole 需要**完整掌机版**的 Xbox 模式 (FSE)。Microsoft 正逐步将**受限 PC 版**推送至普通 PC，安装前请先确认你的设备是哪一种。
+
+## 台式机 / 笔记本 / 平板 / 未取得完整掌机版的掌机
+
+请先使用 [**Xbox Full Screen Experience Tool（XFSET）**](https://github.com/8bit2qubit/XboxFullScreenExperienceTool) 切换至完整掌机版。
 
 ## 原生 Xbox 模式 (FSE) 掌机设备
 
-如 **ROG Xbox Ally** 系列已原生支持 Xbox 模式 (FSE)，可直接安装 OmniConsole，无需 XFSET。
+如 **ROG Xbox Ally** 系列出厂即为完整掌机版，可直接安装 OmniConsole，无需 XFSET。
 
 ## 需要 Xbox 手柄
 
