@@ -2,7 +2,7 @@
 title: ROG Ally 家族主機上的貓又模式（專業版）
 icon: lucide:joystick
 category: gamepad
-order: 13
+order: 14
 locale: zh-TW
 ---
 

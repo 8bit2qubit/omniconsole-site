@@ -2,7 +2,7 @@
 title: Screen Keyboards from Any Button (Pro)
 icon: lucide:type
 category: gamepad
-order: 12
+order: 13
 locale: en
 ---
 

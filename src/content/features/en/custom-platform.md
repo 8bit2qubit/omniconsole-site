@@ -1,5 +1,5 @@
 ---
-title: Custom Platform Support (experimental)
+title: Custom Platform Support (Experimental)
 icon: lucide:plus-square
 category: platform
 order: 4

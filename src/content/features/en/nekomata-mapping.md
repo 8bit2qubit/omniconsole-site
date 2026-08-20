@@ -2,7 +2,7 @@
 title: Nekomata Mode
 icon: local:nekomata
 category: gamepad
-order: 9
+order: 10
 locale: en
 ---
 

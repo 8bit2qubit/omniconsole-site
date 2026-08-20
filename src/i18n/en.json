@@ -66,7 +66,7 @@
         { "button": "Y", "action": "Page Up" },
         { "button": "D-pad", "action": "Arrow Keys" }
       ],
-      "footnote": "On / Off toggle. When on, your customized profiles take over; Edge, Chrome, Firefox, Opera, Brave, Epic Games Store, EA Desktop, Playnite Desktop, File Explorer, the Windows file picker, the Open with dialog, Windows Installer, Steam, and Discord run on built-in mapping (also customizable). Task Manager and the On-screen keyboard also require Administrator App Support (Pro). On the ROG Ally family, which has built-in gamepad mapping, Nekomata Mode stays out of the way; Pro can turn it on for those consoles."
+      "footnote": "On / Off toggle. When on, your customized profiles take over; built-in mapping covers Edge, Chrome, Firefox, Opera, Brave, Epic Games Store, EA Desktop, Playnite Desktop, File Explorer, the Windows file picker, the Open with dialog, Windows Installer, Steam, Discord, App Installer, and a wide range of built-in Windows tools and Control Panel dialogs (also customizable). Those that run as Administrator, such as Task Manager, and the On-screen keyboard also require Administrator App Support (Pro). On the ROG Ally family, which has built-in gamepad mapping, Nekomata Mode stays out of the way; Pro can turn it on for those consoles."
     },
     "headers": {
       "button": "Button",

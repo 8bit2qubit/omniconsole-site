@@ -2,7 +2,7 @@
 title: 自定义控制器布局（专业版）
 icon: lucide:sliders-horizontal
 category: gamepad
-order: 10
+order: 11
 locale: zh-CN
 ---
 

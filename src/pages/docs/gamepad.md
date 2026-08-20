@@ -44,7 +44,7 @@ Turn your controller into a mouse and keyboard, customizable per app. Two layout
 
 ### On / Off
 
-An **On / Off** toggle. When on, your customized profiles take over, and the apps below run on built-in mapping (also customizable): Edge, Chrome, Firefox, Opera, Brave, Epic Games Store, EA Desktop, Playnite Desktop, File Explorer, the Windows file picker, the Open with dialog, Windows Installer, Steam, and Discord. Task Manager and the On-screen keyboard also require Administrator App Support (Pro).
+An **On / Off** toggle. When on, your customized profiles take over, and the apps below run on built-in mapping (also customizable): Edge, Chrome, Firefox, Opera, Brave, Epic Games Store, EA Desktop, Playnite Desktop, File Explorer, the Windows file picker, the Open with dialog, Windows Installer, Steam, Discord, App Installer, and a wide range of built-in Windows tools and Control Panel dialogs. Those that run as Administrator, such as Task Manager, and the On-screen keyboard also require Administrator App Support (Pro).
 
 Toggleable via the OmniCharm Game Bar widget. On ROG Ally family devices, which have built-in gamepad mapping, Nekomata Mode stays out of the way; Pro can turn it on for those consoles.
 

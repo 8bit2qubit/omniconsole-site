@@ -2,7 +2,7 @@
 title: 用手柄调出屏幕键盘（专业版）
 icon: lucide:type
 category: gamepad
-order: 12
+order: 13
 locale: zh-CN
 ---
 

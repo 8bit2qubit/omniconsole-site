@@ -44,7 +44,7 @@ OmniConsole 完整支援 **Xbox 相容（XInput）控制器**操作。
 
 ### 開啟 / 關閉
 
-**開啟 / 關閉**切換。開啟時你自訂的設定檔優先接手，下列程式則套用內建映射（同樣可自訂）：Edge、Chrome、Firefox、Opera、Brave、Epic Games Store、EA Desktop、Playnite 桌面版、檔案總管、Windows 檔案選擇器、開啟方式對話方塊、Windows Installer、Steam 和 Discord。工作管理員與螢幕小鍵盤另需系統管理員程式支援（專業版）。
+**開啟 / 關閉**切換。開啟時你自訂的設定檔優先接手，下列程式則套用內建映射（同樣可自訂）：Edge、Chrome、Firefox、Opera、Brave、Epic Games Store、EA Desktop、Playnite 桌面版、檔案總管、Windows 檔案選擇器、開啟方式對話方塊、Windows Installer、Steam、Discord、應用程式安裝程式，以及一系列 Windows 內建工具與控制台對話方塊。其中以系統管理員身分執行的程式（例如工作管理員）與螢幕小鍵盤另需系統管理員程式支援（專業版）。
 
 可於 OmniCharm Game Bar 小工具切換。ROG Ally 家族具備內建手把映射，貓又模式在那裡會讓路；專業版可為這類主機開啟。
 

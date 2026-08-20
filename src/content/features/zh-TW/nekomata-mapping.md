@@ -2,7 +2,7 @@
 title: 貓又模式
 icon: local:nekomata
 category: gamepad
-order: 9
+order: 10
 locale: zh-TW
 ---
 
