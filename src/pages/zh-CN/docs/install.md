@@ -6,7 +6,7 @@ description: 在 Windows 11 上安装与更新 OmniConsole。
 
 ## 1. 下载
 
-从[**发布页面**](https://github.com/8bit2qubit/OmniConsole/releases/latest)获取最新版本。ZIP 内含主程序、OmniCharm 小组件、证书、依赖框架包（VCLibs、Windows App Runtime）与 `Install.bat`。
+从[**发布页面**](https://github.com/8bit2qubit/OmniConsole/releases/latest)获取最新版本。ZIP 内含主程序、OmniCharm 小组件、证书、依赖框架包（VCLibs）与 `Install.bat`。
 
 ## 2. 安装
 

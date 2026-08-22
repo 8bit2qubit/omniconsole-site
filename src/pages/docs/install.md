@@ -6,7 +6,7 @@ description: Install and update OmniConsole on Windows 11.
 
 ## 1. Download
 
-Grab the latest release from the [**Releases Page**](https://github.com/8bit2qubit/OmniConsole/releases/latest). The ZIP contains the main app, the OmniCharm widget, a certificate, bundled framework dependencies (VCLibs, Windows App Runtime), and `Install.bat`.
+Grab the latest release from the [**Releases Page**](https://github.com/8bit2qubit/OmniConsole/releases/latest). The ZIP contains the main app, the OmniCharm widget, a certificate, a bundled framework dependency (VCLibs), and `Install.bat`.
 
 ## 2. Install
 
