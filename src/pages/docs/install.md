@@ -6,7 +6,7 @@ description: Install and update OmniConsole on Windows 11.
 
 ## 1. Download
 
-Grab the latest release from the [**Releases Page**](https://github.com/8bit2qubit/OmniConsole/releases/latest). The ZIP contains the main app, the OmniCharm widget, a certificate, a bundled framework dependency (VCLibs), and `Install.bat`.
+Grab the latest release from the [**Releases Page**](https://github.com/8bit2qubit/OmniConsole/releases/latest). The ZIP contains the main app, the OmniCharm widget, a certificate, and `Install.bat`.
 
 ## 2. Install
 
@@ -14,15 +14,14 @@ Extract `OmniConsole_*_x64.zip` to any folder, then pick one of the options belo
 
 ### Option A — Install.bat (Recommended)
 
-Run `Install.bat`. It enables Developer Mode, installs the certificate, installs any missing framework dependencies, and installs both MSIX packages automatically.
+Run `Install.bat`. It enables Developer Mode, installs the certificate, and installs both MSIX packages automatically.
 
 ### Option B — Manual Install
 
 1. **[Critical]** Open **Windows Settings → System → Advanced** and enable **Developer Mode**.
 2. **[Critical]** Double-click `OmniConsole_*_x64.cer` → **Install Certificate** → **Local Machine** → **Place all certificates in the following store** → **Browse** → **Trusted People** → Finish. (Skip if you have installed the certificate before.)
-3. _(Optional — only needed on fresh/offline systems; online systems fetch these automatically)_ Double-click each file inside `Dependencies\` to install the bundled framework packages (skip any that report an equal or newer version already installed).
-4. Double-click `OmniConsole_*_x64.msix` to install the main app.
-5. Double-click `OmniConsole.PhantomLink_*_x64-widget.msix` to install the OmniCharm widget.
+3. Double-click `OmniConsole_*_x64.msix` to install the main app.
+4. Double-click `OmniConsole.PhantomLink_*_x64-widget.msix` to install the OmniCharm widget.
 
 ## 3. Configure Your Default Platform
 

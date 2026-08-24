@@ -136,7 +136,6 @@
       "OmniConsole_*_x64.msix — main app",
       "OmniConsole.PhantomLink_*_x64-widget.msix — OmniCharm Game Bar widget",
       "OmniConsole_*_x64.cer — code signing certificate",
-      "Dependencies\\ — framework package (VCLibs) for fresh/offline systems",
       "Install.bat — one-click installer (recommended)",
       "OmniConsoleInstaller.ps1 — PowerShell script invoked by Install.bat",
       "README.txt — installation notes in English and Traditional Chinese"

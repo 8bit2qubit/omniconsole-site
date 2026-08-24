@@ -136,7 +136,6 @@
       "OmniConsole_*_x64.msix — 主程序",
       "OmniConsole.PhantomLink_*_x64-widget.msix — OmniCharm Game Bar 小组件",
       "OmniConsole_*_x64.cer — 代码签名证书",
-      "Dependencies\\ — 依赖框架包（VCLibs），全新／离线系统需要",
       "Install.bat — 一键安装程序（推荐）",
       "OmniConsoleInstaller.ps1 — 由 Install.bat 调用的 PowerShell 脚本",
       "README.txt — 英文与繁体中文安装说明"
