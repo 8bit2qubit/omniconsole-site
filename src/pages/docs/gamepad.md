@@ -79,6 +79,7 @@ Open the editor from the OmniCharm widget's **"Customize gamepad mapping for thi
 | Media keys | Volume, playback controls, browser keys, launch keys |
 | Modifier combo | Ctrl / Shift / Alt / Win + key |
 | Mouse | Left / right / middle button, scroll wheel, cursor movement, scrolling |
+| Screen keyboards (Pro) | Gamepad keyboard, On-screen keyboard |
 
 ### Custom Controller Layout (Pro)
 
