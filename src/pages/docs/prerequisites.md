@@ -18,6 +18,6 @@ Use the [**Xbox Full Screen Experience Tool (XFSET)**](https://github.com/8bit2q
 
 Devices like the **ROG Xbox Ally** series ship with the Full Handheld edition. Install OmniConsole directly — no XFSET needed.
 
-## Xbox Controller Required
+## XBOX Controller Required
 
-Game Bar, XBOX Mode (FSE), and all gamepad features require an **Xbox-compatible (XInput) controller with an XBOX button**.
+Game Bar, XBOX Mode (FSE), and all gamepad features require an **XBOX-compatible (XInput) controller with an XBOX button**.

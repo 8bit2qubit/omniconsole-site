@@ -45,7 +45,7 @@
     "shortcuts": {
       "title": "Gamepad Steam Shortcuts",
       "description": "Controller shortcuts for Steam — ⧉ opens Steam menus, long-press ☰ opens the Steam In-Game Overlay.",
-      "imageAlt": "Xbox controller diagram showing View (⧉) and Menu (☰) button shortcuts for Steam",
+      "imageAlt": "XBOX controller diagram showing View (⧉) and Menu (☰) button shortcuts for Steam",
       "rows": [
         { "button": "⧉ (short press)", "action": "Open Steam menu¹" },
         { "button": "⧉ (long press)", "action": "Open Quick Access menu¹" },
@@ -56,7 +56,7 @@
     "mouseMode": {
       "title": "Nekomata Mode",
       "description": "Turn your controller into a mouse and keyboard, customizable per app. Nekomata weaves a charm for each app, remapping XInput controls to keyboard, mouse, or cursor actions, and can raise mapping priority with Nekomata Boost, add hold-to-repeat, and prevent double input. Three layouts to start from: OmniNav, Classic, or a Custom layout you define yourself (Pro). OmniNav shown below — common keys only; tap the link below for the full reference.",
-      "imageAlt": "Xbox controller with the left stick moving a cursor on a laptop and the A button highlighted as click",
+      "imageAlt": "XBOX controller with the left stick moving a cursor on a laptop and the A button highlighted as click",
       "rows": [
         { "button": "Left Stick", "action": "Cursor" },
         { "button": "Right Stick", "action": "Scroll" },
@@ -97,8 +97,8 @@
       "body": "Devices like the ROG Xbox Ally series ship with the Full Handheld edition. Install OmniConsole directly."
     },
     "controller": {
-      "title": "Xbox Controller Required",
-      "body": "Game Bar, XBOX Mode (FSE), and gamepad features all require an Xbox-compatible (XInput) controller with an XBOX button."
+      "title": "XBOX Controller Required",
+      "body": "Game Bar, XBOX Mode (FSE), and gamepad features all require an XBOX-compatible (XInput) controller with an XBOX button."
     }
   },
   "quickStart": {

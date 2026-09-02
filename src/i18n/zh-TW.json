@@ -31,7 +31,7 @@
     "flowTitle": "運作方式",
     "entries": [
       { "title": "開機", "body": "開機自動進入設定的平台（需啟用「啟動時進入 XBOX 模式 (FSE)」）。" },
-      { "title": "XBOX 鍵", "body": "開啟 Game Bar，選「首頁」啟動平台，或選「媒體櫃」開啟 OmniConsole 設定。" },
+      { "title": "XBOX 按鈕", "body": "開啟 Game Bar，選「首頁」啟動平台，或選「媒體櫃」開啟 OmniConsole 設定。" },
       { "title": "開始功能表", "body": "從桌面啟動 OmniConsole，自動觸發 XBOX 模式 (FSE) 後再啟動平台。" }
     ],
     "decisionInFse": "已在 XBOX 模式 (FSE)",
@@ -45,7 +45,7 @@
     "shortcuts": {
       "title": "手把 Steam 快捷鍵",
       "description": "手把上的 Steam 捷徑 — ⧉ 開啟 Steam 選單，長按 ☰ 開啟 Steam 遊戲內嵌介面。",
-      "imageAlt": "Xbox 手把示意圖，標註 ⧉ 與 ☰ 兩顆按鈕對應的 Steam 快捷鍵",
+      "imageAlt": "XBOX 手把示意圖，標註 ⧉ 與 ☰ 兩顆按鈕對應的 Steam 快捷鍵",
       "rows": [
         { "button": "⧉（短按）", "action": "開啟 Steam 選單¹" },
         { "button": "⧉（長按）", "action": "開啟快速存取選單¹" },
@@ -56,7 +56,7 @@
     "mouseMode": {
       "title": "貓又模式",
       "description": "把手把變成滑鼠與鍵盤，還能隨每個程式量身自訂。貓又為各程式編一道咒，將 XInput 輸入位重新映射為鍵盤、滑鼠或游標動作，並能以貓又衝刺提高映射優先順序、加上長按連發、阻擋雙重輸入。三種版面可作起點：OmniNav、經典，或你自己定義的自訂版面（專業版）。下表為 OmniNav，僅列常用按鍵，完整對照點下方連結。",
-      "imageAlt": "Xbox 手把示意圖，左搖桿控制筆電游標、A 鍵作為滑鼠左鍵",
+      "imageAlt": "XBOX 手把示意圖，左搖桿控制筆電游標、A 鍵作為滑鼠左鍵",
       "rows": [
         { "button": "左搖桿", "action": "游標" },
         { "button": "右搖桿", "action": "滾輪" },
@@ -97,8 +97,8 @@
       "body": "ROG Xbox Ally 系列等裝置原廠即為完整掌機版，可直接安裝 OmniConsole。"
     },
     "controller": {
-      "title": "需要 Xbox 手把",
-      "body": "Game Bar、XBOX 模式 (FSE) 與所有手把功能皆需具備 XBOX 鍵的 XInput 相容手把。"
+      "title": "需要 XBOX 手把",
+      "body": "Game Bar、XBOX 模式 (FSE) 與所有手把功能皆需具備 XBOX 按鈕的 XInput 相容手把。"
     }
   },
   "quickStart": {
@@ -118,7 +118,7 @@
     },
     "step4": {
       "title": "完成",
-      "body": "重開機、按 XBOX 鍵選首頁或從開始功能表啟動，你的平台就會自動開啟。"
+      "body": "重開機、按 XBOX 按鈕選首頁或從開始功能表啟動，你的平台就會自動開啟。"
     },
     "cta": "閱讀完整安裝說明"
   },

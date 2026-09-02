@@ -28,7 +28,7 @@ Run `Install.bat`. It enables Developer Mode, installs the certificate, and inst
 OmniConsole shows its Settings UI on **first launch** and **after updates**. You can also open it anytime from the Start Menu:
 
 1. Open **OmniConsole Settings** from **All Apps**.
-2. Pick your platform from the card grid — mouse, touch, or Xbox controller (**D-Pad/Left Stick** to navigate, **A** to confirm):
+2. Pick your platform from the card grid — mouse, touch, or XBOX controller (**D-Pad/Left Stick** to navigate, **A** to confirm):
    - Steam Big Picture
    - XBOX App
    - Epic Games Store

@@ -20,7 +20,7 @@ No. OmniConsole registers as the **XBOX Mode (FSE) Home App** using the official
 
 No. OmniConsole runs on any Windows 11 PC. It requires the **Full Handheld edition** of XBOX Mode (FSE): desktops, laptops, and tablets use [**XFSET**](https://github.com/8bit2qubit/XboxFullScreenExperienceTool) to switch to it first, while native handhelds (ROG Xbox Ally X, etc.) ship with it.
 
-## Do I need an Xbox controller?
+## Do I need an XBOX controller?
 
 Windows 11 Game Bar, XBOX Mode (FSE) navigation, and the XBOX button flow all require an **XInput-compatible controller with an XBOX button**.
 

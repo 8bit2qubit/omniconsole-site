@@ -6,4 +6,4 @@ order: 18
 locale: en
 ---
 
-Large icon cards designed for large-screen and handheld use, operable with mouse, touch, or Xbox controller.
+Large icon cards designed for large-screen and handheld use, operable with mouse, touch, or XBOX controller.

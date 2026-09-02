@@ -31,7 +31,7 @@
     "flowTitle": "工作方式",
     "entries": [
       { "title": "开机", "body": "开机自动进入配置的平台（需启用“启动时进入 XBOX 模式 (FSE)”）。" },
-      { "title": "XBOX 键", "body": "打开 Game Bar，选“主页”启动平台，或选“库”打开 OmniConsole 设置。" },
+      { "title": "XBOX 按钮", "body": "打开 Game Bar，选“主页”启动平台，或选“库”打开 OmniConsole 设置。" },
       { "title": "开始菜单", "body": "从桌面启动 OmniConsole，自动触发 XBOX 模式 (FSE) 后再启动平台。" }
     ],
     "decisionInFse": "已在 XBOX 模式 (FSE)",
@@ -45,7 +45,7 @@
     "shortcuts": {
       "title": "手柄 Steam 快捷键",
       "description": "手柄上的 Steam 快捷方式 — ⧉ 打开 Steam 菜单，长按 ☰ 打开 Steam 游戏叠加界面。",
-      "imageAlt": "Xbox 手柄示意图，标注 ⧉ 与 ☰ 两颗按键对应的 Steam 快捷键",
+      "imageAlt": "XBOX 手柄示意图，标注 ⧉ 与 ☰ 两颗按键对应的 Steam 快捷键",
       "rows": [
         { "button": "⧉（短按）", "action": "打开 Steam 菜单¹" },
         { "button": "⧉（长按）", "action": "打开快速访问菜单¹" },
@@ -56,7 +56,7 @@
     "mouseMode": {
       "title": "猫又模式",
       "description": "把手柄变成鼠标与键盘，还能随每个应用量身定制。猫又为各应用编一道咒，将 XInput 输入位重新映射为键盘、鼠标或光标动作，并能以猫又冲刺提高映射优先级、加上长按连发、拦截双重输入。三种布局可作起点：OmniNav、经典，或你自己定义的自定义布局（专业版）。下表为 OmniNav，仅列常用按键，完整对照点下方链接。",
-      "imageAlt": "Xbox 手柄示意图，左摇杆控制笔记本光标、A 键作为鼠标左键",
+      "imageAlt": "XBOX 手柄示意图，左摇杆控制笔记本光标、A 键作为鼠标左键",
       "rows": [
         { "button": "左摇杆", "action": "光标" },
         { "button": "右摇杆", "action": "滚轮" },
@@ -97,8 +97,8 @@
       "body": "ROG Xbox Ally 系列等设备出厂即为完整掌机版，可直接安装 OmniConsole。"
     },
     "controller": {
-      "title": "需要 Xbox 手柄",
-      "body": "Game Bar、XBOX 模式 (FSE) 与所有手柄功能均需具备 XBOX 键的 XInput 兼容手柄。"
+      "title": "需要 XBOX 手柄",
+      "body": "Game Bar、XBOX 模式 (FSE) 与所有手柄功能均需具备 XBOX 按钮的 XInput 兼容手柄。"
     }
   },
   "quickStart": {
@@ -118,7 +118,7 @@
     },
     "step4": {
       "title": "完成",
-      "body": "重启、按 XBOX 键选主页或从开始菜单启动，你的平台就会自动打开。"
+      "body": "重启、按 XBOX 按钮选主页或从开始菜单启动，你的平台就会自动打开。"
     },
     "cta": "阅读完整安装指南"
   },

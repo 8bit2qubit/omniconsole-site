@@ -4,9 +4,9 @@ title: 手把按鍵對照
 description: OmniConsole 完整手把按鍵對照。
 ---
 
-OmniConsole 完整支援 **Xbox 相容（XInput）控制器**操作。
+OmniConsole 完整支援 **XBOX 相容（XInput）控制器**操作。
 
-在手把上按 **XBOX 鍵**可開啟 **Game Bar** 介面，長按則開啟**工作檢視**。
+在手把上按 **XBOX 按鈕**可開啟 **Game Bar** 介面，長按則開啟**工作檢視**。
 
 ## 平台設定介面
 

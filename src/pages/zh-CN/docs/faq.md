@@ -20,9 +20,9 @@ OmniConsole 是独立开发者利用自己的闲暇时间编写与维护的个�
 
 不必。OmniConsole 可在任何 Windows 11 PC 上运行，但需要**完整掌机版**的 XBOX 模式 (FSE)：台式机、笔记本与平板需先使用 [**XFSET**](https://github.com/8bit2qubit/XboxFullScreenExperienceTool) 切换至完整掌机版；原生掌机（ROG Xbox Ally X 等）出厂即是。
 
-## 需要 Xbox 手柄吗？
+## 需要 XBOX 手柄吗？
 
-Windows 11 Game Bar、XBOX 模式 (FSE) 导览以及 XBOX 键流程皆需使用**具备 XBOX 按钮的 XInput 兼容控制器**。
+Windows 11 Game Bar、XBOX 模式 (FSE) 导览以及 XBOX 按钮流程皆需使用**具备 XBOX 按钮的 XInput 兼容控制器**。
 
 ## 可以新增自定义平台吗？
 

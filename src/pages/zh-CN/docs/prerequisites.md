@@ -18,6 +18,6 @@ OmniConsole 需要**完整掌机版**的 XBOX 模式 (FSE)。Microsoft 正逐步
 
 如 **ROG Xbox Ally** 系列出厂即为完整掌机版，可直接安装 OmniConsole，无需 XFSET。
 
-## 需要 Xbox 手柄
+## 需要 XBOX 手柄
 
 Game Bar、XBOX 模式 (FSE) 以及所有手柄功能皆需使用**具备 XBOX 按钮的 XInput 兼容控制器**。

@@ -28,7 +28,7 @@ description: 在 Windows 11 上安裝與更新 OmniConsole。
 OmniConsole 會在**首次啟動**或**應用程式更新後**彈出設定介面。你也可以隨時手動開啟：
 
 1. 從**所有應用程式**開啟「**OmniConsole 設定**」。
-2. 從卡片網格中選擇偏好的遊戲平台 — 支援滑鼠、觸控或 Xbox 手把（**十字鍵/左搖桿**四向移動，**A 鍵**確認）：
+2. 從卡片網格中選擇偏好的遊戲平台 — 支援滑鼠、觸控或 XBOX 手把（**十字鍵/左搖桿**四向移動，**A 鍵**確認）：
    - Steam Big Picture
    - XBOX 應用程式
    - Epic Games Store
@@ -47,7 +47,7 @@ OmniConsole 會在**首次啟動**或**應用程式更新後**彈出設定介面
 你的遊戲平台現在可透過以下任一方式啟動：
 
 - **開機** — 開機自動進入設定的平台（需啟用「啟動時進入 XBOX 模式 (FSE)」）。
-- **XBOX 鍵** — 開啟 Game Bar，選「**首頁**」啟動平台，或選「**媒體櫃**」開啟 OmniConsole 設定。
+- **XBOX 按鈕** — 開啟 Game Bar，選「**首頁**」啟動平台，或選「**媒體櫃**」開啟 OmniConsole 設定。
 - **開始功能表** — 從桌面啟動 OmniConsole，自動觸發 XBOX 模式 (FSE) 後再啟動平台。
 
 ## 6. 更新 OmniConsole

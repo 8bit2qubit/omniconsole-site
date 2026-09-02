@@ -4,7 +4,7 @@ title: Gamepad Reference
 description: Full gamepad button mapping for OmniConsole.
 ---
 
-OmniConsole is fully operable with an **Xbox-compatible (XInput) controller**.
+OmniConsole is fully operable with an **XBOX-compatible (XInput) controller**.
 
 On your controller, press the **XBOX button** to open the **Game Bar** overlay, or press and hold it to open **Task View**.
 
