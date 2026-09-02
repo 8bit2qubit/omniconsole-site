@@ -12,32 +12,32 @@
     "menu": "選單"
   },
   "hero": {
-    "eyebrow": "Windows 11 Xbox 模式 (FSE) 首頁",
+    "eyebrow": "Windows 11 XBOX 模式 (FSE) 首頁",
     "title": "開機直達，你的遊戲平台。",
-    "subtitle": "開機直達你設定的平台，隨時透過 Game Bar 的「媒體櫃」切換 — Steam、Xbox、Epic、Armoury Crate SE、Playnite，或你自行新增。",
+    "subtitle": "開機直達你設定的平台，隨時透過 Game Bar 的「媒體櫃」切換 — Steam、XBOX、Epic、Armoury Crate SE、Playnite，或你自行新增。",
     "ctaDownload": "下載最新版",
     "ctaGitHub": "前往 GitHub",
     "screenshotAlt1": "OmniConsole 設定介面，以卡片格狀版型顯示已安裝的遊戲平台",
-    "screenshotAlt2": "OmniCharm Game Bar 小工具，提供工作檢視、Xbox 媒體櫃、Steam 內嵌介面一鍵捷徑，並可切換貓又模式與 Steam 遊戲內嵌介面",
+    "screenshotAlt2": "OmniCharm Game Bar 小工具，提供工作檢視、XBOX 媒體櫃、Steam 內嵌介面一鍵捷徑，並可切換貓又模式與 Steam 遊戲內嵌介面",
     "screenshotCaption1": "OmniConsole 設定",
     "screenshotCaption2": "OmniCharm 小工具"
   },
   "what": {
     "title": "OmniConsole 是什麼？",
     "body": [
-      "OmniConsole 在 PC 與掌機（ROG Xbox Ally X 等）上作為你的 Windows 11 Xbox 模式 (FSE) 首頁殼層，並提供 OmniCharm Game Bar 小工具、Steam 快捷鍵與貓又模式，讓手把化身鍵盤滑鼠、隨每個程式量身打造，一切操作都不離手把。",
-      "只要觸發 Xbox 模式 (FSE)，OmniConsole 就會自動啟動你設定的遊戲平台。任何平台都能當你的 Xbox 模式 (FSE) 首頁 — Steam、Xbox、Epic、Armoury Crate SE、Playnite，或你自行新增的平台。"
+      "OmniConsole 在 PC 與掌機（ROG Xbox Ally X 等）上作為你的 Windows 11 XBOX 模式 (FSE) 首頁殼層，並提供 OmniCharm Game Bar 小工具、Steam 快捷鍵與貓又模式，讓手把化身鍵盤滑鼠、隨每個程式量身打造，一切操作都不離手把。",
+      "只要觸發 XBOX 模式 (FSE)，OmniConsole 就會自動啟動你設定的遊戲平台。任何平台都能當你的 XBOX 模式 (FSE) 首頁 — Steam、XBOX、Epic、Armoury Crate SE、Playnite，或你自行新增的平台。"
     ],
     "flowTitle": "運作方式",
     "entries": [
-      { "title": "開機", "body": "開機自動進入設定的平台（需啟用「啟動時進入 Xbox 模式 (FSE)」）。" },
-      { "title": "Xbox 鍵", "body": "開啟 Game Bar，選「首頁」啟動平台，或選「媒體櫃」開啟 OmniConsole 設定。" },
-      { "title": "開始功能表", "body": "從桌面啟動 OmniConsole，自動觸發 Xbox 模式 (FSE) 後再啟動平台。" }
+      { "title": "開機", "body": "開機自動進入設定的平台（需啟用「啟動時進入 XBOX 模式 (FSE)」）。" },
+      { "title": "XBOX 鍵", "body": "開啟 Game Bar，選「首頁」啟動平台，或選「媒體櫃」開啟 OmniConsole 設定。" },
+      { "title": "開始功能表", "body": "從桌面啟動 OmniConsole，自動觸發 XBOX 模式 (FSE) 後再啟動平台。" }
     ],
-    "decisionInFse": "已在 Xbox 模式 (FSE)",
-    "decisionOutFse": "未在 Xbox 模式 (FSE)",
+    "decisionInFse": "已在 XBOX 模式 (FSE)",
+    "decisionOutFse": "未在 XBOX 模式 (FSE)",
     "resultInFse": "啟動設定的平台",
-    "resultOutFse": "觸發 Xbox 模式 (FSE) 對話方塊 → 於 Xbox 模式 (FSE) 中重啟 → 啟動設定的平台"
+    "resultOutFse": "觸發 XBOX 模式 (FSE) 對話方塊 → 於 XBOX 模式 (FSE) 中重啟 → 啟動設定的平台"
   },
   "gamepadHighlights": {
     "sectionTitle": "手把優先設計",
@@ -86,19 +86,19 @@
   },
   "prerequisites": {
     "title": "前置條件",
-    "subtitle": "OmniConsole 需要 Windows 11 24H2 (Build 26100.7019) 以上，並啟用完整掌機版的 Xbox 模式 (FSE)。",
+    "subtitle": "OmniConsole 需要 Windows 11 24H2 (Build 26100.7019) 以上，並啟用完整掌機版的 XBOX 模式 (FSE)。",
     "desktop": {
       "title": "桌機 / 筆電 / 平板 / 未取得完整掌機版的掌機",
-      "body": "Microsoft 正逐步將受限 PC 版的 Xbox 模式 (FSE) 推送至一般 PC。請先使用 Xbox Full Screen Experience Tool 切換至完整掌機版。",
+      "body": "Microsoft 正逐步將受限 PC 版的 XBOX 模式 (FSE) 推送至一般 PC。請先使用 Xbox Full Screen Experience Tool 切換至完整掌機版。",
       "cta": "前往 XFSET 儲存庫"
     },
     "native": {
-      "title": "原生 Xbox 模式 (FSE) 掌機",
+      "title": "原生 XBOX 模式 (FSE) 掌機",
       "body": "ROG Xbox Ally 系列等裝置原廠即為完整掌機版，可直接安裝 OmniConsole。"
     },
     "controller": {
       "title": "需要 Xbox 手把",
-      "body": "Game Bar、Xbox 模式 (FSE) 與所有手把功能皆需具備 Xbox 鍵的 XInput 相容手把。"
+      "body": "Game Bar、XBOX 模式 (FSE) 與所有手把功能皆需具備 XBOX 鍵的 XInput 相容手把。"
     }
   },
   "quickStart": {
@@ -110,15 +110,15 @@
     },
     "step2": {
       "title": "設定預設平台",
-      "body": "開啟 OmniConsole 設定，選擇 Steam Big Picture / Xbox / Epic / Armoury Crate SE / Playnite，或新增自訂平台。"
+      "body": "開啟 OmniConsole 設定，選擇 Steam Big Picture / XBOX / Epic / Armoury Crate SE / Playnite，或新增自訂平台。"
     },
     "step3": {
-      "title": "設為 Xbox 模式 (FSE) 主畫面應用程式",
-      "body": "設定 → 遊戲 → Xbox 模式 (FSE) → 選擇主畫面應用程式 → OmniConsole。啟用「啟動時進入 Xbox 模式 (FSE)」。"
+      "title": "設為 XBOX 模式 (FSE) 主畫面應用程式",
+      "body": "設定 → 遊戲 → XBOX 模式 (FSE) → 選擇主畫面應用程式 → OmniConsole。啟用「啟動時進入 XBOX 模式 (FSE)」。"
     },
     "step4": {
       "title": "完成",
-      "body": "重開機、按 Xbox 鍵選首頁或從開始功能表啟動，你的平台就會自動開啟。"
+      "body": "重開機、按 XBOX 鍵選首頁或從開始功能表啟動，你的平台就會自動開啟。"
     },
     "cta": "閱讀完整安裝說明"
   },

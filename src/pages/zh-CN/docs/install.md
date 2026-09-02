@@ -30,25 +30,25 @@ OmniConsole 会在**首次启动**或**应用程序更新后**弹出设置界面
 1. 从**所有应用**开启“**OmniConsole 设置**”。
 2. 从卡片网格中选择偏好的游戏平台 — 支持鼠标、触摸或 Xbox 手柄（**十字键/左摇杆**四向移动，**A 键**确认）：
    - Steam Big Picture
-   - Xbox 应用
+   - XBOX 应用
    - Epic Games Store
    - Armoury Crate SE
    - Playnite 全屏
 3. 按 **B 键**或单击**退出**即可，选择会自动保存。
 
-## 4. [重要] 设为 Xbox 模式 (FSE) 主应用
+## 4. [重要] 设为 XBOX 模式 (FSE) 主应用
 
-1. 前往 **Windows 设置 → 游戏 → Xbox 模式 (FSE)**。
+1. 前往 **Windows 设置 → 游戏 → XBOX 模式 (FSE)**。
 2. 将“选择主应用”设为 **OmniConsole**。
-3. 启用”**启动时进入 Xbox 模式 (FSE)**”。
+3. 启用”**启动时进入 XBOX 模式 (FSE)**”。
 
 ## 5. 完成
 
 你的游戏平台现在可通过以下任一方式启动：
 
-- **开机** — 开机自动进入配置的平台（需启用”启动时进入 Xbox 模式 (FSE)”）。
-- **Xbox 键** — 打开 Game Bar，选”**主页**”启动平台，或选”**库**”打开 OmniConsole 设置。
-- **开始菜单** — 从桌面启动 OmniConsole，自动触发 Xbox 模式 (FSE) 后再启动平台。
+- **开机** — 开机自动进入配置的平台（需启用”启动时进入 XBOX 模式 (FSE)”）。
+- **XBOX 键** — 打开 Game Bar，选”**主页**”启动平台，或选”**库**”打开 OmniConsole 设置。
+- **开始菜单** — 从桌面启动 OmniConsole，自动触发 XBOX 模式 (FSE) 后再启动平台。
 
 ## 6. 更新 OmniConsole
 

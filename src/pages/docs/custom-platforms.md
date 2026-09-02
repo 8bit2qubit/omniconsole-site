@@ -6,7 +6,7 @@ description: Add your own platforms and apps to OmniConsole.
 
 OmniConsole ships with a set of built-in platforms, and you can add your own — any executable or app. Everything is done through the graphical interface; there is no need to hand-edit any JSON configuration file. Whenever a text field is focused, the Windows 11 gamepad keyboard opens automatically, so you can fill everything in without a physical keyboard.
 
-> ⚠️ **Custom platforms are an experimental feature.** The built-in platforms are tested, but a custom platform you configure yourself is not. A misconfigured platform may fail to launch and, in some cases, can destabilize the Xbox Mode (FSE) environment — recovering may require resetting the app. When you first open this feature, OmniConsole shows a consent notice that you need to accept.
+> ⚠️ **Custom platforms are an experimental feature.** The built-in platforms are tested, but a custom platform you configure yourself is not. A misconfigured platform may fail to launch and, in some cases, can destabilize the XBOX Mode (FSE) environment — recovering may require resetting the app. When you first open this feature, OmniConsole shows a consent notice that you need to accept.
 
 ## Adding a Platform
 

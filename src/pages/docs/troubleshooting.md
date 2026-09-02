@@ -1,26 +1,26 @@
 ---
 layout: ../../layouts/DocsLayout.astro
 title: Troubleshooting
-description: Recover from Xbox Mode (FSE) issues on Windows 11.
+description: Recover from XBOX Mode (FSE) issues on Windows 11.
 ---
 
-## Xbox Mode (FSE) entry dialog does not appear
+## XBOX Mode (FSE) entry dialog does not appear
 
-On some Windows builds the "Restart for better performance" dialog fails to appear when entering Xbox Mode (FSE). OmniConsole provides a recovery action:
+On some Windows builds the "Restart for better performance" dialog fails to appear when entering XBOX Mode (FSE). OmniConsole provides a recovery action:
 
 1. Open **OmniConsole Settings** from the Start Menu.
 2. Switch to the **Troubleshoot** tab in the left menu.
-3. Next to **Restart Game Bar & Enter Xbox Mode (FSE)**, click **Run**. This restarts Game Bar and enters Xbox Mode (FSE); once Game Bar is restarted, the dialog appears as expected.
+3. Next to **Restart Game Bar & Enter XBOX Mode (FSE)**, click **Run**. This restarts Game Bar and enters XBOX Mode (FSE); once Game Bar is restarted, the dialog appears as expected.
 
 ## OmniConsole does not launch my platform
 
-1. Confirm OmniConsole is set as the **Xbox Mode (FSE) Home App** in **Settings → Gaming → Xbox mode (FSE)**.
+1. Confirm OmniConsole is set as the **XBOX Mode (FSE) Home App** in **Settings → Gaming → XBOX mode (FSE)**.
 2. Open **OmniConsole Settings** from the Start Menu and verify your default platform is selected.
-3. Make sure the selected platform is installed. Steam Big Picture requires Steam; Xbox App requires the Xbox app, etc.
+3. Make sure the selected platform is installed. Steam Big Picture requires Steam; XBOX App requires the XBOX app, etc.
 
-## Entering Xbox Mode (FSE) with no mouse connected
+## Entering XBOX Mode (FSE) with no mouse connected
 
-Windows itself draws no cursor when it finds no mouse attached. To keep one visible on a console without a mouse, OmniConsole borrows a Windows system state; a mouse plugged in while that is in effect goes unnoticed, and the desktop will have no cursor after you exit. To use a mouse, exit Xbox Mode (FSE) first, then connect it.
+Windows itself draws no cursor when it finds no mouse attached. To keep one visible on a console without a mouse, OmniConsole borrows a Windows system state; a mouse plugged in while that is in effect goes unnoticed, and the desktop will have no cursor after you exit. To use a mouse, exit XBOX Mode (FSE) first, then connect it.
 
 ## Installation fails with signature errors
 

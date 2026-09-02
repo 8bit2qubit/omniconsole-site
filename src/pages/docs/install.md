@@ -30,25 +30,25 @@ OmniConsole shows its Settings UI on **first launch** and **after updates**. You
 1. Open **OmniConsole Settings** from **All Apps**.
 2. Pick your platform from the card grid — mouse, touch, or Xbox controller (**D-Pad/Left Stick** to navigate, **A** to confirm):
    - Steam Big Picture
-   - Xbox App
+   - XBOX App
    - Epic Games Store
    - Armoury Crate SE
    - Playnite Fullscreen
 3. Press **B** or click **Exit** to finish. Selection saves automatically.
 
-## 4. [Critical] Set as Xbox Mode (FSE) Home App
+## 4. [Critical] Set as XBOX Mode (FSE) Home App
 
-1. Open **Settings → Gaming → Xbox mode (FSE)**.
+1. Open **Settings → Gaming → XBOX mode (FSE)**.
 2. Set **Choose home app** to **OmniConsole**.
-3. Enable **Enter Xbox mode (FSE) on startup**.
+3. Enable **Enter XBOX mode (FSE) on startup**.
 
 ## 5. Done
 
 Your gaming platform now launches via any of these entry points:
 
-- **Boot** — auto-launches into your configured platform (requires "Enter Xbox mode (FSE) on startup" enabled).
-- **Xbox button** — open Game Bar, pick **Home** to launch your platform, or **Library** to open OmniConsole settings.
-- **Start Menu** — launch OmniConsole from the desktop; Xbox Mode (FSE) is triggered automatically before the platform starts.
+- **Boot** — auto-launches into your configured platform (requires "Enter XBOX mode (FSE) on startup" enabled).
+- **XBOX button** — open Game Bar, pick **Home** to launch your platform, or **Library** to open OmniConsole settings.
+- **Start Menu** — launch OmniConsole from the desktop; XBOX Mode (FSE) is triggered automatically before the platform starts.
 
 ## 6. Updating OmniConsole
 

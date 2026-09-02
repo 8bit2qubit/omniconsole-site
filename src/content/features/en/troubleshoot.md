@@ -6,4 +6,4 @@ order: 21
 locale: en
 ---
 
-A dedicated Xbox Mode (FSE) recovery page — restarts Game Bar to fix issues such as the "Restart for better performance" dialog not appearing, then enters Xbox Mode (FSE).
+A dedicated XBOX Mode (FSE) recovery page — restarts Game Bar to fix issues such as the "Restart for better performance" dialog not appearing, then enters XBOX Mode (FSE).

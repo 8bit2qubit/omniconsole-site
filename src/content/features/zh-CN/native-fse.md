@@ -1,9 +1,9 @@
 ---
-title: 原生 Xbox 模式 (FSE) 集成
+title: 原生 XBOX 模式 (FSE) 集成
 icon: lucide:monitor-check
 category: core
 order: 24
 locale: zh-CN
 ---
 
-通过 Windows 11 Xbox 模式 (FSE) 官方 API 注册为主应用。
+通过 Windows 11 XBOX 模式 (FSE) 官方 API 注册为主应用。

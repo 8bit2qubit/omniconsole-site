@@ -6,7 +6,7 @@ description: Full gamepad button mapping for OmniConsole.
 
 OmniConsole is fully operable with an **Xbox-compatible (XInput) controller**.
 
-On your controller, press the **Xbox button** to open the **Game Bar** overlay, or press and hold it to open **Task View**.
+On your controller, press the **XBOX button** to open the **Game Bar** overlay, or press and hold it to open **Task View**.
 
 ## Platform Settings UI
 
@@ -20,7 +20,7 @@ On your controller, press the **Xbox button** to open the **Game Bar** overlay, 
 | **X** | — | Edit the focused platform |
 | **☰ (Menu)** | Set as default and launch¹ | Set as default and launch¹ |
 
-¹ In Xbox Mode (FSE)
+¹ In XBOX Mode (FSE)
 
 ## Nekomata Mode
 
@@ -107,7 +107,7 @@ Install it from **Settings → Advanced → Nekomata** and approve the administr
 
 The OmniCharm Game Bar widget gives you in-game quick access to:
 
-- **Task View**, the **Xbox Library**, and the **Steam Overlay** as one-tap shortcuts.
+- **Task View**, the **XBOX Library**, and the **Steam Overlay** as one-tap shortcuts.
 - Toggling **long-press ☰** to open the Steam In-Game Overlay.
 - Toggling **Nekomata Mode**, switching controller layout (**OmniNav / Classic / Custom**), and adjusting cursor speed.
 - Opening the **Nekomata** per-app gamepad mapping editor for the foreground app with the **"Customize gamepad mapping for this app…"** button — including apps that run as an administrator, with Administrator App Support set up.

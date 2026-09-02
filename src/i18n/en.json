@@ -12,32 +12,32 @@
     "menu": "Menu"
   },
   "hero": {
-    "eyebrow": "Windows 11 Xbox Mode (FSE) Home",
+    "eyebrow": "Windows 11 XBOX Mode (FSE) Home",
     "title": "Your Gaming Platform, On Boot.",
-    "subtitle": "Boot into your configured platform, switch anytime via \"Library\" in Game Bar — Steam, Xbox, Epic, Armoury Crate SE, Playnite, or anything you add.",
+    "subtitle": "Boot into your configured platform, switch anytime via \"Library\" in Game Bar — Steam, XBOX, Epic, Armoury Crate SE, Playnite, or anything you add.",
     "ctaDownload": "Download Latest",
     "ctaGitHub": "View on GitHub",
     "screenshotAlt1": "OmniConsole Settings card grid showing installed gaming platforms",
-    "screenshotAlt2": "OmniCharm Game Bar widget with one-tap shortcuts to Task View, Xbox Library, and Steam Overlay, plus toggles for Nekomata Mode and the Steam In-Game Overlay",
+    "screenshotAlt2": "OmniCharm Game Bar widget with one-tap shortcuts to Task View, XBOX Library, and Steam Overlay, plus toggles for Nekomata Mode and the Steam In-Game Overlay",
     "screenshotCaption1": "OmniConsole Settings",
     "screenshotCaption2": "OmniCharm Widget"
   },
   "what": {
     "title": "What is OmniConsole?",
     "body": [
-      "OmniConsole runs as the Windows 11 Xbox Mode (FSE) Home shell on PCs and handhelds (ROG Xbox Ally X, etc.), with an OmniCharm Game Bar widget, Steam shortcuts, and Nekomata Mode to turn your gamepad into keyboard and mouse, tailored per app, so everything stays on the gamepad.",
-      "Whenever Xbox Mode (FSE) activates, OmniConsole launches your configured gaming platform. Any platform can be your Xbox Mode (FSE) Home — Steam, Xbox, Epic, Armoury Crate SE, Playnite, or anything you add."
+      "OmniConsole runs as the Windows 11 XBOX Mode (FSE) Home shell on PCs and handhelds (ROG Xbox Ally X, etc.), with an OmniCharm Game Bar widget, Steam shortcuts, and Nekomata Mode to turn your gamepad into keyboard and mouse, tailored per app, so everything stays on the gamepad.",
+      "Whenever XBOX Mode (FSE) activates, OmniConsole launches your configured gaming platform. Any platform can be your XBOX Mode (FSE) Home — Steam, XBOX, Epic, Armoury Crate SE, Playnite, or anything you add."
     ],
     "flowTitle": "How It Works",
     "entries": [
-      { "title": "Boot", "body": "Auto-launch into your configured platform (requires \"Enter Xbox mode (FSE) on startup\" enabled)." },
-      { "title": "Xbox Button", "body": "Opens Game Bar — pick \"Home\" to launch the platform, or \"Library\" to open OmniConsole settings." },
-      { "title": "Start Menu", "body": "Launch OmniConsole from the desktop; Xbox Mode (FSE) is triggered automatically before the platform starts." }
+      { "title": "Boot", "body": "Auto-launch into your configured platform (requires \"Enter XBOX mode (FSE) on startup\" enabled)." },
+      { "title": "XBOX Button", "body": "Opens Game Bar — pick \"Home\" to launch the platform, or \"Library\" to open OmniConsole settings." },
+      { "title": "Start Menu", "body": "Launch OmniConsole from the desktop; XBOX Mode (FSE) is triggered automatically before the platform starts." }
     ],
-    "decisionInFse": "Already in Xbox Mode (FSE)",
-    "decisionOutFse": "Outside Xbox Mode (FSE)",
+    "decisionInFse": "Already in XBOX Mode (FSE)",
+    "decisionOutFse": "Outside XBOX Mode (FSE)",
     "resultInFse": "Launch configured platform",
-    "resultOutFse": "Trigger Xbox Mode (FSE) dialog → Re-launch in Xbox Mode (FSE) → Launch configured platform"
+    "resultOutFse": "Trigger XBOX Mode (FSE) dialog → Re-launch in XBOX Mode (FSE) → Launch configured platform"
   },
   "gamepadHighlights": {
     "sectionTitle": "Gamepad-First Design",
@@ -86,19 +86,19 @@
   },
   "prerequisites": {
     "title": "Prerequisites",
-    "subtitle": "OmniConsole needs Windows 11 24H2 (Build 26100.7019) or later, with the Full Handheld edition of Xbox Mode (FSE) enabled.",
+    "subtitle": "OmniConsole needs Windows 11 24H2 (Build 26100.7019) or later, with the Full Handheld edition of XBOX Mode (FSE) enabled.",
     "desktop": {
       "title": "Desktops / Laptops / Tablets / Handhelds without the Full Handheld edition",
-      "body": "Microsoft is gradually rolling out a Limited PC edition of Xbox Mode (FSE) to regular PCs. Use Xbox Full Screen Experience Tool to switch to the Full Handheld edition first.",
+      "body": "Microsoft is gradually rolling out a Limited PC edition of XBOX Mode (FSE) to regular PCs. Use Xbox Full Screen Experience Tool to switch to the Full Handheld edition first.",
       "cta": "Open XFSET repository"
     },
     "native": {
-      "title": "Native Xbox Mode (FSE) Handheld Devices",
+      "title": "Native XBOX Mode (FSE) Handheld Devices",
       "body": "Devices like the ROG Xbox Ally series ship with the Full Handheld edition. Install OmniConsole directly."
     },
     "controller": {
       "title": "Xbox Controller Required",
-      "body": "Game Bar, Xbox Mode (FSE), and gamepad features all require an Xbox-compatible (XInput) controller with an Xbox button."
+      "body": "Game Bar, XBOX Mode (FSE), and gamepad features all require an Xbox-compatible (XInput) controller with an XBOX button."
     }
   },
   "quickStart": {
@@ -110,15 +110,15 @@
     },
     "step2": {
       "title": "Configure Your Default Platform",
-      "body": "Open OmniConsole Settings, pick Steam Big Picture / Xbox / Epic / Armoury Crate SE / Playnite, or add a custom one."
+      "body": "Open OmniConsole Settings, pick Steam Big Picture / XBOX / Epic / Armoury Crate SE / Playnite, or add a custom one."
     },
     "step3": {
-      "title": "Set as Xbox Mode (FSE) Home App",
-      "body": "Windows Settings → Gaming → Xbox mode (FSE) → Choose home app → OmniConsole. Enable \"Enter Xbox mode (FSE) on startup\"."
+      "title": "Set as XBOX Mode (FSE) Home App",
+      "body": "Windows Settings → Gaming → XBOX mode (FSE) → Choose home app → OmniConsole. Enable \"Enter XBOX mode (FSE) on startup\"."
     },
     "step4": {
       "title": "Done",
-      "body": "Reboot, press the Xbox button and pick \"Home\", or launch from the Start Menu — your platform opens automatically."
+      "body": "Reboot, press the XBOX button and pick \"Home\", or launch from the Start Menu — your platform opens automatically."
     },
     "cta": "See full installation guide"
   },

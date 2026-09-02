@@ -6,4 +6,4 @@ order: 21
 locale: zh-TW
 ---
 
-Xbox 模式 (FSE) 修復專用頁面 — 重新啟動 Game Bar 修復「重新啟動以提升效能」對話方塊未出現等問題，再進入 Xbox 模式 (FSE)。
+XBOX 模式 (FSE) 修復專用頁面 — 重新啟動 Game Bar 修復「重新啟動以提升效能」對話方塊未出現等問題，再進入 XBOX 模式 (FSE)。

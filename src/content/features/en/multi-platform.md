@@ -6,4 +6,4 @@ order: 3
 locale: en
 ---
 
-Built-in support for Steam Big Picture, Xbox App, Epic Games Store, Armoury Crate SE, and Playnite Fullscreen.
+Built-in support for Steam Big Picture, XBOX App, Epic Games Store, Armoury Crate SE, and Playnite Fullscreen.

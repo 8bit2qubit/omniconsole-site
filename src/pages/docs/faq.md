@@ -12,17 +12,17 @@ OmniConsole is licensed under [**PolyForm Noncommercial 1.0.0**](https://github.
 
 OmniConsole is a personal interest project, written and maintained by a solo developer in their own free time, and your support keeps it going. The **Pro** page in Settings carries the link and is where you activate it, and it shows who the license is for along with the licenses on this console.
 
-## Does OmniConsole replace the Xbox App?
+## Does OmniConsole replace the XBOX App?
 
-No. OmniConsole registers as the **Xbox Mode (FSE) Home App** using the official Windows API — the same mechanism Microsoft uses for the Xbox App. The Xbox App continues to work normally as a Windows app, and you can still set it as your launch target inside OmniConsole.
+No. OmniConsole registers as the **XBOX Mode (FSE) Home App** using the official Windows API — the same mechanism Microsoft uses for the XBOX App. The XBOX App continues to work normally as a Windows app, and you can still set it as your launch target inside OmniConsole.
 
 ## Do I need to be on a handheld?
 
-No. OmniConsole runs on any Windows 11 PC. It requires the **Full Handheld edition** of Xbox Mode (FSE): desktops, laptops, and tablets use [**XFSET**](https://github.com/8bit2qubit/XboxFullScreenExperienceTool) to switch to it first, while native handhelds (ROG Xbox Ally X, etc.) ship with it.
+No. OmniConsole runs on any Windows 11 PC. It requires the **Full Handheld edition** of XBOX Mode (FSE): desktops, laptops, and tablets use [**XFSET**](https://github.com/8bit2qubit/XboxFullScreenExperienceTool) to switch to it first, while native handhelds (ROG Xbox Ally X, etc.) ship with it.
 
 ## Do I need an Xbox controller?
 
-Windows 11 Game Bar, Xbox Mode (FSE) navigation, and the Xbox button flow all require an **XInput-compatible controller with an Xbox button**.
+Windows 11 Game Bar, XBOX Mode (FSE) navigation, and the XBOX button flow all require an **XInput-compatible controller with an XBOX button**.
 
 ## Can I add my own platform?
 
@@ -34,7 +34,7 @@ Yes — OmniConsole checks for GitHub releases and can download and install upda
 
 ## How do I uninstall safely?
 
-Always change the Xbox Mode (FSE) Home App to **Xbox** or **None** *before* uninstalling. See [How to Revert](/omniconsole-site/docs/revert).
+Always change the XBOX Mode (FSE) Home App to **XBOX** or **None** *before* uninstalling. See [How to Revert](/omniconsole-site/docs/revert).
 
 ## Where can I report bugs?
 

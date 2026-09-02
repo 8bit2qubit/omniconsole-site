@@ -12,17 +12,17 @@ OmniConsole 採用 [**PolyForm Noncommercial 1.0.0**](https://github.com/8bit2qu
 
 OmniConsole 是獨立開發者利用自己的閒暇時間撰寫與維護的個人興趣專案，你的贊助能讓它繼續走下去。設定的**專業版**分頁備有贊助連結，升級也在該頁面完成，並會顯示授權對象，以及這台主機持有的授權。
 
-## OmniConsole 會取代 Xbox 應用程式嗎？
+## OmniConsole 會取代 XBOX 應用程式嗎？
 
-不會。OmniConsole 透過 Windows 官方 API 註冊為 **Xbox 模式 (FSE) 主畫面應用程式** — 與 Xbox 應用程式使用的機制相同。Xbox 應用程式仍可照常使用，你也可以在 OmniConsole 內將其設為啟動目標。
+不會。OmniConsole 透過 Windows 官方 API 註冊為 **XBOX 模式 (FSE) 主畫面應用程式** — 與 XBOX 應用程式使用的機制相同。XBOX 應用程式仍可照常使用，你也可以在 OmniConsole 內將其設為啟動目標。
 
 ## 我必須使用掌機嗎？
 
-不必。OmniConsole 可在任何 Windows 11 PC 上執行，但需要**完整掌機版**的 Xbox 模式 (FSE)：桌機、筆電與平板需先使用 [**XFSET**](https://github.com/8bit2qubit/XboxFullScreenExperienceTool) 切換至完整掌機版；原生掌機（ROG Xbox Ally X 等）原廠即是。
+不必。OmniConsole 可在任何 Windows 11 PC 上執行，但需要**完整掌機版**的 XBOX 模式 (FSE)：桌機、筆電與平板需先使用 [**XFSET**](https://github.com/8bit2qubit/XboxFullScreenExperienceTool) 切換至完整掌機版；原生掌機（ROG Xbox Ally X 等）原廠即是。
 
 ## 需要 Xbox 手把嗎？
 
-Windows 11 Game Bar、Xbox 模式 (FSE) 導覽以及 Xbox 鍵流程皆需使用**具備 Xbox 按鈕的 XInput 相容控制器**。
+Windows 11 Game Bar、XBOX 模式 (FSE) 導覽以及 XBOX 鍵流程皆需使用**具備 XBOX 按鈕的 XInput 相容控制器**。
 
 ## 可以新增自訂平台嗎？
 
@@ -34,7 +34,7 @@ Windows 11 Game Bar、Xbox 模式 (FSE) 導覽以及 Xbox 鍵流程皆需使用*
 
 ## 如何安全解除安裝？
 
-務必在解除安裝前將 Xbox 模式 (FSE) 主畫面應用程式改為 **Xbox** 或 **無**。詳見 [如何還原](/omniconsole-site/zh-TW/docs/revert)。
+務必在解除安裝前將 XBOX 模式 (FSE) 主畫面應用程式改為 **XBOX** 或 **無**。詳見 [如何還原](/omniconsole-site/zh-TW/docs/revert)。
 
 ## 在哪裡回報錯誤？
 
