@@ -1,6 +1,5 @@
 ---
 import { Icon } from "astro-icon/components";
-import { REPO } from "../consts";
 import { getLocaleFromUrl, useTranslations } from "../i18n/utils";
 
 const locale = Astro.currentLocale ?? getLocaleFromUrl(Astro.url);
@@ -26,19 +25,6 @@ const items = [
           <span class="text-sm text-fg-muted">{item.label}</span>
         </div>
       ))}
-    </div>
-
-    <div class="mt-10 text-center">
-      <a
-        href={`https://star-history.com/#${REPO.owner}/${REPO.name}&Date`}
-        target="_blank"
-        rel="noopener"
-        class="inline-flex items-center gap-1.5 text-sm text-fg-muted hover:text-accent"
-      >
-        <Icon name="lucide:star" class="h-4 w-4" />
-        Star History
-        <Icon name="lucide:external-link" class="h-3.5 w-3.5" />
-      </a>
     </div>
   </div>
 </section>
