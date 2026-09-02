@@ -1,5 +1,5 @@
 ---
-title: 管理员应用支持（专业版）
+title: 管理员应用支持 (专业版)
 icon: lucide:shield-check
 category: gamepad
 order: 12

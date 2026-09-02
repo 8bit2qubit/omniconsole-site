@@ -1,5 +1,5 @@
 ---
-title: 自訂控制器版面（專業版）
+title: 自訂控制器版面 (專業版)
 icon: lucide:sliders-horizontal
 category: gamepad
 order: 11

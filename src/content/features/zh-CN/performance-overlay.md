@@ -1,5 +1,5 @@
 ---
-title: 性能叠加层控制（专业版）
+title: 性能叠加层控制 (专业版)
 icon: lucide:gauge
 category: integration
 order: 15

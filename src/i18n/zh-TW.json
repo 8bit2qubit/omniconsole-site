@@ -25,12 +25,12 @@
   "what": {
     "title": "OmniConsole 是什麼？",
     "body": [
-      "OmniConsole 在 PC 與掌機（ROG Xbox Ally X 等）上作為你的 Windows 11 XBOX 模式 (FSE) 首頁殼層，並提供 OmniCharm Game Bar 小工具、Steam 快捷鍵與貓又模式，讓手把化身鍵盤滑鼠、隨每個程式量身打造，一切操作都不離手把。",
+      "OmniConsole 在 PC 與掌機 (ROG Xbox Ally X 等) 上作為你的 Windows 11 XBOX 模式 (FSE) 首頁殼層，並提供 OmniCharm Game Bar 小工具、Steam 快捷鍵與貓又模式，讓手把化身鍵盤滑鼠、隨每個程式量身打造，一切操作都不離手把。",
       "只要觸發 XBOX 模式 (FSE)，OmniConsole 就會自動啟動你設定的遊戲平台。任何平台都能當你的 XBOX 模式 (FSE) 首頁 — Steam、XBOX、Epic、Armoury Crate SE、Playnite，或你自行新增的平台。"
     ],
     "flowTitle": "運作方式",
     "entries": [
-      { "title": "開機", "body": "開機自動進入設定的平台（需啟用「啟動時進入 XBOX 模式 (FSE)」）。" },
+      { "title": "開機", "body": "開機自動進入設定的平台 (需啟用「啟動時進入 XBOX 模式 (FSE)」)。" },
       { "title": "XBOX 按鈕", "body": "開啟 Game Bar，選「首頁」啟動平台，或選「媒體櫃」開啟 OmniConsole 設定。" },
       { "title": "開始功能表", "body": "從桌面啟動 OmniConsole，自動觸發 XBOX 模式 (FSE) 後再啟動平台。" }
     ],
@@ -47,15 +47,15 @@
       "description": "手把上的 Steam 捷徑 — ⧉ 開啟 Steam 選單，長按 ☰ 開啟 Steam 遊戲內嵌介面。",
       "imageAlt": "XBOX 手把示意圖，標註 ⧉ 與 ☰ 兩顆按鈕對應的 Steam 快捷鍵",
       "rows": [
-        { "button": "⧉（短按）", "action": "開啟 Steam 選單¹" },
-        { "button": "⧉（長按）", "action": "開啟快速存取選單¹" },
-        { "button": "☰（長按）", "action": "開啟 Steam 遊戲內嵌介面²˒³" }
+        { "button": "⧉ (短按)", "action": "開啟 Steam 選單¹" },
+        { "button": "⧉ (長按)", "action": "開啟快速存取選單¹" },
+        { "button": "☰ (長按)", "action": "開啟 Steam 遊戲內嵌介面²˒³" }
       ],
       "footnote": "¹ 於 Steam Big Picture 中　² 遊戲中　³ 可於 OmniCharm Game Bar 小工具切換"
     },
     "mouseMode": {
       "title": "貓又模式",
-      "description": "把手把變成滑鼠與鍵盤，還能隨每個程式量身自訂。貓又為各程式編一道咒，將 XInput 輸入位重新映射為鍵盤、滑鼠或游標動作，並能以貓又衝刺提高映射優先順序、加上長按連發、阻擋雙重輸入。三種版面可作起點：OmniNav、經典，或你自己定義的自訂版面（專業版）。下表為 OmniNav，僅列常用按鍵，完整對照點下方連結。",
+      "description": "把手把變成滑鼠與鍵盤，還能隨每個程式量身自訂。貓又為各程式編一道咒，將 XInput 輸入位重新映射為鍵盤、滑鼠或游標動作，並能以貓又衝刺提高映射優先順序、加上長按連發、阻擋雙重輸入。三種版面可作起點：OmniNav、經典，或你自己定義的自訂版面 (專業版)。下表為 OmniNav，僅列常用按鍵，完整對照點下方連結。",
       "imageAlt": "XBOX 手把示意圖，左搖桿控制筆電游標、A 鍵作為滑鼠左鍵",
       "rows": [
         { "button": "左搖桿", "action": "游標" },
@@ -66,7 +66,7 @@
         { "button": "Y", "action": "Page Up" },
         { "button": "十字鍵", "action": "方向鍵" }
       ],
-      "footnote": "開啟 / 關閉切換。開啟時你自訂的設定檔優先接手；內建映射則涵蓋 Edge、Chrome、Firefox、Opera、Brave、Epic Games Store、EA Desktop、Playnite 桌面版、檔案總管、Windows 檔案選擇器、開啟方式對話方塊、Windows Installer、Steam、Discord、應用程式安裝程式，以及一系列 Windows 內建工具與控制台對話方塊（同樣可自訂）。其中以系統管理員身分執行的程式（例如工作管理員）與螢幕小鍵盤另需系統管理員程式支援（專業版）。ROG Ally 家族具備內建手把映射，貓又模式在那裡會讓路；專業版可為這類主機開啟。"
+      "footnote": "開啟 / 關閉切換。開啟時你自訂的設定檔優先接手；內建映射則涵蓋 Edge、Chrome、Firefox、Opera、Brave、Epic Games Store、EA Desktop、Playnite 桌面版、檔案總管、Windows 檔案選擇器、開啟方式對話方塊、Windows Installer、Steam、Discord、應用程式安裝程式，以及一系列 Windows 內建工具與控制台對話方塊 (同樣可自訂)。其中以系統管理員身分執行的程式 (例如工作管理員) 與螢幕小鍵盤另需系統管理員程式支援 (專業版)。ROG Ally 家族具備內建手把映射，貓又模式在那裡會讓路；專業版可為這類主機開啟。"
     },
     "headers": {
       "button": "按鍵",
@@ -136,7 +136,7 @@
       "OmniConsole_*_x64.msix — 主程式",
       "OmniConsole.PhantomLink_*_x64-widget.msix — OmniCharm Game Bar 小工具",
       "OmniConsole_*_x64.cer — 程式碼簽章憑證",
-      "Install.bat — 一鍵安裝程式（推薦）",
+      "Install.bat — 一鍵安裝程式 (推薦)",
       "OmniConsoleInstaller.ps1 — 由 Install.bat 呼叫的 PowerShell 指令碼",
       "README.txt — 英文與繁體中文安裝說明"
     ],
@@ -162,7 +162,7 @@
     "nav": "網站",
     "project": "專案",
     "legal": "法律",
-    "license": "授權條款（PolyForm NC 1.0.0）",
+    "license": "授權條款 (PolyForm NC 1.0.0)",
     "madeBy": "作者"
   },
   "docs": {

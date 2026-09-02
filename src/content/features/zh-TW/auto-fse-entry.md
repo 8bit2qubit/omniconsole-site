@@ -6,4 +6,4 @@ order: 2
 locale: zh-TW
 ---
 
-在 XBOX 模式 (FSE) 外啟動時（例如從開始功能表），OmniConsole 會自動觸發 XBOX 模式 (FSE) 進入對話方塊。
+在 XBOX 模式 (FSE) 外啟動時 (例如從開始功能表)，OmniConsole 會自動觸發 XBOX 模式 (FSE) 進入對話方塊。

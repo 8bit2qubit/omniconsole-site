@@ -25,12 +25,12 @@
   "what": {
     "title": "OmniConsole 是什么？",
     "body": [
-      "OmniConsole 在 PC 与掌机（ROG Xbox Ally X 等）上作为你的 Windows 11 XBOX 模式 (FSE) 主页外壳，并提供 OmniCharm Game Bar 小组件、Steam 快捷键与猫又模式，让手柄化身键盘鼠标、随每个应用量身定制，一切操作都不离手柄。",
+      "OmniConsole 在 PC 与掌机 (ROG Xbox Ally X 等) 上作为你的 Windows 11 XBOX 模式 (FSE) 主页外壳，并提供 OmniCharm Game Bar 小组件、Steam 快捷键与猫又模式，让手柄化身键盘鼠标、随每个应用量身定制，一切操作都不离手柄。",
       "只要触发 XBOX 模式 (FSE)，OmniConsole 就会自动启动你配置的游戏平台。任何平台都能当你的 XBOX 模式 (FSE) 主页 — Steam、XBOX、Epic、Armoury Crate SE、Playnite，或你自行添加的平台。"
     ],
     "flowTitle": "工作方式",
     "entries": [
-      { "title": "开机", "body": "开机自动进入配置的平台（需启用“启动时进入 XBOX 模式 (FSE)”）。" },
+      { "title": "开机", "body": "开机自动进入配置的平台 (需启用“启动时进入 XBOX 模式 (FSE)”)。" },
       { "title": "XBOX 按钮", "body": "打开 Game Bar，选“主页”启动平台，或选“库”打开 OmniConsole 设置。" },
       { "title": "开始菜单", "body": "从桌面启动 OmniConsole，自动触发 XBOX 模式 (FSE) 后再启动平台。" }
     ],
@@ -47,15 +47,15 @@
       "description": "手柄上的 Steam 快捷方式 — ⧉ 打开 Steam 菜单，长按 ☰ 打开 Steam 游戏叠加界面。",
       "imageAlt": "XBOX 手柄示意图，标注 ⧉ 与 ☰ 两颗按键对应的 Steam 快捷键",
       "rows": [
-        { "button": "⧉（短按）", "action": "打开 Steam 菜单¹" },
-        { "button": "⧉（长按）", "action": "打开快速访问菜单¹" },
-        { "button": "☰（长按）", "action": "打开 Steam 游戏叠加界面²˒³" }
+        { "button": "⧉ (短按)", "action": "打开 Steam 菜单¹" },
+        { "button": "⧉ (长按)", "action": "打开快速访问菜单¹" },
+        { "button": "☰ (长按)", "action": "打开 Steam 游戏叠加界面²˒³" }
       ],
       "footnote": "¹ 于 Steam Big Picture 中　² 游戏中　³ 可于 OmniCharm Game Bar 小组件切换"
     },
     "mouseMode": {
       "title": "猫又模式",
-      "description": "把手柄变成鼠标与键盘，还能随每个应用量身定制。猫又为各应用编一道咒，将 XInput 输入位重新映射为键盘、鼠标或光标动作，并能以猫又冲刺提高映射优先级、加上长按连发、拦截双重输入。三种布局可作起点：OmniNav、经典，或你自己定义的自定义布局（专业版）。下表为 OmniNav，仅列常用按键，完整对照点下方链接。",
+      "description": "把手柄变成鼠标与键盘，还能随每个应用量身定制。猫又为各应用编一道咒，将 XInput 输入位重新映射为键盘、鼠标或光标动作，并能以猫又冲刺提高映射优先级、加上长按连发、拦截双重输入。三种布局可作起点：OmniNav、经典，或你自己定义的自定义布局 (专业版)。下表为 OmniNav，仅列常用按键，完整对照点下方链接。",
       "imageAlt": "XBOX 手柄示意图，左摇杆控制笔记本光标、A 键作为鼠标左键",
       "rows": [
         { "button": "左摇杆", "action": "光标" },
@@ -66,7 +66,7 @@
         { "button": "Y", "action": "Page Up" },
         { "button": "十字键", "action": "方向键" }
       ],
-      "footnote": "开启 / 关闭切换。开启时你自定义的配置文件优先接管；内置映射则涵盖 Edge、Chrome、Firefox、Opera、Brave、Epic Games Store、EA Desktop、Playnite 桌面版、文件资源管理器、Windows 文件选择器、打开方式对话框、Windows Installer、Steam、Discord、应用安装程序，以及一系列 Windows 内置工具与控制面板对话框（同样可自定义）。其中以管理员身份运行的程序（例如任务管理器）与屏幕键盘还需要管理员应用支持（专业版）。ROG Ally 家族具备内置手柄映射，猫又模式在那里会让路；专业版可为这类主机开启。"
+      "footnote": "开启 / 关闭切换。开启时你自定义的配置文件优先接管；内置映射则涵盖 Edge、Chrome、Firefox、Opera、Brave、Epic Games Store、EA Desktop、Playnite 桌面版、文件资源管理器、Windows 文件选择器、打开方式对话框、Windows Installer、Steam、Discord、应用安装程序，以及一系列 Windows 内置工具与控制面板对话框 (同样可自定义)。其中以管理员身份运行的程序 (例如任务管理器) 与屏幕键盘还需要管理员应用支持 (专业版)。ROG Ally 家族具备内置手柄映射，猫又模式在那里会让路；专业版可为这类主机开启。"
     },
     "headers": {
       "button": "按键",
@@ -136,7 +136,7 @@
       "OmniConsole_*_x64.msix — 主程序",
       "OmniConsole.PhantomLink_*_x64-widget.msix — OmniCharm Game Bar 小组件",
       "OmniConsole_*_x64.cer — 代码签名证书",
-      "Install.bat — 一键安装程序（推荐）",
+      "Install.bat — 一键安装程序 (推荐)",
       "OmniConsoleInstaller.ps1 — 由 Install.bat 调用的 PowerShell 脚本",
       "README.txt — 英文与繁体中文安装说明"
     ],
@@ -162,7 +162,7 @@
     "nav": "网站",
     "project": "项目",
     "legal": "法律",
-    "license": "许可证（PolyForm NC 1.0.0）",
+    "license": "许可证 (PolyForm NC 1.0.0)",
     "madeBy": "作者"
   },
   "docs": {

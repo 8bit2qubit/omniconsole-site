@@ -18,7 +18,7 @@ OmniConsole 是獨立開發者利用自己的閒暇時間撰寫與維護的個�
 
 ## 我必須使用掌機嗎？
 
-不必。OmniConsole 可在任何 Windows 11 PC 上執行，但需要**完整掌機版**的 XBOX 模式 (FSE)：桌機、筆電與平板需先使用 [**XFSET**](https://github.com/8bit2qubit/XboxFullScreenExperienceTool) 切換至完整掌機版；原生掌機（ROG Xbox Ally X 等）原廠即是。
+不必。OmniConsole 可在任何 Windows 11 PC 上執行，但需要**完整掌機版**的 XBOX 模式 (FSE)：桌機、筆電與平板需先使用 [**XFSET**](https://github.com/8bit2qubit/XboxFullScreenExperienceTool) 切換至完整掌機版；原生掌機 (ROG Xbox Ally X 等) 原廠即是。
 
 ## 需要 XBOX 手把嗎？
 
@@ -26,7 +26,7 @@ Windows 11 Game Bar、XBOX 模式 (FSE) 導覽以及 XBOX 按鈕流程皆需使�
 
 ## 可以新增自訂平台嗎？
 
-可以 — OmniConsole 支援透過 **Protocol URI**、**執行檔路徑** 或 **封裝套件 （MSIX / APPX）** 新增自訂平台，也可加入封面圖片與啟動參數（僅執行檔路徑類型支援）。組態可匯出與匯入為 JSON，也能透過**社群**按鈕瀏覽其他人分享在 GitHub 上的平台、一鍵加入。詳見 [自訂平台](/omniconsole-site/zh-TW/docs/custom-platforms)。
+可以 — OmniConsole 支援透過 **Protocol URI**、**執行檔路徑** 或 **封裝套件 (MSIX / APPX)** 新增自訂平台，也可加入封面圖片與啟動參數 (僅執行檔路徑類型支援)。組態可匯出與匯入為 JSON，也能透過**社群**按鈕瀏覽其他人分享在 GitHub 上的平台、一鍵加入。詳見 [自訂平台](/omniconsole-site/zh-TW/docs/custom-platforms)。
 
 ## OmniConsole 會自動更新嗎？
 

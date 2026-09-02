@@ -11,4 +11,4 @@ description: 安全从 Windows 11 移除 OmniConsole。
 1. 前往 **设置 → 游戏 → XBOX 模式 (FSE)**。
 2. 将“选择主应用”改为 **XBOX** 或 **无**。
 3. 在开始菜单中对 **OmniConsole** 按右键选择 **卸载**，或前往 **设置 → 应用 → 已安装的应用** 卸载。
-4. 前往 **设置 → 应用 → 已安装的应用** 卸载 **OmniConsole OmniCharm**（小组件不会出现在开始菜单）。
+4. 前往 **设置 → 应用 → 已安装的应用** 卸载 **OmniConsole OmniCharm** (小组件不会出现在开始菜单)。

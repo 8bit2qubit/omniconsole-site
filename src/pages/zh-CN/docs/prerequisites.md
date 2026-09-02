@@ -12,7 +12,7 @@ OmniConsole 需要**完整掌机版**的 XBOX 模式 (FSE)。Microsoft 正逐步
 
 ## 台式机 / 笔记本 / 平板 / 未取得完整掌机版的掌机
 
-请先使用 [**Xbox Full Screen Experience Tool（XFSET）**](https://github.com/8bit2qubit/XboxFullScreenExperienceTool) 切换至完整掌机版。
+请先使用 [**Xbox Full Screen Experience Tool (XFSET)**](https://github.com/8bit2qubit/XboxFullScreenExperienceTool) 切换至完整掌机版。
 
 ## 原生 XBOX 模式 (FSE) 掌机设备
 
