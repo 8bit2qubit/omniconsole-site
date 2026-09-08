@@ -2,7 +2,7 @@
 title: Performance Overlay Controls (Pro)
 icon: lucide:gauge
 category: integration
-order: 15
+order: 16
 locale: en
 ---
 

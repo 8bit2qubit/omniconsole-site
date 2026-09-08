@@ -2,7 +2,7 @@
 title: 用手把叫出螢幕鍵盤 (專業版)
 icon: lucide:type
 category: gamepad
-order: 13
+order: 14
 locale: zh-TW
 ---
 

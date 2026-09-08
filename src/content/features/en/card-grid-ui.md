@@ -2,7 +2,7 @@
 title: Card-Grid Settings UI
 icon: lucide:grid-3x3
 category: integration
-order: 18
+order: 19
 locale: en
 ---
 

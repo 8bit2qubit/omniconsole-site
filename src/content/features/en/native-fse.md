@@ -2,7 +2,7 @@
 title: Native XBOX Mode (FSE) Integration
 icon: lucide:monitor-check
 category: core
-order: 24
+order: 25
 locale: en
 ---
 

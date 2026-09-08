@@ -2,7 +2,7 @@
 title: Administrator App Support (Pro)
 icon: lucide:shield-check
 category: gamepad
-order: 12
+order: 13
 locale: en
 ---
 

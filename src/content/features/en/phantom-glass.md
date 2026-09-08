@@ -2,7 +2,7 @@
 title: Phantom Glass Backgrounds
 icon: lucide:wallpaper
 category: integration
-order: 19
+order: 20
 locale: en
 ---
 

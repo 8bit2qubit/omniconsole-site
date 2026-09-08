@@ -2,7 +2,7 @@
 title: 環境快照
 icon: lucide:clipboard-list
 category: core
-order: 22
+order: 23
 locale: zh-TW
 ---
 

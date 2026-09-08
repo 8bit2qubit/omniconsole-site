@@ -2,7 +2,7 @@
 title: Environment Snapshot
 icon: lucide:clipboard-list
 category: core
-order: 22
+order: 23
 locale: en
 ---
 

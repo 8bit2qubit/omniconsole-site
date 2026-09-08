@@ -2,7 +2,7 @@
 title: OmniConsole Pro
 icon: lucide:heart
 category: core
-order: 27
+order: 28
 locale: en
 ---
 

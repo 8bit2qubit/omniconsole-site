@@ -2,7 +2,7 @@
 title: 系統管理員程式支援 (專業版)
 icon: lucide:shield-check
 category: gamepad
-order: 12
+order: 13
 locale: zh-TW
 ---
 

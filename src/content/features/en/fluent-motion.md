@@ -2,7 +2,7 @@
 title: Fluent Motion Throughout
 icon: lucide:wind
 category: integration
-order: 20
+order: 21
 locale: en
 ---
 

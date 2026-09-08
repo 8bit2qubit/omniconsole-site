@@ -2,7 +2,7 @@
 title: OmniCharm Widget
 icon: lucide:sparkles
 category: integration
-order: 16
+order: 17
 locale: en
 ---
 

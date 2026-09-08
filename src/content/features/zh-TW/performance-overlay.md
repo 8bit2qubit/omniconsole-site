@@ -2,7 +2,7 @@
 title: 效能疊加層控制 (專業版)
 icon: lucide:gauge
 category: integration
-order: 15
+order: 16
 locale: zh-TW
 ---
 

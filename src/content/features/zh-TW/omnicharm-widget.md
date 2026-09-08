@@ -2,7 +2,7 @@
 title: OmniCharm 小工具
 icon: lucide:sparkles
 category: integration
-order: 16
+order: 17
 locale: zh-TW
 ---
 

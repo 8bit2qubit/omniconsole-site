@@ -2,7 +2,7 @@
 title: Game Bar 集成
 icon: lucide:layout-panel-top
 category: integration
-order: 17
+order: 18
 locale: zh-CN
 ---
 

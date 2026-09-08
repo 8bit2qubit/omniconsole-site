@@ -2,7 +2,7 @@
 title: Custom Controller Layout (Pro)
 icon: lucide:sliders-horizontal
 category: gamepad
-order: 11
+order: 12
 locale: en
 ---
 

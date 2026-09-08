@@ -2,7 +2,7 @@
 title: 全程流畅动效
 icon: lucide:wind
 category: integration
-order: 20
+order: 21
 locale: zh-CN
 ---
 

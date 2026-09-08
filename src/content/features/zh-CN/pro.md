@@ -2,7 +2,7 @@
 title: OmniConsole 专业版
 icon: lucide:heart
 category: core
-order: 27
+order: 28
 locale: zh-CN
 ---
 

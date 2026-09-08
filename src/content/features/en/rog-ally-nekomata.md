@@ -2,7 +2,7 @@
 title: Nekomata Mode on the ROG Ally Family (Pro)
 icon: lucide:joystick
 category: gamepad
-order: 14
+order: 15
 locale: en
 ---
 
